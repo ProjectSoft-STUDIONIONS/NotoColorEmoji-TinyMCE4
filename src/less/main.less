@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/**
+ * Разработка велась под EvolutionCMS
+ * С дефолтных настроек всё работает
+ * Для отображения шрифта в контенте и в редакторе
+ * нужно разработать и подключить стили для этого. Для каждого данного случая должен быть отдельный файл.
+ * Для редактора стили подключаются в конфигурации сайта.
+ * Для сайта подключаются в шаблонах сайта в блоке head.
+ */
+
+@fontpath: "/assets/plugins/utilites/notocoloremoji/fonts";
+@import "../../node_modules/noto-color-emoji/src/less/noto-color-emoji.less";
+
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: sans-serif, "Noto Color Emoji";
+}
+
+.mce-container,
+.mce-container *,
+.mce-widget,
+.mce-widget *,
+.mce-reset {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "Noto Color Emoji" !important;
+}
+
+.mce-ico {
+	font-family: 'tinymce', Arial !important;
+}
+.mce-ico {
+	&.mce-i-emoji {
+		font-family: "Noto Color Emoji" !important;
+		width: auto !important;
+		height: auto !important;
+		&.emoji {
+			&-smiles::before {
+				content: "😀";
+			}
+			&-emotics::before {
+				content: "💯";
+			}
+			&-people::before {
+				content: "🧒";
+			}
+			&-animals::before {
+				content: "🐵";
+			}
+			&-nature::before {
+				content: "💐";
+			}
+			&-food::before {
+				content: "🍅";
+			}
+			&-travel::before {
+				content: "🌍";
+			}
+			&-activy::before {
+				content: "🎄";
+			}
+			&-objects::before {
+				content: "🎹";
+			}
+			&-symbols::before {
+				content: "🔆";
+			}
+			&-flags::before {
+				content: "🇷🇺";
+			}
+		}
+	}
+}
+.wrapper-emojis {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.table-emoji {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 7px;
+	[data-mce-emoji] {
+		align-content: center;
+		align-items: center;
+		cursor: pointer;
+		aspect-ratio: 1 / 1 !important;
+		display: flex;
+		font-family: "Noto Color Emoji" !important;
+		font-size: 25px !important;
+		justify-content: center;
+		justify-items: center;
+		height: 33px !important;
+		line-height: 1 !important;
+		overflow: hidden;
+		width: 33px !important;
+		&:hover {
+			outline-width: 1px !important;
+			outline-color: #007bff !important;
+			outline-style: solid !important;
+			outline-offset: 1px;
+		}
+	}
+}
+.mce-tooltip-inner {
+	white-space: pre-wrap !important;
+}
