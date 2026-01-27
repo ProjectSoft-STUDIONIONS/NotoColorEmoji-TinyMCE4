@@ -10,7 +10,9 @@ module.exports = function(grunt) {
 		day = String(date.getDate()).padStart(2, "0");
 
 	grunt.log.writeln();
-	fs.writeFileSync('src/js/01$update.js', `let update = "${grunt.template.today("yyyy-mm-dd'T'HH-MM-ss").replace(/[- ]+/gi, '')}";\n`);
+	fs.writeFileSync('src/js/01$update.js', `let update = "${grunt.template.today("yyyy-mm-dd'T'HH-MM-ss").replace(/[- ]+/gi, '')}";
+let version = "v${PACK.version}";
+`);
 	grunt.log.writeln('File ' + chalk.cyan(`src/js/01$update.js`) + ' created or replace.' + chalk.yellow('...OK'));
 	grunt.log.writeln();
 
@@ -128,7 +130,12 @@ module.exports = function(grunt) {
 						// hash
 						"01$update.js",
 						// Languages
+						// Переменная
 						"02$lang.js",
+						// Локализации
+						"02-01$lang-ru.js",
+						"02-02$lang-ru_RU.js",
+						// Emoji
 						"emojis$01.js",
 						"emojis$02.js",
 						"emojis$03.js",
@@ -140,6 +147,7 @@ module.exports = function(grunt) {
 						"emojis$09.js",
 						"emojis$10.js",
 						"emojis$11.js",
+						// Плагин
 						"plugin.js",
 					],
 					done: function(done, output) {

@@ -1,454 +1,454 @@
 let emojis$01 = [
     {
-        "title": "Ухмыляющееся лицо",
+        "title": translate("The grinning face"),
         "value": "&#128512;"
     },
     {
-        "title": "Улыбающееся лицо\nс открытым ртом",
+        "title": translate("A smiling face with an open mouth"),
         "value": "&#128515;"
     },
     {
-        "title": "Улыбающееся лицо\nс открытым ртом\nи улыбающимися глазами",
+        "title": translate("A smiling face with an open mouth and smiling eyes"),
         "value": "&#128516;"
     },
     {
-        "title": "Ухмыляющееся лицо\nс улыбающимися глазами",
+        "title": translate("A grinning face with smiling eyes"),
         "value": "&#128513;"
     },
     {
-        "title": "Улыбающееся лицо\nс открытым ртом\nи плотно закрытыми глазами",
+        "title": translate("A smiling face with an open mouth and tightly closed eyes"),
         "value": "&#128518;"
     },
     {
-        "title": "Улыбающееся лицо\nс открытым ртом\nи холодным потом",
+        "title": translate("A smiling face with an open mouth and cold sweat"),
         "value": "&#128517;"
     },
     {
-        "title": "Катаюсь по полу от смеха",
+        "title": translate("Rolling on the floor laughing"),
         "value": "&#129315;"
     },
     {
-        "title": "Лицо со слезами радости",
+        "title": translate("A face with tears of joy"),
         "value": "&#128514;"
     },
     {
-        "title": "Слегка улыбающееся лицо",
+        "title": translate("A slightly smiling face"),
         "value": "&#128578;"
     },
     {
-        "title": "Перевернутое лицо",
+        "title": translate("The inverted face"),
         "value": "&#128579;"
     },
     {
-        "title": "Подмигивающее лицо",
+        "title": translate("The winking face"),
         "value": "&#128521;"
     },
     {
-        "title": "Улыбающееся лицо\nс улыбающимися глазами",
+        "title": translate("A smiling face with smiling eyes"),
         "value": "&#128522;"
     },
     {
-        "title": "Улыбающееся лицо\nс нимбом",
+        "title": translate("A smiling face with a halo"),
         "value": "&#128519;"
     },
     {
-        "title": "Улыбающееся лицо\nс улыбающимися глазами\nи тремя сердцами",
+        "title": translate("A smiling face with smiling eyes and three hearts"),
         "value": "&#129392;"
     },
     {
-        "title": "Улыбающееся лицо\nс глазами в форме сердечек",
+        "title": translate("A smiling face with heart-shaped eyes"),
         "value": "&#128525;"
     },
     {
-        "title": "Ухмыляющееся лицо\nсо звездными глазами",
+        "title": translate("A grinning face with starry eyes"),
         "value": "&#129321;"
     },
     {
-        "title": "Лицо, посылающее поцелуй",
+        "title": translate("The person sending the kiss"),
         "value": "&#128536;"
     },
     {
-        "title": "Целующее лицо",
+        "title": translate("The kissing face"),
         "value": "&#128535;"
     },
     {
-        "title": "Белое улыбающееся лицо",
+        "title": translate("A white smiling face"),
         "value": "&#9786;"
     },
     {
-        "title": "Целующее лицо\nс закрытыми глазами",
+        "title": translate("Kissing a face with closed eyes"),
         "value": "&#128538;"
     },
     {
-        "title": "Целующее лицо\nс улыбающимися глазами",
+        "title": translate("A kissing face with smiling eyes"),
         "value": "&#128537;"
     },
     {
-        "title": "Лицо, наслаждающееся вкусной едой",
+        "title": translate("A person enjoying a delicious meal"),
         "value": "&#128523;"
     },
     {
-        "title": "Лицо с высунутым языком",
+        "title": translate("A face with a protruding tongue"),
         "value": "&#128539;"
     },
     {
-        "title": "Лицо с высунутым языком\nи подмигивающим глазом",
+        "title": translate("A face with a protruding tongue and a winking eye"),
         "value": "&#128540;"
     },
     {
-        "title": "Ухмыляющееся лицо\nс одним большим\nи одним маленьким глазом",
+        "title": translate("A grinning face with one big and one small eye"),
         "value": "&#129322;"
     },
     {
-        "title": "Лицо с высунутым языком\nи плотно закрытыми глазами",
+        "title": translate("A face with a protruding tongue and tightly closed eyes"),
         "value": "&#128541;"
     },
     {
-        "title": "Лицо с денежным ртом",
+        "title": translate("The face with the money mouth"),
         "value": "&#129297;"
     },
     {
-        "title": "Обнимающее лицо",
+        "title": translate("The hugging face"),
         "value": "&#129303;"
     },
     {
-        "title": "Улыбающееся лицо\nс улыбающимися глазами\nи рукой, закрывающей рот",
+        "title": translate("A smiling face with smiling eyes and a hand covering his mouth"),
         "value": "&#129325;"
     },
     {
-        "title": "Лицо с закрытыми губами,\nприкрытыми пальцем",
+        "title": translate("A face with closed lips, covered with a finger"),
         "value": "&#129323;"
     },
     {
-        "title": "Думающее лицо",
+        "title": translate("The thinking face"),
         "value": "&#129300;"
     },
     {
-        "title": "Лицо с застежкой-молнией",
+        "title": translate("A face with a zipper"),
         "value": "&#129296;"
     },
     {
-        "title": "Лицо с поднятой бровью",
+        "title": translate("A face with a raised eyebrow"),
         "value": "&#129320;"
     },
     {
-        "title": "Нейтральное лицо",
+        "title": translate("A neutral person"),
         "value": "&#128528;"
     },
     {
-        "title": "Лицо без выражения",
+        "title": translate("A face without expression"),
         "value": "&#128529;"
     },
     {
-        "title": "Лицо без рта",
+        "title": translate("A face without a mouth"),
         "value": "&#128566;"
     },
     {
-        "title": "Ухмыляющееся лицо",
+        "title": translate("The grinning face"),
         "value": "&#128527;"
     },
     {
-        "title": "Невеселое лицо",
+        "title": translate("A sad face"),
         "value": "&#128530;"
     },
     {
-        "title": "Лицо с закатанными глазами",
+        "title": translate("A face with rolled eyes"),
         "value": "&#128580;"
     },
     {
-        "title": "Гримасничающее лицо",
+        "title": translate("The grimacing face"),
         "value": "&#128556;"
     },
     {
-        "title": "Лживое лицо",
+        "title": translate("A lying face"),
         "value": "&#129317;"
     },
     {
-        "title": "Лицо с облегчением",
+        "title": translate("A relieved face"),
         "value": "&#128524;"
     },
     {
-        "title": "Задумчивое лицо",
+        "title": translate("A thoughtful face"),
         "value": "&#128532;"
     },
     {
-        "title": "Сонное лицо",
+        "title": translate("Sleepy face"),
         "value": "&#128554;"
     },
     {
-        "title": "Слюнявое лицо",
+        "title": translate("Slobbery face"),
         "value": "&#129316;"
     },
     {
-        "title": "Спящее лицо",
+        "title": translate("The sleeping face"),
         "value": "&#128564;"
     },
     {
-        "title": "Лицо с медицинской маской",
+        "title": translate("A face with a medical mask"),
         "value": "&#128567;"
     },
     {
-        "title": "Лицо с термометром",
+        "title": translate("A face with a thermometer"),
         "value": "&#129298;"
     },
     {
-        "title": "Лицо с повязкой на голове",
+        "title": translate("A face with a headband"),
         "value": "&#129301;"
     },
     {
-        "title": "Тошнотворное лицо",
+        "title": translate("Sickening face"),
         "value": "&#129314;"
     },
     {
-        "title": "Лицо с открытым ртом, рвота",
+        "title": translate("Face with open mouth, vomiting"),
         "value": "&#129326;"
     },
     {
-        "title": "Чихающее лицо",
+        "title": translate("Sneezing face"),
         "value": "&#129319;"
     },
     {
-        "title": "Перегретое лицо",
+        "title": translate("Overheated face"),
         "value": "&#129397;"
     },
     {
-        "title": "Замораживающее лицо",
+        "title": translate("The freezing face"),
         "value": "&#129398;"
     },
     {
-        "title": "Лицо с неровными глазами\nи волнистым ртом",
+        "title": translate("A face with uneven eyes and a wavy mouth"),
         "value": "&#129396;"
     },
     {
-        "title": "Головокружительное лицо",
+        "title": translate("The dizzying face"),
         "value": "&#128565;"
     },
     {
-        "title": "Шокированное лицо\nсо взрывающейся головой",
+        "title": translate("A shocked face with an exploding head"),
         "value": "&#129327;"
     },
     {
-        "title": "Лицо в ковбойской шляпе",
+        "title": translate("The face in the cowboy hat"),
         "value": "&#129312;"
     },
     {
-        "title": "Лицо с праздничным рожком\nи праздничной шляпой",
+        "title": translate("A face with a festive horn and a festive hat"),
         "value": "&#129395;"
     },
     {
-        "title": "Улыбающееся лицо\nв солнцезащитных очках",
+        "title": translate("Smiling face in sunglasses"),
         "value": "&#128526;"
     },
     {
-        "title": "Лицо задрота",
+        "title": translate("Nerd's face"),
         "value": "&#129299;"
     },
     {
-        "title": "Лицо с моноклем",
+        "title": translate("Face with a monocle"),
         "value": "&#129488;"
     },
     {
-        "title": "Смущенное лицо",
+        "title": translate("A confused face"),
         "value": "&#128533;"
     },
     {
-        "title": "Обеспокоенное лицо",
+        "title": translate("A worried face"),
         "value": "&#128543;"
     },
     {
-        "title": "Слегка нахмуренное лицо",
+        "title": translate("A slightly frowning face"),
         "value": "&#128577;"
     },
     {
-        "title": "Хмурое лицо",
+        "title": translate("A frowning face"),
         "value": "&#9785;"
     },
     {
-        "title": "Лицо с открытым ртом",
+        "title": translate("A face with an open mouth"),
         "value": "&#128558;"
     },
     {
-        "title": "Молчаливое лицо",
+        "title": translate("The silent face"),
         "value": "&#128559;"
     },
     {
-        "title": "Удивленное лицо",
+        "title": translate("The surprised face"),
         "value": "&#128562;"
     },
     {
-        "title": "Покрасневшее лицо",
+        "title": translate("Reddened face"),
         "value": "&#128563;"
     },
     {
-        "title": "Лицо с умоляющими глазами",
+        "title": translate("A face with pleading eyes"),
         "value": "&#129402;"
     },
     {
-        "title": "Нахмуренное лицо с открытым ртом",
+        "title": translate("A frowning face with an open mouth"),
         "value": "&#128550;"
     },
     {
-        "title": "Страдающее лицо",
+        "title": translate("The suffering face"),
         "value": "&#128551;"
     },
     {
-        "title": "Испуганное лицо",
+        "title": translate("A scared face"),
         "value": "&#128552;"
     },
     {
-        "title": "Лицо с открытым ртом и холодным потом",
+        "title": translate("A face with an open mouth and cold sweat"),
         "value": "&#128560;"
     },
     {
-        "title": "Разочарованное, но облегченное лицо",
+        "title": translate("A disappointed but relieved face"),
         "value": "&#128549;"
     },
     {
-        "title": "Плачущее лицо",
+        "title": translate("The crying face"),
         "value": "&#128546;"
     },
     {
-        "title": "Громко плачущее лицо",
+        "title": translate("A crying face"),
         "value": "&#128557;"
     },
     {
-        "title": "Лицо кричит от страха",
+        "title": translate("The face screams with fear"),
         "value": "&#128561;"
     },
     {
-        "title": "Смущенное лицо",
+        "title": translate("A confused face"),
         "value": "&#128534;"
     },
     {
-        "title": "Настойчивое лицо",
+        "title": translate("An insistent face"),
         "value": "&#128547;"
     },
     {
-        "title": "Разочарованное лицо",
+        "title": translate("The disappointed face"),
         "value": "&#128542;"
     },
     {
-        "title": "Лицо в холодном поту",
+        "title": translate("My face is covered in cold sweat"),
         "value": "&#128531;"
     },
     {
-        "title": "Усталое лицо",
+        "title": translate("Tired face"),
         "value": "&#128553;"
     },
     {
-        "title": "Усталое лицо",
+        "title": translate("Tired face"),
         "value": "&#128555;"
     },
     {
-        "title": "Лицо с выражением триумфа",
+        "title": translate("A face with an expression of triumph"),
         "value": "&#128548;"
     },
     {
-        "title": "Надутое лицо",
+        "title": translate("Pouty face"),
         "value": "&#128545;"
     },
     {
-        "title": "Сердитое лицо",
+        "title": translate("Angry face"),
         "value": "&#128544;"
     },
     {
-        "title": "Серьёзное лицо с символами\nзакрывающими рот",
+        "title": translate("A serious face with symbols covering its mouth"),
         "value": "&#129324;"
     },
     {
-        "title": "Улыбающееся лицо с рогами",
+        "title": translate("A smiling face with horns"),
         "value": "&#128520;"
     },
     {
-        "title": "Чертенок",
+        "title": translate("The little devil"),
         "value": "&#128127;"
     },
     {
-        "title": "Череп",
+        "title": translate("Skull"),
         "value": "&#128128;"
     },
     {
-        "title": "Череп и скрещенные кости",
+        "title": translate("Skull and Crossbones"),
         "value": "&#9760;"
     },
     {
-        "title": "Куча какашек",
+        "title": translate("A bunch of poop"),
         "value": "&#128169;"
     },
     {
-        "title": "Лицо клоуна",
+        "title": translate("The clown's face"),
         "value": "&#129313;"
     },
     {
-        "title": "Японский огр",
+        "title": translate("The Japanese Ogre"),
         "value": "&#128121;"
     },
     {
-        "title": "Японский гоблин",
+        "title": translate("The Japanese Goblin"),
         "value": "&#128122;"
     },
     {
-        "title": "Призрак",
+        "title": translate("Ghost"),
         "value": "&#128123;"
     },
     {
-        "title": "Внеземной пришелец",
+        "title": translate("The extraterrestrial alien"),
         "value": "&#128125;"
     },
     {
-        "title": "Чужой монстр",
+        "title": translate("The alien monster"),
         "value": "&#128126;"
     },
     {
-        "title": "Лицо робота",
+        "title": translate("The robot's face"),
         "value": "&#129302;"
     },
     {
-        "title": "Улыбающееся кошачье лицо\nс открытым ртом",
+        "title": translate("Smiling cat face with open mouth"),
         "value": "&#128570;"
     },
     {
-        "title": "Ухмыляющаяся морда кошки\nс улыбающимися глазами",
+        "title": translate("The grinning face of a cat with smiling eyes"),
         "value": "&#128568;"
     },
     {
-        "title": "Кошачья морда\nсо слезами радости",
+        "title": translate("A cat's face with tears of joy"),
         "value": "&#128569;"
     },
     {
-        "title": "Улыбающаяся мордашка кота\nс глазами в форме сердечек",
+        "title": translate("Smiling cat face with heart-shaped eyes"),
         "value": "&#128571;"
     },
     {
-        "title": "Кошачья морда\nс кривой улыбкой",
+        "title": translate("A cat's face with a crooked smile"),
         "value": "&#128572;"
     },
     {
-        "title": "Целующая мордашка кошки\nс закрытыми глазами",
+        "title": translate("Kissing a cat's face with its eyes closed"),
         "value": "&#128573;"
     },
     {
-        "title": "Усталое кошачье лицо",
+        "title": translate("Tired cat face"),
         "value": "&#128576;"
     },
     {
-        "title": "Плачущая морда кошки",
+        "title": translate("The crying face of a cat"),
         "value": "&#128575;"
     },
     {
-        "title": "Надутая морда кошки",
+        "title": translate("The pouting face of a cat"),
         "value": "&#128574;"
     },
     {
-        "title": "Обезьяна, не видящая зла",
+        "title": translate("The monkey who sees no evil"),
         "value": "&#128584;"
     },
     {
-        "title": "Обезьяна, не слышащая зла",
+        "title": translate("The monkey who hears no evil"),
         "value": "&#128585;"
     },
     {
-        "title": "Обезьяна, не говорящая зла",
+        "title": translate("A monkey who doesn't speak evil"),
         "value": "&#128586;"
     }
 ];

@@ -1,90 +1,90 @@
 let emojis$05 = [
     {
-        "title": "Букет",
+        "title": translate("Bouquet"),
         "value": "&#128144;"
     },
     {
-        "title": "Цветущая вишня",
+        "title": translate("Cherry blossoms"),
         "value": "&#127800;"
     },
     {
-        "title": "Белый Цветок",
+        "title": translate("The White Flower"),
         "value": "&#128174;"
     },
     {
-        "title": "Розетка листьев",
+        "title": translate("Rosette of leaves"),
         "value": "&#127989;"
     },
     {
-        "title": "Роза",
+        "title": translate("Rose"),
         "value": "&#127801;"
     },
     {
-        "title": "Увядший цветок",
+        "title": translate("A faded flower"),
         "value": "&#129344;"
     },
     {
-        "title": "Гибискус",
+        "title": translate("Hibiscus"),
         "value": "&#127802;"
     },
     {
-        "title": "Подсолнух",
+        "title": translate("Sunflower"),
         "value": "&#127803;"
     },
     {
-        "title": "Белый Цветок",
+        "title": translate("The White Flower"),
         "value": "&#127804;"
     },
     {
-        "title": "Тюльпан",
+        "title": translate("Tulip"),
         "value": "&#127799;"
     },
     {
-        "title": "Рассада",
+        "title": translate("Seedlings"),
         "value": "&#127793;"
     },
     {
-        "title": "Вечнозеленое дерево",
+        "title": translate("The evergreen tree"),
         "value": "&#127794;"
     },
     {
-        "title": "Лиственное дерево",
+        "title": translate("Deciduous tree"),
         "value": "&#127795;"
     },
     {
-        "title": "Пальма",
+        "title": translate("Palm tree"),
         "value": "&#127796;"
     },
     {
-        "title": "Кактус",
+        "title": translate("Cactus"),
         "value": "&#127797;"
     },
     {
-        "title": "Рис",
+        "title": translate("Rice"),
         "value": "&#127806;"
     },
     {
-        "title": "Трава",
+        "title": translate("Grass"),
         "value": "&#127807;"
     },
     {
-        "title": "Трилистник",
+        "title": translate("The Shamrock"),
         "value": "&#9752;"
     },
     {
-        "title": "Четырехлистный клевер",
-        "value": "\uD83C\uDF40"
+        "title": translate("Four-leaf clover"),
+        "value": "🍀"
     },
     {
-        "title": "Кленовый лист",
+        "title": translate("Maple Leaf"),
         "value": "&#127809;"
     },
     {
-        "title": "Опавший лист",
+        "title": translate("The fallen leaf"),
         "value": "&#127810;"
     },
     {
-        "title": "Лист трепещет на ветру",
+        "title": translate("A leaf flutters in the wind"),
         "value": "&#127811;"
     }
 ];

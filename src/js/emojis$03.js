@@ -1,514 +1,514 @@
 let emojis$03 = [
-    {
-        "title": "Машущая рука",
-        "value": "&#128075;"
-    },
-    {
-        "title": "Поднятая тыльная сторона руки",
-        "value": "&#129306;"
-    },
-    {
-        "title": "Поднятая рука с растопыренными пальцами",
-        "value": "&#128400;"
-    },
-    {
-        "title": "Поднятая рука",
-        "value": "&#9995;"
-    },
-    {
-        "title": "Поднятая рука с пробором между средним\nи безымянным пальцами",
-        "value": "&#128406;"
-    },
-    {
-        "title": "Знак рукой «ОК»",
-        "value": "&#128076;"
-    },
-    {
-        "title": "Знак рукой «Победа»",
-        "value": "&#9996;"
-    },
-    {
-        "title": "Рука со скрещенными указательным\nи средним пальцами",
-        "value": "&#129310;"
-    },
-    {
-        "title": "Я люблю тебя жест рукой",
-        "value": "&#129311;"
-    },
-    {
-        "title": "Знак Рогов",
-        "value": "&#129304;"
-    },
-    {
-        "title": "Знак рукой «Позвони мне»",
-        "value": "&#129305;"
-    },
-    {
-        "title": "Тыльная сторона руки\nУказательный палец влево",
-        "value": "&#128072;"
-    },
-    {
-        "title": "Тыльная сторона руки\nУказательный палец вправо",
-        "value": "&#128073;"
-    },
-    {
-        "title": "Тыльная сторона руки\nУказательный палец вверх",
-        "value": "&#128070;"
-    },
-    {
-        "title": "Тыльная сторона руки\nс вытянутым средним пальцем",
-        "value": "&#128405;"
-    },
-    {
-        "title": "Тыльная сторона руки\nУказательный палец вниз",
-        "value": "&#128071;"
-    },
-    {
-        "title": "Указательный палец вверх",
-        "value": "&#9757;"
-    },
-    {
-        "title": "Большой палец вверх",
-        "value": "&#128077;"
-    },
-    {
-        "title": "Большой палец вниз",
-        "value": "&#128078;"
-    },
-    {
-        "title": "Поднятый кулак",
-        "value": "&#9994;"
-    },
-    {
-        "title": "Знак сжатой в кулак руки",
-        "value": "&#128074;"
-    },
-    {
-        "title": "Кулак, обращенный влево",
-        "value": "&#129307;"
-    },
-    {
-        "title": "Кулак, обращенный вправо",
-        "value": "&#129308;"
-    },
-    {
-        "title": "Знак хлопающих рук",
-        "value": "&#128079;"
-    },
-    {
-        "title": "Человек, поднявший обе руки в знак празднования",
-        "value": "&#128588;"
-    },
-    {
-        "title": "Знак «Открытые руки»",
-        "value": "&#128080;"
-    },
-    {
-        "title": "Ладони вверх вместе",
-        "value": "&#129330;"
-    },
-    {
-        "title": "Рукопожатие",
-        "value": "&#129309;"
-    },
-    {
-        "title": "Человек со сложенными руками",
-        "value": "&#128591;"
-    },
-    {
-        "title": "Пишущая рука",
-        "value": "&#9997;"
-    },
-    {
-        "title": "Маникюр, Лак для ногтей",
-        "value": "&#128133;"
-    },
-    {
-        "title": "Селфи",
-        "value": "&#129331;"
-    },
-    {
-        "title": "Согнутые бицепсы",
-        "value": "&#128170;"
-    },
-    {
-        "title": "Нога",
-        "value": "&#129461;"
-    },
-    {
-        "title": "Ступня",
-        "value": "&#129462;"
-    },
-    {
-        "title": "Ухо",
-        "value": "&#128066;"
-    },
-    {
-        "title": "Нос",
-        "value": "&#128067;"
-    },
-    {
-        "title": "Мозг",
-        "value": "&#129504;"
-    },
-    {
-        "title": "Зуб",
-        "value": "&#129463;"
-    },
-    {
-        "title": "Кость",
-        "value": "&#129460;"
-    },
-    {
-        "title": "Глаза",
-        "value": "&#128064;"
-    },
-    {
-        "title": "Глаз",
-        "value": "&#128065;"
-    },
-    {
-        "title": "Язык",
-        "value": "&#128069;"
-    },
-    {
-        "title": "Рот",
-        "value": "&#128068;"
-    },
-    {
-        "title": "Младенец",
-        "value": "&#128118;"
-    },
-    {
-        "title": "Ребёнок",
-        "value": "&#129490;"
-    },
-    {
-        "title": "Мальчик",
-        "value": "&#128102;"
-    },
-    {
-        "title": "Девочка",
-        "value": "&#128103;"
-    },
-    {
-        "title": "Взрослый",
-        "value": "&#129489;"
-    },
-    {
-        "title": "Человек со светлыми волосами",
-        "value": "&#128113;"
-    },
-    {
-        "title": "Мужчина",
-        "value": "&#128104;"
-    },
-    {
-        "title": "Бородатый Человек",
-        "value": "&#129492;"
-    },
-    {
-        "title": "Женщина",
-        "value": "&#128105;"
-    },
-    {
-        "title": "Пожилой взрослый",
-        "value": "&#129491;"
-    },
-    {
-        "title": "Пожилой мужчина",
-        "value": "&#128116;"
-    },
-    {
-        "title": "Пожилая женщина",
-        "value": "&#128117;"
-    },
-    {
-        "title": "Человек хмурится",
-        "value": "&#128589;"
-    },
-    {
-        "title": "Человек с надутым лицом",
-        "value": "&#128590;"
-    },
-    {
-        "title": "Лицо без хорошего жеста",
-        "value": "&#128581;"
-    },
-    {
-        "title": "Лицо с жестом «ОК»",
-        "value": "&#128582;"
-    },
-    {
-        "title": "Сотрудник информационного бюро",
-        "value": "&#128129;"
-    },
-    {
-        "title": "Счастливый человек, поднявший одну руку",
-        "value": "&#128587;"
-    },
-    {
-        "title": "Человек, низко кланяющийся",
-        "value": "&#128583;"
-    },
-    {
-        "title": "Лицо Ладонь",
-        "value": "&#129318;"
-    },
-    {
-        "title": "Пожимание плечами",
-        "value": "&#129335;"
-    },
-    {
-        "title": "Полицейский",
-        "value": "&#128110;"
-    },
-    {
-        "title": "Детектив или шпион",
-        "value": "&#128373;"
-    },
-    {
-        "title": "Гвардеец",
-        "value": "&#128130;"
-    },
-    {
-        "title": "Строительный рабочий",
-        "value": "&#128119;"
-    },
-    {
-        "title": "Принц",
-        "value": "&#129332;"
-    },
-    {
-        "title": "Принцесса",
-        "value": "&#128120;"
-    },
-    {
-        "title": "Мужчина в тюрбане",
-        "value": "&#128115;"
-    },
-    {
-        "title": "Мужчина с Гуа Пи Мао",
-        "value": "&#128114;"
-    },
-    {
-        "title": "Человек в платке",
-        "value": "&#129493;"
-    },
-    {
-        "title": "Мужчина в смокинге",
-        "value": "&#129333;"
-    },
-    {
-        "title": "Невеста с вуалью",
-        "value": "&#128112;"
-    },
-    {
-        "title": "Беременная Женщина",
-        "value": "&#129328;"
-    },
-    {
-        "title": "Кормление грудью",
-        "value": "&#129329;"
-    },
-    {
-        "title": "Малыш-ангелочек",
-        "value": "&#128124;"
-    },
-    {
-        "title": "Дед Мороз",
-        "value": "&#127877;"
-    },
-    {
-        "title": "Мать Рождество",
-        "value": "&#129334;"
-    },
-    {
-        "title": "Супер-герой",
-        "value": "&#129464;"
-    },
-    {
-        "title": "Супер-злодей",
-        "value": "&#129465;"
-    },
-    {
-        "title": "Маг",
-        "value": "&#129497;"
-    },
-    {
-        "title": "Фея",
-        "value": "&#129498;"
-    },
-    {
-        "title": "Вампир",
-        "value": "&#129499;"
-    },
-    {
-        "title": "Мерперсон. Русалка",
-        "value": "&#129500;"
-    },
-    {
-        "title": "Эльф",
-        "value": "&#129501;"
-    },
-    {
-        "title": "Джин",
-        "value": "&#129502;"
-    },
-    {
-        "title": "Зомби",
-        "value": "&#129503;"
-    },
-    {
-        "title": "Массаж лица",
-        "value": "&#128134;"
-    },
-    {
-        "title": "Стрижка",
-        "value": "&#128135;"
-    },
-    {
-        "title": "Пешеход",
-        "value": "&#128694;"
-    },
-    {
-        "title": "Бегун",
-        "value": "&#127939;"
-    },
-    {
-        "title": "Танцор",
-        "value": "&#128131;"
-    },
-    {
-        "title": "Мужчина танцует",
-        "value": "&#128378;"
-    },
-    {
-        "title": "Мужчина в деловом костюме левитирует",
-        "value": "&#128372;"
-    },
-    {
-        "title": "Женщина с кроличьими ушками",
-        "value": "&#128111;"
-    },
-    {
-        "title": "Человек в парной",
-        "value": "&#129494;"
-    },
-    {
-        "title": "Человек поднимающийся",
-        "value": "&#129495;"
-    },
-    {
-        "title": "Фехтовальщик",
-        "value": "&#129338;"
-    },
-    {
-        "title": "Скачки",
-        "value": "&#127943;"
-    },
-    {
-        "title": "Лыжник",
-        "value": "&#9975;"
-    },
-    {
-        "title": "Сноубордист",
-        "value": "&#127938;"
-    },
-    {
-        "title": "Игрок в гольф",
-        "value": "&#127948;"
-    },
-    {
-        "title": "Серфер",
-        "value": "&#127940;"
-    },
-    {
-        "title": "Весельная лодка",
-        "value": "&#128675;"
-    },
-    {
-        "title": "Пловец",
-        "value": "&#127946;"
-    },
-    {
-        "title": "Человек с мячом",
-        "value": "&#9977;"
-    },
-    {
-        "title": "Тяжелоатлет",
-        "value": "&#127947;"
-    },
-    {
-        "title": "Велосипедист",
-        "value": "&#128692;"
-    },
-    {
-        "title": "Горный велосипедист",
-        "value": "&#128693;"
-    },
-    {
-        "title": "Человек, делающий колесо",
-        "value": "&#129336;"
-    },
-    {
-        "title": "Борцы",
-        "value": "&#129340;"
-    },
-    {
-        "title": "Водное поло",
-        "value": "&#129341;"
-    },
-    {
-        "title": "Гандбол",
-        "value": "&#129342;"
-    },
-    {
-        "title": "Жонглирование",
-        "value": "&#129337;"
-    },
-    {
-        "title": "Человек в позе лотоса",
-        "value": "&#129496;"
-    },
-    {
-        "title": "Ванна",
-        "value": "&#128704;"
-    },
-    {
-        "title": "Размещение в спальных местах",
-        "value": "&#128716;"
-    },
-    {
-        "title": "Две женщины держатся за руки",
-        "value": "&#128109;"
-    },
-    {
-        "title": "Мужчина и женщина держатся за руки",
-        "value": "&#128107;"
-    },
-    {
-        "title": "Двое мужчин держатся за руки",
-        "value": "&#128108;"
-    },
-    {
-        "title": "Поцелуи",
-        "value": "&#128143;"
-    },
-    {
-        "title": "Пара с сердцем",
-        "value": "&#128145;"
-    },
-    {
-        "title": "Семья",
-        "value": "&#128106;"
-    },
-    {
-        "title": "Говорящая голова в силуэте",
-        "value": "&#128483;"
-    },
-    {
-        "title": "Бюст в силуэте",
-        "value": "&#128100;"
-    }
+	{
+		"title": translate("Waving hand"),
+		"value": "&#128075;"
+	},
+	{
+		"title": translate("The raised back of the hand"),
+		"value": "&#129306;"
+	},
+	{
+		"title": translate("A raised hand with outstretched fingers"),
+		"value": "&#128400;"
+	},
+	{
+		"title": translate("Raised hand"),
+		"value": "&#9995;"
+	},
+	{
+		"title": translate("A raised hand with a parting between the middle and ring fingers"),
+		"value": "&#128406;"
+	},
+	{
+		"title": translate("The \"OK\" hand sign"),
+		"value": "&#128076;"
+	},
+	{
+		"title": translate("\"Victory\" hand sign"),
+		"value": "&#9996;"
+	},
+	{
+		"title": translate("The hand with the index and middle fingers crossed"),
+		"value": "&#129310;"
+	},
+	{
+		"title": translate("I love you hand gesture"),
+		"value": "&#129311;"
+	},
+	{
+		"title": translate("The Sign of Horns"),
+		"value": "&#129304;"
+	},
+	{
+		"title": translate("Hand sign \"Call me\""),
+		"value": "&#129305;"
+	},
+	{
+		"title": translate("Back of the hand Index finger to the left"),
+		"value": "&#128072;"
+	},
+	{
+		"title": translate("Back of the hand Index finger to the right"),
+		"value": "&#128073;"
+	},
+	{
+		"title": translate("Back of the hand Index finger up"),
+		"value": "&#128070;"
+	},
+	{
+		"title": translate("The back of the hand with the middle finger extended"),
+		"value": "&#128405;"
+	},
+	{
+		"title": translate("Back of the hand, index finger down"),
+		"value": "&#128071;"
+	},
+	{
+		"title": translate("Index finger up"),
+		"value": "&#9757;"
+	},
+	{
+		"title": translate("Thumbs up"),
+		"value": "&#128077;"
+	},
+	{
+		"title": translate("Thumbs down"),
+		"value": "&#128078;"
+	},
+	{
+		"title": translate("Raised fist"),
+		"value": "&#9994;"
+	},
+	{
+		"title": translate("The sign of a clenched fist"),
+		"value": "&#128074;"
+	},
+	{
+		"title": translate("Left-facing fist"),
+		"value": "&#129307;"
+	},
+	{
+		"title": translate("Fist facing right"),
+		"value": "&#129308;"
+	},
+	{
+		"title": translate("The sign of clapping hands"),
+		"value": "&#128079;"
+	},
+	{
+		"title": translate("A man who raised both hands in celebration"),
+		"value": "&#128588;"
+	},
+	{
+		"title": translate("The \"Open Hands\" sign"),
+		"value": "&#128080;"
+	},
+	{
+		"title": translate("Palms up together"),
+		"value": "&#129330;"
+	},
+	{
+		"title": translate("Handshake"),
+		"value": "&#129309;"
+	},
+	{
+		"title": translate("A man with folded arms"),
+		"value": "&#128591;"
+	},
+	{
+		"title": translate("The writing hand"),
+		"value": "&#9997;"
+	},
+	{
+		"title": translate("Manicure, Nail polish"),
+		"value": "&#128133;"
+	},
+	{
+		"title": translate("Selfie"),
+		"value": "&#129331;"
+	},
+	{
+		"title": translate("Bent biceps"),
+		"value": "&#128170;"
+	},
+	{
+		"title": translate("Leg"),
+		"value": "&#129461;"
+	},
+	{
+		"title": translate("Foot"),
+		"value": "&#129462;"
+	},
+	{
+		"title": translate("Ear"),
+		"value": "&#128066;"
+	},
+	{
+		"title": translate("Nose"),
+		"value": "&#128067;"
+	},
+	{
+		"title": translate("Brain"),
+		"value": "&#129504;"
+	},
+	{
+		"title": translate("Tooth"),
+		"value": "&#129463;"
+	},
+	{
+		"title": translate("Bone"),
+		"value": "&#129460;"
+	},
+	{
+		"title": translate("Eyes"),
+		"value": "&#128064;"
+	},
+	{
+		"title": translate("Eye"),
+		"value": "&#128065;"
+	},
+	{
+		"title": translate("Tongue"),
+		"value": "&#128069;"
+	},
+	{
+		"title": translate("Mouth"),
+		"value": "&#128068;"
+	},
+	{
+		"title": translate("Baby"),
+		"value": "&#128118;"
+	},
+	{
+		"title": translate("Child"),
+		"value": "&#129490;"
+	},
+	{
+		"title": translate("Boy"),
+		"value": "&#128102;"
+	},
+	{
+		"title": translate("Girl"),
+		"value": "&#128103;"
+	},
+	{
+		"title": translate("Adult"),
+		"value": "&#129489;"
+	},
+	{
+		"title": translate("The man with the blond hair"),
+		"value": "&#128113;"
+	},
+	{
+		"title": translate("Man"),
+		"value": "&#128104;"
+	},
+	{
+		"title": translate("The Bearded Man"),
+		"value": "&#129492;"
+	},
+	{
+		"title": translate("Woman"),
+		"value": "&#128105;"
+	},
+	{
+		"title": translate("An older adult"),
+		"value": "&#129491;"
+	},
+	{
+		"title": translate("An elderly man"),
+		"value": "&#128116;"
+	},
+	{
+		"title": translate("An elderly woman"),
+		"value": "&#128117;"
+	},
+	{
+		"title": translate("The man frowns"),
+		"value": "&#128589;"
+	},
+	{
+		"title": translate("The man with the pouty face"),
+		"value": "&#128590;"
+	},
+	{
+		"title": translate("A face without a good gesture"),
+		"value": "&#128581;"
+	},
+	{
+		"title": translate("The face with the \"OK\" gesture"),
+		"value": "&#128582;"
+	},
+	{
+		"title": translate("Information Bureau employee"),
+		"value": "&#128129;"
+	},
+	{
+		"title": translate("The lucky man who raised one hand"),
+		"value": "&#128587;"
+	},
+	{
+		"title": translate("A man bowing low"),
+		"value": "&#128583;"
+	},
+	{
+		"title": translate("Face Palm"),
+		"value": "&#129318;"
+	},
+	{
+		"title": translate("The shrug of the shoulders"),
+		"value": "&#129335;"
+	},
+	{
+		"title": translate("Policeman"),
+		"value": "&#128110;"
+	},
+	{
+		"title": translate("Detective or spy"),
+		"value": "&#128373;"
+	},
+	{
+		"title": translate("The Guardsman"),
+		"value": "&#128130;"
+	},
+	{
+		"title": translate("Construction worker"),
+		"value": "&#128119;"
+	},
+	{
+		"title": translate("Prince"),
+		"value": "&#129332;"
+	},
+	{
+		"title": translate("Princess"),
+		"value": "&#128120;"
+	},
+	{
+		"title": translate("The man in the turban"),
+		"value": "&#128115;"
+	},
+	{
+		"title": translate("The man with Gua Pi Mao"),
+		"value": "&#128114;"
+	},
+	{
+		"title": translate("The man in the headscarf"),
+		"value": "&#129493;"
+	},
+	{
+		"title": translate("The man in the tuxedo"),
+		"value": "&#129333;"
+	},
+	{
+		"title": translate("The bride with a veil"),
+		"value": "&#128112;"
+	},
+	{
+		"title": translate("Pregnant Woman"),
+		"value": "&#129328;"
+	},
+	{
+		"title": translate("Breastfeeding"),
+		"value": "&#129329;"
+	},
+	{
+		"title": translate("Baby angel"),
+		"value": "&#128124;"
+	},
+	{
+		"title": translate("Father Christmas"),
+		"value": "&#127877;"
+	},
+	{
+		"title": translate("Mother Christmas"),
+		"value": "&#129334;"
+	},
+	{
+		"title": translate("The Super hero"),
+		"value": "&#129464;"
+	},
+	{
+		"title": translate("The Super villain"),
+		"value": "&#129465;"
+	},
+	{
+		"title": translate("The Magician"),
+		"value": "&#129497;"
+	},
+	{
+		"title": translate("Fairy"),
+		"value": "&#129498;"
+	},
+	{
+		"title": translate("A vampire"),
+		"value": "&#129499;"
+	},
+	{
+		"title": translate("Merperson. Mermaid"),
+		"value": "&#129500;"
+	},
+	{
+		"title": translate("Elf"),
+		"value": "&#129501;"
+	},
+	{
+		"title": translate("Gin"),
+		"value": "&#129502;"
+	},
+	{
+		"title": translate("Zombie"),
+		"value": "&#129503;"
+	},
+	{
+		"title": translate("Facial massage"),
+		"value": "&#128134;"
+	},
+	{
+		"title": translate("A haircut"),
+		"value": "&#128135;"
+	},
+	{
+		"title": translate("Pedestrian"),
+		"value": "&#128694;"
+	},
+	{
+		"title": translate("Runner"),
+		"value": "&#127939;"
+	},
+	{
+		"title": translate("Dancer"),
+		"value": "&#128131;"
+	},
+	{
+		"title": translate("The man is dancing"),
+		"value": "&#128378;"
+	},
+	{
+		"title": translate("A man in a business suit levitates"),
+		"value": "&#128372;"
+	},
+	{
+		"title": translate("The woman with the rabbit ears"),
+		"value": "&#128111;"
+	},
+	{
+		"title": translate("The man in the steam room"),
+		"value": "&#129494;"
+	},
+	{
+		"title": translate("The rising Man"),
+		"value": "&#129495;"
+	},
+	{
+		"title": translate("The Swordsman"),
+		"value": "&#129338;"
+	},
+	{
+		"title": translate("Horse racing"),
+		"value": "&#127943;"
+	},
+	{
+		"title": translate("Skier"),
+		"value": "&#9975;"
+	},
+	{
+		"title": translate("The snowboarder"),
+		"value": "&#127938;"
+	},
+	{
+		"title": translate("The golfer"),
+		"value": "&#127948;"
+	},
+	{
+		"title": translate("The Surfer"),
+		"value": "&#127940;"
+	},
+	{
+		"title": translate("Rowing boat"),
+		"value": "&#128675;"
+	},
+	{
+		"title": translate("Swimmer"),
+		"value": "&#127946;"
+	},
+	{
+		"title": translate("The man with the ball"),
+		"value": "&#9977;"
+	},
+	{
+		"title": translate("Weightlifter"),
+		"value": "&#127947;"
+	},
+	{
+		"title": translate("Bicyclist"),
+		"value": "&#128692;"
+	},
+	{
+		"title": translate("Mountain biker"),
+		"value": "&#128693;"
+	},
+	{
+		"title": translate("The man making the wheel"),
+		"value": "&#129336;"
+	},
+	{
+		"title": translate("The wrestlers"),
+		"value": "&#129340;"
+	},
+	{
+		"title": translate("Water polo"),
+		"value": "&#129341;"
+	},
+	{
+		"title": translate("Handball"),
+		"value": "&#129342;"
+	},
+	{
+		"title": translate("Juggling"),
+		"value": "&#129337;"
+	},
+	{
+		"title": translate("The man in the lotus position"),
+		"value": "&#129496;"
+	},
+	{
+		"title": translate("Bath"),
+		"value": "&#128704;"
+	},
+	{
+		"title": translate("Accommodation in sleeping places"),
+		"value": "&#128716;"
+	},
+	{
+		"title": translate("Two women holding hands"),
+		"value": "&#128109;"
+	},
+	{
+		"title": translate("A man and a woman holding hands"),
+		"value": "&#128107;"
+	},
+	{
+		"title": translate("Two men holding hands"),
+		"value": "&#128108;"
+	},
+	{
+		"title": translate("Kisses"),
+		"value": "&#128143;"
+	},
+	{
+		"title": translate("A couple with a heart"),
+		"value": "&#128145;"
+	},
+	{
+		"title": translate("Family"),
+		"value": "&#128106;"
+	},
+	{
+		"title": translate("Talking head in silhouette"),
+		"value": "&#128483;"
+	},
+	{
+		"title": translate("Bust in silhouette"),
+		"value": "&#128100;"
+	}
 ];

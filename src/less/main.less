@@ -29,6 +29,27 @@ textarea {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "Noto Color Emoji" !important;
 }
 
+.mce-panel {
+	&[aria-label="Emoji"] {
+		.mce-foot {
+			.mce-btn {
+				&,
+				&:focus {
+					border-color: transparent !important;
+				}
+			}
+			button {
+				font-style: italic;
+				color: #a3a3a3;
+				&:hover,
+				&:focus {
+					color: #000000;
+				}
+			}
+		}
+	}
+}
+
 .mce-ico {
 	font-family: 'tinymce', Arial !important;
 }

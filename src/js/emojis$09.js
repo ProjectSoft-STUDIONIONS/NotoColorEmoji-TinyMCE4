@@ -1,874 +1,874 @@
 let emojis$09 = [
     {
-        "title": "Очки",
+        "title": translate("Glasses"),
         "value": "&#128083;"
     },
     {
-        "title": "Чёрные очки",
+        "title": translate("Black glasses"),
         "value": "&#128374;"
     },
     {
-        "title": "Маска аквалангиста",
+        "title": translate("Scuba Diver's Mask"),
         "value": "&#129405;"
     },
     {
-        "title": "Лабораторный (докторский) халат",
+        "title": translate("Laboratory (doctor's) coat"),
         "value": "&#129404;"
     },
     {
-        "title": "Галстук",
+        "title": translate("Tie"),
         "value": "&#128084;"
     },
     {
-        "title": "Футболка",
+        "title": translate("T-shirt"),
         "value": "&#128085;"
     },
     {
-        "title": "Джинсы",
+        "title": translate("Jeans"),
         "value": "&#128086;"
     },
     {
-        "title": "Шарф",
+        "title": translate("Scarf"),
         "value": "&#129507;"
     },
     {
-        "title": "Перчатки",
+        "title": translate("Gloves"),
         "value": "&#129508;"
     },
     {
-        "title": "Пальто",
+        "title": translate("Coat"),
         "value": "&#129509;"
     },
     {
-        "title": "Носки",
+        "title": translate("Socks"),
         "value": "&#129510;"
     },
     {
-        "title": "Платье",
+        "title": translate("Dress"),
         "value": "&#128087;"
     },
     {
-        "title": "Кимано",
+        "title": translate("Kimano"),
         "value": "&#128088;"
     },
     {
-        "title": "Бикини (купальник)",
+        "title": translate("Bikini (swimsuit)"),
         "value": "&#128089;"
     },
     {
-        "title": "Женский халат",
+        "title": translate("Women's bathrobe"),
         "value": "&#128090;"
     },
     {
-        "title": "Кошелёк",
+        "title": translate("Wallet"),
         "value": "&#128091;"
     },
     {
-        "title": "Сумочка",
+        "title": translate("Handbag"),
         "value": "&#128092;"
     },
     {
-        "title": "Мешочек",
+        "title": translate("The pouch"),
         "value": "&#128093;"
     },
     {
-        "title": "Пакеты для покупок",
+        "title": translate("Shopping Bags"),
         "value": "&#128717;"
     },
     {
-        "title": "Школтный рюкзак",
+        "title": translate("School backpack"),
         "value": "&#127890;"
     },
     {
-        "title": "Мужская обувь",
+        "title": translate("Men's shoes"),
         "value": "&#128094;"
     },
     {
-        "title": "Спортивная обувь",
+        "title": translate("Sports shoes"),
         "value": "&#128095;"
     },
     {
-        "title": "Походные ботинки",
+        "title": translate("Hiking boots"),
         "value": "&#129406;"
     },
     {
-        "title": "Женская обувь\nна плоской подошве",
+        "title": translate("Women's Flat Shoes"),
         "value": "&#129407;"
     },
     {
-        "title": "Туфли\nна высоком каблуке",
+        "title": translate("High-heeled shoes"),
         "value": "&#128096;"
     },
     {
-        "title": "Женские сандалии",
+        "title": translate("Women's Sandals"),
         "value": "&#128097;"
     },
     {
-        "title": "Женские сапоги",
+        "title": translate("Women's boots"),
         "value": "&#128098;"
     },
     {
-        "title": "Корона",
+        "title": translate("Crown"),
         "value": "&#128081;"
     },
     {
-        "title": "Женская панама",
+        "title": translate("Women's Panama"),
         "value": "&#128082;"
     },
     {
-        "title": "Цилиндр (мужской)",
+        "title": translate("Top hat (male)"),
         "value": "&#127913;"
     },
     {
-        "title": "Шапочка выпускника",
+        "title": translate("Graduate's hat"),
         "value": "&#127891;"
     },
     {
-        "title": "Бейсболка",
+        "title": translate("Baseball cap"),
         "value": "&#129506;"
     },
     {
-        "title": "Шлем с белым крестом",
+        "title": translate("Helmet with a white cross"),
         "value": "&#9937;"
     },
     {
-        "title": "Четки для молитвы",
+        "title": translate("Prayer beads"),
         "value": "&#128255;"
     },
     {
-        "title": "Помада (губнушка)",
+        "title": translate("Lipstick (sponge)"),
         "value": "&#128132;"
     },
     {
-        "title": "Кольцо",
+        "title": translate("Ring"),
         "value": "&#128141;"
     },
     {
-        "title": "Драгоценный камень",
+        "title": translate("A precious stone"),
         "value": "&#128142;"
     },
     {
-        "title": "Звук запрещён",
+        "title": translate("Sound is prohibited"),
         "value": "&#128263;"
     },
     {
-        "title": "Динамик выключен",
+        "title": translate("The speaker is off"),
         "value": "&#128264;"
     },
     {
-        "title": "Динамик на минимальной громкости",
+        "title": translate("Speaker at minimum volume"),
         "value": "&#128265;"
     },
     {
-        "title": "Динамик на максимальной громкости",
+        "title": translate("Speaker at maximum volume"),
         "value": "&#128266;"
     },
     {
-        "title": "Громкоговоритель для оповещения",
+        "title": translate("Speaker for notification"),
         "value": "&#128226;"
     },
     {
-        "title": "Мегафон",
+        "title": translate("Megafon"),
         "value": "&#128227;"
     },
     {
-        "title": "Почтовый Рог",
+        "title": translate("Postal Horn"),
         "value": "&#128239;"
     },
     {
-        "title": "Колокол",
+        "title": translate("Bell"),
         "value": "&#128276;"
     },
     {
-        "title": "Колокол запрещён",
+        "title": translate("The bell is forbidden"),
         "value": "&#128277;"
     },
     {
-        "title": "Музыкальная партитура",
+        "title": translate("Musical score"),
         "value": "&#127932;"
     },
     {
-        "title": "Музыкальная нота",
+        "title": translate("Musical note"),
         "value": "&#127925;"
     },
     {
-        "title": "Музыкальные ноты",
+        "title": translate("Musical notes"),
         "value": "&#127926;"
     },
     {
-        "title": "Студийный микрофон",
+        "title": translate("Studio Microphone"),
         "value": "&#127897;"
     },
     {
-        "title": "Регулятор слайдер",
+        "title": translate("Slider control"),
         "value": "&#127898;"
     },
     {
-        "title": "Ручки управления",
+        "title": translate("Control knobs"),
         "value": "&#127899;"
     },
     {
-        "title": "Микрофон",
+        "title": translate("Microphone"),
         "value": "&#127908;"
     },
     {
-        "title": "Наушники",
+        "title": translate("Headphones"),
         "value": "&#127911;"
     },
     {
-        "title": "Радио",
+        "title": translate("Radio"),
         "value": "&#128251;"
     },
     {
-        "title": "Саксафон",
+        "title": translate("The saxophone"),
         "value": "&#127927;"
     },
     {
-        "title": "Гитара",
+        "title": translate("Guitar"),
         "value": "&#127928;"
     },
     {
-        "title": "Музыкальная клавиатура",
+        "title": translate("Musical keyboard"),
         "value": "&#127929;"
     },
     {
-        "title": "Музыкальная Труба",
+        "title": translate("Musical Trumpet"),
         "value": "&#127930;"
     },
     {
-        "title": "Скрипка",
+        "title": translate("Violin"),
         "value": "&#127931;"
     },
     {
-        "title": "Барабан с барабанными палочками",
+        "title": translate("A drum with drumsticks"),
         "value": "&#129345;"
     },
     {
-        "title": "Мобильный телефон",
+        "title": translate("Mobile phone"),
         "value": "&#128241;"
     },
     {
-        "title": "Мобильный телефон приём звонка",
+        "title": translate("Mobile phone receiving a call"),
         "value": "&#128242;"
     },
     {
-        "title": "Дисковый Телефон",
+        "title": translate("Disk Phone Number"),
         "value": "&#9742;"
     },
     {
-        "title": "Телефонная трубка",
+        "title": translate("The handset"),
         "value": "&#128222;"
     },
     {
-        "title": "Пейджер",
+        "title": translate("The pager"),
         "value": "&#128223;"
     },
     {
-        "title": "Факс",
+        "title": translate("Fax number"),
         "value": "&#128224;"
     },
     {
-        "title": "Батарейка",
+        "title": translate("Battery"),
         "value": "&#128267;"
     },
     {
-        "title": "Электрическая вилка",
+        "title": translate("Electric plug"),
         "value": "&#128268;"
     },
     {
-        "title": "Ноутбук",
+        "title": translate("A laptop"),
         "value": "&#128187;"
     },
     {
-        "title": "Компьютер",
+        "title": translate("Computer"),
         "value": "&#128421;"
     },
     {
-        "title": "Принтер",
+        "title": translate("Printer"),
         "value": "&#128424;"
     },
     {
-        "title": "Клавиатура",
+        "title": translate("Keyboard"),
         "value": "&#9000;"
     },
     {
-        "title": "Трехкнопочная мышь",
+        "title": translate("Three-button mouse"),
         "value": "&#128433;"
     },
     {
-        "title": "Трекбол",
+        "title": translate("Trackball"),
         "value": "&#128434;"
     },
     {
-        "title": "Минидиск",
+        "title": translate("Minidisc"),
         "value": "&#128189;"
     },
     {
-        "title": "Дискета 3.5\" 1,44Мб",
+        "title": translate("3.5\" Floppy Disk 1.44Mb"),
         "value": "&#128190;"
     },
     {
-        "title": "Оптический Диск CD",
+        "title": translate("Optical Disc CD"),
         "value": "&#128191;"
     },
     {
-        "title": "Оптический Диск DVD",
+        "title": translate("Optical Disc DVD"),
         "value": "&#128192;"
     },
     {
-        "title": "Счеты",
+        "title": translate("Accounts"),
         "value": "&#129518;"
     },
     {
-        "title": "Кинокамера",
+        "title": translate("Movie Camera"),
         "value": "&#127909;"
     },
     {
-        "title": "Кинолента",
+        "title": translate("The movie"),
         "value": "&#127902;"
     },
     {
-        "title": "Фильмоскоп (проектор)",
+        "title": translate("Filmoscope (projector)"),
         "value": "&#128253;"
     },
     {
-        "title": "Кинохлопушка",
+        "title": translate("The movie Cracker"),
         "value": "&#127916;"
     },
     {
-        "title": "Телевизор",
+        "title": translate("TV"),
         "value": "&#128250;"
     },
     {
-        "title": "Фотокамера",
+        "title": translate("The camera"),
         "value": "&#128247;"
     },
     {
-        "title": "Фотокамера с фотовспышкой",
+        "title": translate("Camera with flash light"),
         "value": "&#128248;"
     },
     {
-        "title": "Видео камера",
+        "title": translate("Video camera"),
         "value": "&#128249;"
     },
     {
-        "title": "Видеокассета",
+        "title": translate("Video tape"),
         "value": "&#128252;"
     },
     {
-        "title": "Увелечительное стекло\nс ручеой слева",
+        "title": translate("Healing glass with a stream on the left"),
         "value": "&#128269;"
     },
     {
-        "title": "Увелечительное стекло\nс ручеой справа",
+        "title": translate("Healing glass with a stream on the right"),
         "value": "&#128270;"
     },
     {
-        "title": "Горящая Свеча",
+        "title": translate("A Burning Candle"),
         "value": "&#128367;"
     },
     {
-        "title": "Электрическая лампочка",
+        "title": translate("Electric light bulb"),
         "value": "&#128161;"
     },
     {
-        "title": "Электрический фонарик",
+        "title": translate("Electric flashlight"),
         "value": "&#128294;"
     },
     {
-        "title": "Крассный фонарь",
+        "title": translate("The red lantern"),
         "value": "&#127982;"
     },
     {
-        "title": "Блокнот с декоративной обложкой",
+        "title": translate("A notebook with a decorative cover"),
         "value": "&#128212;"
     },
     {
-        "title": "Закрытая книга",
+        "title": translate("The Closed book"),
         "value": "&#128213;"
     },
     {
-        "title": "Открытая книга",
+        "title": translate("An open book"),
         "value": "&#128214;"
     },
     {
-        "title": "Зелёная Книга",
+        "title": translate("The Green Book"),
         "value": "&#128215;"
     },
     {
-        "title": "Синяя книга",
+        "title": translate("The Blue Book"),
         "value": "&#128216;"
     },
     {
-        "title": "Оранжевая книга",
+        "title": translate("The Orange Book"),
         "value": "&#128217;"
     },
     {
-        "title": "Книги",
+        "title": translate("Books"),
         "value": "&#128218;"
     },
     {
-        "title": "Блокнот",
+        "title": translate("Notepad"),
         "value": "&#128211;"
     },
     {
-        "title": "Бухгалтерская книга",
+        "title": translate("Accounting Book"),
         "value": "&#128210;"
     },
     {
-        "title": "Страница с завитком",
+        "title": translate("The Curl page"),
         "value": "&#128195;"
     },
     {
-        "title": "Страница с завитками сверху и снизу",
+        "title": translate("A page with swirls at the top and bottom"),
         "value": "&#128220;"
     },
     {
-        "title": "Страница лицевой стороной вверх",
+        "title": translate("The page is face up"),
         "value": "&#128196;"
     },
     {
-        "title": "Газета",
+        "title": translate("Newspaper"),
         "value": "&#128240;"
     },
     {
-        "title": "Свернутая в трубочку газета",
+        "title": translate("A rolled-up newspaper"),
         "value": "&#128478;"
     },
     {
-        "title": "Закладки Вкладки",
+        "title": translate("Bookmarks Tabs"),
         "value": "&#128209;"
     },
     {
-        "title": "Закладка",
+        "title": translate("Bookmark"),
         "value": "&#128278;"
     },
     {
-        "title": "Этикетка",
+        "title": translate("Label"),
         "value": "&#127991;"
     },
     {
-        "title": "Денежный мешок",
+        "title": translate("The money Bag"),
         "value": "&#128176;"
     },
     {
-        "title": "Банкнота со знаком иены",
+        "title": translate("A banknote with a yen sign"),
         "value": "&#128180;"
     },
     {
-        "title": "Банкнота со знаком доллара",
+        "title": translate("A banknote with a dollar sign"),
         "value": "&#128181;"
     },
     {
-        "title": "Банкнота со знаком евро",
+        "title": translate("Banknote with the euro sign"),
         "value": "&#128182;"
     },
     {
-        "title": "Банкнота со знаком фунта",
+        "title": translate("A banknote with a pound sign"),
         "value": "&#128183;"
     },
     {
-        "title": "Деньги с крыльями",
+        "title": translate("Money with wings"),
         "value": "&#128184;"
     },
     {
-        "title": "Кредитная карта",
+        "title": translate("Credit card"),
         "value": "&#128179;"
     },
     {
-        "title": "Квитанция",
+        "title": translate("Receipt"),
         "value": "&#129534;"
     },
     {
-        "title": "График с восходящим трендом и знаком иены",
+        "title": translate("Chart with an uptrend and a yen sign"),
         "value": "&#128185;"
     },
     {
-        "title": "Обмен валюты",
+        "title": translate("Currency exchange"),
         "value": "&#128177;"
     },
     {
-        "title": "Тяжелый знак доллара",
+        "title": translate("Heavy Dollar sign"),
         "value": "&#128178;"
     },
     {
-        "title": "Конверт",
+        "title": translate("The envelope"),
         "value": "&#9993;"
     },
     {
-        "title": "Символ электронной почты",
+        "title": translate("The email symbol"),
         "value": "&#128231;"
     },
     {
-        "title": "Входящий конверт",
+        "title": translate("Incoming envelope"),
         "value": "&#128232;"
     },
     {
-        "title": "Конверт со стрелкой вниз сверху",
+        "title": translate("An envelope with a downward arrow on top"),
         "value": "&#128233;"
     },
     {
-        "title": "Лоток для исходящих писем",
+        "title": translate("Outgoing Mail tray"),
         "value": "&#128228;"
     },
     {
-        "title": "Лоток для входящих сообщений",
+        "title": translate("Incoming Message tray"),
         "value": "&#128229;"
     },
     {
-        "title": "Упаковка",
+        "title": translate("Packaging"),
         "value": "&#128230;"
     },
     {
-        "title": "Закрытый почтовый ящик с поднятым флагом",
+        "title": translate("A closed mailbox with a raised flag"),
         "value": "&#128235;"
     },
     {
-        "title": "Закрытый почтовый ящик с опущенным флагом",
+        "title": translate("A closed mailbox with a lowered flag"),
         "value": "&#128234;"
     },
     {
-        "title": "Открытый почтовый ящик с поднятым флагом",
+        "title": translate("An open mailbox with a raised flag"),
         "value": "&#128236;"
     },
     {
-        "title": "Открытый почтовый ящик с опущенным флагом",
+        "title": translate("An open mailbox with the flag down"),
         "value": "&#128237;"
     },
     {
-        "title": "Почтовый ящик",
+        "title": translate("Mailbox"),
         "value": "&#128238;"
     },
     {
-        "title": "Урна для голосования с бюллетенем",
+        "title": translate("The ballot box"),
         "value": "&#128499;"
     },
     {
-        "title": "Карандаш",
+        "title": translate("Pencil"),
         "value": "&#9999;"
     },
     {
-        "title": "Перьевая ручка",
+        "title": translate("Fountain Pen"),
         "value": "&#10002;"
     },
     {
-        "title": "Нижняя левая перьевая ручка",
+        "title": translate("Lower left fountain pen"),
         "value": "&#128395;"
     },
     {
-        "title": "Нижняя левая шариковая ручка",
+        "title": translate("Lower left ballpoint pen"),
         "value": "&#128394;"
     },
     {
-        "title": "Нижняя левая кисть",
+        "title": translate("Lower left hand"),
         "value": "&#128396;"
     },
     {
-        "title": "Нижний левый карандаш",
+        "title": translate("Lower left pencil"),
         "value": "&#128397;"
     },
     {
-        "title": "Памятка",
+        "title": translate("The memo"),
         "value": "&#128221;"
     },
     {
-        "title": "Портфель",
+        "title": translate("Briefcase"),
         "value": "&#128188;"
     },
     {
-        "title": "Папка с файлами",
+        "title": translate("Folder with files"),
         "value": "&#128193;"
     },
     {
-        "title": "Открытая Папка с файлами",
+        "title": translate("An open folder with files"),
         "value": "&#128194;"
     },
     {
-        "title": "Разделители для картотеки",
+        "title": translate("File dividers"),
         "value": "&#128450;"
     },
     {
-        "title": "Календарь",
+        "title": translate("Calendar"),
         "value": "&#128197;"
     },
     {
-        "title": "Отрывной календарь",
+        "title": translate("Tear-off calendar"),
         "value": "&#128198;"
     },
     {
-        "title": "Блокнот со спиралью",
+        "title": translate("Spiral Notebook"),
         "value": "&#128466;"
     },
     {
-        "title": "Блокнот-календарь со спиралью",
+        "title": translate("Notepad calendar with spiral"),
         "value": "&#128467;"
     },
     {
-        "title": "Картотека",
+        "title": translate("File cabinet"),
         "value": "&#128199;"
     },
     {
-        "title": "График с восходящим трендом",
+        "title": translate("An uptrend chart"),
         "value": "&#128200;"
     },
     {
-        "title": "График с нисходящим трендом",
+        "title": translate("A chart with a downtrend"),
         "value": "&#128201;"
     },
     {
-        "title": "Столбчатая диаграмма",
+        "title": translate("Bar chart"),
         "value": "&#128202;"
     },
     {
-        "title": "Буфер обмена",
+        "title": translate("Clipboard"),
         "value": "&#128203;"
     },
     {
-        "title": "Кнопка",
+        "title": translate("Button"),
         "value": "&#128204;"
     },
     {
-        "title": "Круглая кнопка",
+        "title": translate("Round button"),
         "value": "&#128205;"
     },
     {
-        "title": "Скрепка для бумаг",
+        "title": translate("Paper clip"),
         "value": "&#128206;"
     },
     {
-        "title": "Связанные скрепки",
+        "title": translate("Bound Paper Clips"),
         "value": "&#128391;"
     },
     {
-        "title": "Линейка",
+        "title": translate("Ruler"),
         "value": "&#128207;"
     },
     {
-        "title": "Треугольная линейка",
+        "title": translate("Triangular ruler"),
         "value": "&#128208;"
     },
     {
-        "title": "Ножницы",
+        "title": translate("Scissors"),
         "value": "&#9986;"
     },
     {
-        "title": "Коробка для картотеки",
+        "title": translate("The filing cabinet box"),
         "value": "&#128451;"
     },
     {
-        "title": "Файловый шкаф",
+        "title": translate("File Cabinet"),
         "value": "&#128452;"
     },
     {
-        "title": "Мусорная корзина",
+        "title": translate("The wastebasket"),
         "value": "&#128465;"
     },
     {
-        "title": "Замок",
+        "title": translate("Castle"),
         "value": "&#128274;"
     },
     {
-        "title": "Открытый замок",
+        "title": translate("An open castle"),
         "value": "&#128275;"
     },
     {
-        "title": "Замок с чернильной ручкой",
+        "title": translate("Lock with ink pen"),
         "value": "&#128271;"
     },
     {
-        "title": "Закрытый замок с ключом",
+        "title": translate("A closed lock with a key"),
         "value": "&#128272;"
     },
     {
-        "title": "Ключ",
+        "title": translate("Key"),
         "value": "&#128273;"
     },
     {
-        "title": "Старый ключ",
+        "title": translate("The old key"),
         "value": "&#128477;"
     },
     {
-        "title": "Молоток",
+        "title": translate("A hammer"),
         "value": "&#128296;"
     },
     {
-        "title": "Кирка",
+        "title": translate("Pickaxe"),
         "value": "&#9935;"
     },
     {
-        "title": "Молоток и кирка",
+        "title": translate("Hammer and pickaxe"),
         "value": "&#9874;"
     },
     {
-        "title": "Молоток и гаечный ключ",
+        "title": translate("Hammer and wrench"),
         "value": "&#128736;"
     },
     {
-        "title": "Кинжал-нож",
+        "title": translate("Dagger-knife"),
         "value": "&#128481;"
     },
     {
-        "title": "Скрещенные мечи",
+        "title": translate("Crossed swords"),
         "value": "&#9876;"
     },
     {
-        "title": "Пистолет",
+        "title": translate("Gun"),
         "value": "&#128299;"
     },
     {
-        "title": "Лук и стрелы",
+        "title": translate("Bow and arrows"),
         "value": "&#127993;"
     },
     {
-        "title": "Щит",
+        "title": translate("Shield"),
         "value": "&#128737;"
     },
     {
-        "title": "Гаечный ключ",
+        "title": translate("Wrench"),
         "value": "&#128295;"
     },
     {
-        "title": "Болт с кайкой",
+        "title": translate("A bolt with a spike"),
         "value": "&#128297;"
     },
     {
-        "title": "Механизм",
+        "title": translate("Mechanism"),
         "value": "&#9881;"
     },
     {
-        "title": "Сжатие",
+        "title": translate("Compression"),
         "value": "&#128476;"
     },
     {
-        "title": "Весы",
+        "title": translate("Scales"),
         "value": "&#9878;"
     },
     {
-        "title": "Символ ссылки",
+        "title": translate("The link symbol"),
         "value": "&#128279;"
     },
     {
-        "title": "Цепи",
+        "title": translate("Chains"),
         "value": "&#9939;"
     },
     {
-        "title": "Ящик для инструментов",
+        "title": translate("The toolbox"),
         "value": "&#129520;"
     },
     {
-        "title": "Магнит",
+        "title": translate("Magnet"),
         "value": "&#129522;"
     },
     {
-        "title": "Перегонный куб",
+        "title": translate("The alembic"),
         "value": "&#9879;"
     },
     {
-        "title": "Пробирка",
+        "title": translate("Test tube"),
         "value": "&#129514;"
     },
     {
-        "title": "Чашка Петри",
+        "title": translate("Petri Dish"),
         "value": "&#129515;"
     },
     {
-        "title": "Двойная спираль ДНК",
+        "title": translate("The double helix of DNA"),
         "value": "&#129516;"
     },
     {
-        "title": "Микроскоп",
+        "title": translate("The microscope"),
         "value": "&#128300;"
     },
     {
-        "title": "Телескоп",
+        "title": translate("The telescope"),
         "value": "&#128301;"
     },
     {
-        "title": "Спутниковая антенна",
+        "title": translate("Satellite dish"),
         "value": "&#128225;"
     },
     {
-        "title": "Шприц",
+        "title": translate("Syringe"),
         "value": "&#128137;"
     },
     {
-        "title": "Пилюля",
+        "title": translate("The pill"),
         "value": "&#128138;"
     },
     {
-        "title": "Дверь",
+        "title": translate("Door"),
         "value": "&#128682;"
     },
     {
-        "title": "Кровать",
+        "title": translate("Bed"),
         "value": "&#128719;"
     },
     {
-        "title": "Диван и лампа",
+        "title": translate("Sofa and lamp"),
         "value": "&#128715;"
     },
     {
-        "title": "",
+        "title": translate("Toilet"),
         "value": "&#128701;"
     },
     {
-        "title": "Унитаз",
+        "title": translate("Shower"),
         "value": "&#128703;"
     },
     {
-        "title": "Ванна",
+        "title": translate("Bath"),
         "value": "&#128705;"
     },
     {
-        "title": "Флакон лосьона",
+        "title": translate("A bottle of lotion"),
         "value": "&#129524;"
     },
     {
-        "title": "Английская булавка",
+        "title": translate("Safety Pin"),
         "value": "&#129527;"
     },
     {
-        "title": "Метла",
+        "title": translate("Broomstick"),
         "value": "&#129529;"
     },
     {
-        "title": "Корзина",
+        "title": translate("Basket"),
         "value": "&#129530;"
     },
     {
-        "title": "Рулон бумаги",
+        "title": translate("A roll of paper"),
         "value": "&#129531;"
     },
     {
-        "title": "Кусок мыла",
+        "title": translate("A bar of soap"),
         "value": "&#129532;"
     },
     {
-        "title": "Губка",
+        "title": translate("Sponge"),
         "value": "&#129533;"
     },
     {
-        "title": "Огнетушитель",
+        "title": translate("Fire extinguisher"),
         "value": "&#129519;"
     },
     {
-        "title": "Тележка для покупок",
+        "title": translate("Shopping cart"),
         "value": "&#128722;"
     },
     {
-        "title": "Символ курения",
+        "title": translate("The symbol of smoking"),
         "value": "&#128684;"
     },
     {
-        "title": "Гроб",
+        "title": translate("Coffin"),
         "value": "&#9904;"
     },
     {
-        "title": "Погребальная урна",
+        "title": translate("Funeral urn"),
         "value": "&#9905;"
     },
     {
-        "title": "Мояи",
+        "title": translate("Moyai statue"),
         "value": "&#128511;"
     }
 ];

@@ -27,6 +27,7 @@
 						title: 'Emoji',
 						resizable : true,
 						class: "notocoloremoji",
+						resizable : true,
 						body: {
 							type: 'tabpanel',
 							items: [
@@ -93,12 +94,26 @@
 									editor.insertContent(emoji);
 									editor.windowManager.close();
 								}
-							}
+							},
 						},
-						buttons: [ ]
+						buttons: [
+							// Собственно информация о плагине
+							{
+								name: 'custom',
+								text: `NotoCoorEmoji-TinyMCE4 ${version}`,
+								disabled: false,
+								primary: false,
+								//align: 'end',
+								onclick: function(e) {
+									e.preventDefault();
+									window.open('https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4', 'NotoCoorEmoji-TinyMCE4');
+									return !1;
+								},
+							},
+						],
 					});
-				}
-			})
+				},
+			});
 		};
 	pluginManager.add("notocoloremoji", function(editor, url) {
 		editor.on("init", () => {
@@ -125,8 +140,8 @@
 		return {
 			getMetadata: () => {
 				return  {
-					name: "Noto Color Emoji plugin",
-					url: "https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji"
+					name: "Noto Color Emoji plugin for TinyMCE4",
+					url: "https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4"
 				};
 			}
 		};

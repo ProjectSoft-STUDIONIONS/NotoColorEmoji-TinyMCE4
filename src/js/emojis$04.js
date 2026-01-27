@@ -1,398 +1,394 @@
 let emojis$04 = [
-    {
-        "title": "Обезьянье лицо",
-        "value": "&#128053;"
-    },
-    {
-        "title": "Обезьяна",
-        "value": "&#128018;"
-    },
-    {
-        "title": "Горилла",
-        "value": "&#129421;"
-    },
-    {
-        "title": "Лицо собаки",
-        "value": "&#128054;"
-    },
-    {
-        "title": "Собака",
-        "value": "&#128021;"
-    },
-    {
-        "title": "Пудель",
-        "value": "&#128041;"
-    },
-    {
-        "title": "Лицо волка",
-        "value": "&#128058;"
-    },
-    {
-        "title": "Лицо лисы",
-        "value": "&#129418;"
-    },
-    {
-        "title": "Лицо енота",
-        "value": "&#129437;"
-    },
-    {
-        "title": "Лицо кота",
-        "value": "&#128049;"
-    },
-    {
-        "title": "Кот",
-        "value": "&#128008;"
-    },
-    {
-        "title": "Лицо льва",
-        "value": "&#129409;"
-    },
-    {
-        "title": "Лицо тигра",
-        "value": "&#128047;"
-    },
-    {
-        "title": "Тигр",
-        "value": "&#128005;"
-    },
-    {
-        "title": "Леопард",
-        "value": "&#128006;"
-    },
-    {
-        "title": "Лицо лошади",
-        "value": "&#128052;"
-    },
-    {
-        "title": "Лошадь",
-        "value": "&#128014;"
-    },
-    {
-        "title": "Лицо единорога",
-        "value": "&#129412;"
-    },
-    {
-        "title": "Лицо зебры",
-        "value": "&#129427;"
-    },
-    {
-        "title": "Олень",
-        "value": "&#129420;"
-    },
-    {
-        "title": "Лицо коровы",
-        "value": "&#128046;"
-    },
-    {
-        "title": "Бык",
-        "value": "&#128002;"
-    },
-    {
-        "title": "Водяной буйвол",
-        "value": "&#128003;"
-    },
-    {
-        "title": "Корова",
-        "value": "&#128004;"
-    },
-    {
-        "title": "Лицо поросёнка",
-        "value": "&#128055;"
-    },
-    {
-        "title": "Поросёнок",
-        "value": "&#128022;"
-    },
-    {
-        "title": "Лицо кабана",
-        "value": "&#128023;"
-    },
-    {
-        "title": "Пятак поросёнка",
-        "value": "&#128061;"
-    },
-    {
-        "title": "Баран",
-        "value": "&#128015;"
-    },
-    {
-        "title": "Овца",
-        "value": "&#128017;"
-    },
-    {
-        "title": "Козел",
-        "value": "&#128016;"
-    },
-    {
-        "title": "Одногорбный верблюд",
-        "value": "&#128042;"
-    },
-    {
-        "title": "Двугорбый верблюд",
-        "value": "&#128043;"
-    },
-    {
-        "title": "Лама",
-        "value": "&#129433;"
-    },
-    {
-        "title": "Лицо жирафа",
-        "value": "&#129426;"
-    },
-    {
-        "title": "Слон",
-        "value": "&#128024;"
-    },
-    {
-        "title": "Носорог",
-        "value": "&#129423;"
-    },
-    {
-        "title": "Бегемот",
-        "value": "&#129435;"
-    },
-    {
-        "title": "Лицо мыши",
-        "value": "&#128045;"
-    },
-    {
-        "title": "Мышь",
-        "value": "&#128001;"
-    },
-    {
-        "title": "Крыса",
-        "value": "&#128000;"
-    },
-    {
-        "title": "Лицо хомяка",
-        "value": "&#128057;"
-    },
-    {
-        "title": "Лицо зайца",
-        "value": "&#128048;"
-    },
-    {
-        "title": "Заяц",
-        "value": "&#128007;"
-    },
-    {
-        "title": "Бурундук",
-        "value": "&#128063;"
-    },
-    {
-        "title": "Ёж",
-        "value": "&#129428;"
-    },
-    {
-        "title": "Летучая мышь",
-        "value": "&#129415;"
-    },
-    {
-        "title": "Лицо медведя",
-        "value": "&#128059;"
-    },
-    /*{
-        "title": "Лицо белого медведя",
-        "value": "\u1F43B\u200D\u2744\uFE0F"
-    },*/
-    {
-        "title": "Лицо коалы",
-        "value": "&#128040;"
-    },
-    {
-        "title": "Лицо панды",
-        "value": "&#128060;"
-    },
-    {
-        "title": "Кенгуру",
-        "value": "&#129432;"
-    },
-    {
-        "title": "Барсук",
-        "value": "&#129441;"
-    },
-    {
-        "title": "Отпечатки лап",
-        "value": "&#128062;"
-    },
-    {
-        "title": "Индейка",
-        "value": "&#129411;"
-    },
-    {
-        "title": "Курица",
-        "value": "&#128020;"
-    },
-    {
-        "title": "Петух",
-        "value": "&#128019;"
-    },
-    {
-        "title": "Вылупляющийся цыпленок",
-        "value": "&#128035;"
-    },
-    {
-        "title": "Цыпленок",
-        "value": "&#128036;"
-    },
-    {
-        "title": "Цыпленок, смотрящий вперед",
-        "value": "&#128037;"
-    },
-    {
-        "title": "Птица",
-        "value": "&#128038;"
-    },
-    {
-        "title": "Пингвин",
-        "value": "&#128039;"
-    },
-    {
-        "title": "Голубь мира",
-        "value": "&#128330;"
-    },
-    {
-        "title": "Орел",
-        "value": "&#129413;"
-    },
-    {
-        "title": "Утка",
-        "value": "&#129414;"
-    },
-    {
-        "title": "Лебедь",
-        "value": "&#129442;"
-    },
-    {
-        "title": "Сова",
-        "value": "&#129417;"
-    },
-    {
-        "title": "Павлин",
-        "value": "&#129434;"
-    },
-    {
-        "title": "Попугай",
-        "value": "&#129436;"
-    },
-    {
-        "title": "Лицо лягушки",
-        "value": "&#128056;"
-    },
-    {
-        "title": "Крокодил",
-        "value": "&#128010;"
-    },
-    {
-        "title": "Черепаха",
-        "value": "&#128034;"
-    },
-    {
-        "title": "Ящерица",
-        "value": "&#129422;"
-    },
-    {
-        "title": "Змея",
-        "value": "&#128013;"
-    },
-    {
-        "title": "Лицо дракона",
-        "value": "&#128050;"
-    },
-    {
-        "title": "Дракон",
-        "value": "&#128009;"
-    },
-    {
-        "title": "Завропод",
-        "value": "&#129429;"
-    },
-    {
-        "title": "Ти-Рекс",
-        "value": "&#129430;"
-    },
-    {
-        "title": "Брызгающий кит",
-        "value": "&#128051;"
-    },
-    {
-        "title": "Кит",
-        "value": "&#128011;"
-    },
-    {
-        "title": "Дельфин",
-        "value": "&#128044;"
-    },
-    {
-        "title": "Рыба",
-        "value": "&#128031;"
-    },
-    {
-        "title": "Тропическая рыба",
-        "value": "&#128032;"
-    },
-    {
-        "title": "Игольчатая рыба",
-        "value": "&#128033;"
-    },
-    {
-        "title": "Акула",
-        "value": "&#129416;"
-    },
-    {
-        "title": "Осьминог",
-        "value": "&#128025;"
-    },
-    {
-        "title": "Спиральная ракушка",
-        "value": "&#128026;"
-    },
-    {
-        "title": "Улитка",
-        "value": "&#128012;"
-    },
-    {
-        "title": "Бабочка",
-        "value": "&#129419;"
-    },
-    {
-        "title": "Гусеница",
-        "value": "&#128027;"
-    },
-    {
-        "title": "Муравей",
-        "value": "&#128028;"
-    },
-    {
-        "title": "Медоносная пчела",
-        "value": "&#128029;"
-    },
-    {
-        "title": "Божья коровка",
-        "value": "&#128030;"
-    },
-    {
-        "title": "Сверчёк",
-        "value": "&#129431;"
-    },
-    {
-        "title": "Паук",
-        "value": "&#128375;"
-    },
-    {
-        "title": "Паутина",
-        "value": "&#128376;"
-    },
-    {
-        "title": "Скорпион",
-        "value": "&#129410;"
-    },
-    {
-        "title": "Комар",
-        "value": "&#129439;"
-    },
-    {
-        "title": "Микроб",
-        "value": "&#129440;"
-    }
+	{
+		"title": translate("Monkey face"),
+		"value": "&#128053;"
+	},
+	{
+		"title": translate("A monkey"),
+		"value": "&#128018;"
+	},
+	{
+		"title": translate("Gorilla"),
+		"value": "&#129421;"
+	},
+	{
+		"title": translate("The dog's face"),
+		"value": "&#128054;"
+	},
+	{
+		"title": translate("Dog"),
+		"value": "&#128021;"
+	},
+	{
+		"title": translate("The poodle"),
+		"value": "&#128041;"
+	},
+	{
+		"title": translate("The face of the wolf"),
+		"value": "&#128058;"
+	},
+	{
+		"title": translate("The fox's face"),
+		"value": "&#129418;"
+	},
+	{
+		"title": translate("Raccoon's face"),
+		"value": "&#129437;"
+	},
+	{
+		"title": translate("The cat's face"),
+		"value": "&#128049;"
+	},
+	{
+		"title": translate("Cat"),
+		"value": "&#128008;"
+	},
+	{
+		"title": translate("The Lion's Face"),
+		"value": "&#129409;"
+	},
+	{
+		"title": translate("Tiger's Face"),
+		"value": "&#128047;"
+	},
+	{
+		"title": translate("Tiger"),
+		"value": "&#128005;"
+	},
+	{
+		"title": translate("Leopard"),
+		"value": "&#128006;"
+	},
+	{
+		"title": translate("The horse's face"),
+		"value": "&#128052;"
+	},
+	{
+		"title": translate("Horse"),
+		"value": "&#128014;"
+	},
+	{
+		"title": translate("The Unicorn's Face"),
+		"value": "&#129412;"
+	},
+	{
+		"title": translate("Zebra's face"),
+		"value": "&#129427;"
+	},
+	{
+		"title": translate("Deer"),
+		"value": "&#129420;"
+	},
+	{
+		"title": translate("Cow's face"),
+		"value": "&#128046;"
+	},
+	{
+		"title": translate("Bull"),
+		"value": "&#128002;"
+	},
+	{
+		"title": translate("Water buffalo"),
+		"value": "&#128003;"
+	},
+	{
+		"title": translate("Cow"),
+		"value": "&#128004;"
+	},
+	{
+		"title": translate("Piglet's face"),
+		"value": "&#128055;"
+	},
+	{
+		"title": translate("The piglet"),
+		"value": "&#128022;"
+	},
+	{
+		"title": translate("The boar's face"),
+		"value": "&#128023;"
+	},
+	{
+		"title": translate("Piglet's Nickel"),
+		"value": "&#128061;"
+	},
+	{
+		"title": translate("Ram"),
+		"value": "&#128015;"
+	},
+	{
+		"title": translate("Sheep"),
+		"value": "&#128017;"
+	},
+	{
+		"title": translate("Goat"),
+		"value": "&#128016;"
+	},
+	{
+		"title": translate("The one-humped camel"),
+		"value": "&#128042;"
+	},
+	{
+		"title": translate("The double-humped camel"),
+		"value": "&#128043;"
+	},
+	{
+		"title": translate("Lama"),
+		"value": "&#129433;"
+	},
+	{
+		"title": translate("Giraffe's face"),
+		"value": "&#129426;"
+	},
+	{
+		"title": translate("Elephant"),
+		"value": "&#128024;"
+	},
+	{
+		"title": translate("Rhinoceros"),
+		"value": "&#129423;"
+	},
+	{
+		"title": translate("Hippopotamus"),
+		"value": "&#129435;"
+	},
+	{
+		"title": translate("The mouse's face"),
+		"value": "&#128045;"
+	},
+	{
+		"title": translate("Mouse"),
+		"value": "&#128001;"
+	},
+	{
+		"title": translate("Rat"),
+		"value": "&#128000;"
+	},
+	{
+		"title": translate("Hamster's face"),
+		"value": "&#128057;"
+	},
+	{
+		"title": translate("The face of the hare"),
+		"value": "&#128048;"
+	},
+	{
+		"title": translate("Hare"),
+		"value": "&#128007;"
+	},
+	{
+		"title": translate("The Chipmunk"),
+		"value": "&#128063;"
+	},
+	{
+		"title": translate("The Hedgehog"),
+		"value": "&#129428;"
+	},
+	{
+		"title": translate("Bat"),
+		"value": "&#129415;"
+	},
+	{
+		"title": translate("The face of the bear"),
+		"value": "&#128059;"
+	},
+	{
+		"title": translate("Koala's face"),
+		"value": "&#128040;"
+	},
+	{
+		"title": translate("Panda's Face"),
+		"value": "&#128060;"
+	},
+	{
+		"title": translate("Kangaroo"),
+		"value": "&#129432;"
+	},
+	{
+		"title": translate("Badger"),
+		"value": "&#129441;"
+	},
+	{
+		"title": translate("Paw prints"),
+		"value": "&#128062;"
+	},
+	{
+		"title": translate("Turkey"),
+		"value": "&#129411;"
+	},
+	{
+		"title": translate("Chicken"),
+		"value": "&#128020;"
+	},
+	{
+		"title": translate("Cock"),
+		"value": "&#128019;"
+	},
+	{
+		"title": translate("The hatching chick"),
+		"value": "&#128035;"
+	},
+	{
+		"title": translate("Chicken"),
+		"value": "&#128036;"
+	},
+	{
+		"title": translate("The chicken looking forward"),
+		"value": "&#128037;"
+	},
+	{
+		"title": translate("Bird"),
+		"value": "&#128038;"
+	},
+	{
+		"title": translate("Penguin"),
+		"value": "&#128039;"
+	},
+	{
+		"title": translate("The Dove of Peace"),
+		"value": "&#128330;"
+	},
+	{
+		"title": translate("Eagle"),
+		"value": "&#129413;"
+	},
+	{
+		"title": translate("Duck"),
+		"value": "&#129414;"
+	},
+	{
+		"title": translate("Swan"),
+		"value": "&#129442;"
+	},
+	{
+		"title": translate("Owl"),
+		"value": "&#129417;"
+	},
+	{
+		"title": translate("Peacock"),
+		"value": "&#129434;"
+	},
+	{
+		"title": translate("Parrot"),
+		"value": "&#129436;"
+	},
+	{
+		"title": translate("The frog's face"),
+		"value": "&#128056;"
+	},
+	{
+		"title": translate("Crocodile"),
+		"value": "&#128010;"
+	},
+	{
+		"title": translate("Turtle"),
+		"value": "&#128034;"
+	},
+	{
+		"title": translate("Lizard"),
+		"value": "&#129422;"
+	},
+	{
+		"title": translate("Snake"),
+		"value": "&#128013;"
+	},
+	{
+		"title": translate("The Dragon's Face"),
+		"value": "&#128050;"
+	},
+	{
+		"title": translate("Dragon"),
+		"value": "&#128009;"
+	},
+	{
+		"title": translate("Sauropod"),
+		"value": "&#129429;"
+	},
+	{
+		"title": translate("T-Rex"),
+		"value": "&#129430;"
+	},
+	{
+		"title": translate("The Splashing Whale"),
+		"value": "&#128051;"
+	},
+	{
+		"title": translate("Whale"),
+		"value": "&#128011;"
+	},
+	{
+		"title": translate("Dolphin"),
+		"value": "&#128044;"
+	},
+	{
+		"title": translate("Fish"),
+		"value": "&#128031;"
+	},
+	{
+		"title": translate("Tropical fish"),
+		"value": "&#128032;"
+	},
+	{
+		"title": translate("Needle Fish"),
+		"value": "&#128033;"
+	},
+	{
+		"title": translate("Shark"),
+		"value": "&#129416;"
+	},
+	{
+		"title": translate("Octopus"),
+		"value": "&#128025;"
+	},
+	{
+		"title": translate("Spiral Shell"),
+		"value": "&#128026;"
+	},
+	{
+		"title": translate("Snail"),
+		"value": "&#128012;"
+	},
+	{
+		"title": translate("Butterfly"),
+		"value": "&#129419;"
+	},
+	{
+		"title": translate("Caterpillar"),
+		"value": "&#128027;"
+	},
+	{
+		"title": translate("Ant"),
+		"value": "&#128028;"
+	},
+	{
+		"title": translate("The honey bee"),
+		"value": "&#128029;"
+	},
+	{
+		"title": translate("Ladybug"),
+		"value": "&#128030;"
+	},
+	{
+		"title": translate("The cricket"),
+		"value": "&#129431;"
+	},
+	{
+		"title": translate("Spider"),
+		"value": "&#128375;"
+	},
+	{
+		"title": translate("Web"),
+		"value": "&#128376;"
+	},
+	{
+		"title": translate("Scorpio"),
+		"value": "&#129410;"
+	},
+	{
+		"title": translate("Mosquito"),
+		"value": "&#129439;"
+	},
+	{
+		"title": translate("The microbe"),
+		"value": "&#129440;"
+	}
 ];

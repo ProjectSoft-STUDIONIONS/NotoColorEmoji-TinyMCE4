@@ -1,130 +1,130 @@
 let emojis$02 = [
-    {
-        "title": "Поцелуй",
-        "value": "&#128139;"
-    },
-    {
-        "title": "Любовное письмо",
-        "value": "&#128140;"
-    },
-    {
-        "title": "Сердце со стрелой",
-        "value": "&#128152;"
-    },
-    {
-        "title": "Сердце с лентой",
-        "value": "&#128157;"
-    },
-    {
-        "title": "Сверкающее Сердце",
-        "value": "&#128150;"
-    },
-    {
-        "title": "Растущее сердце",
-        "value": "&#128151;"
-    },
-    {
-        "title": "Бьющееся Сердце",
-        "value": "&#128147;"
-    },
-    {
-        "title": "Вращающиеся сердца",
-        "value": "&#128158;"
-    },
-    {
-        "title": "Два Сердца",
-        "value": "&#128149;"
-    },
-    {
-        "title": "Украшение в виде сердца",
-        "value": "&#128159;"
-    },
-    {
-        "title": "Cердце с восклицательным знаком",
-        "value": "&#10083;"
-    },
-    {
-        "title": "Разбитое Сердце",
-        "value": "&#128148;"
-    },
-    {
-        "title": "Сердце",
-        "value": "&#10084;"
-    },
-    {
-        "title": "Оранжевое Сердце",
-        "value": "&#129505;"
-    },
-    {
-        "title": "Жёлтое Сердце",
-        "value": "&#128155;"
-    },
-    {
-        "title": "Зелёное Сердце",
-        "value": "&#128154;"
-    },
-    {
-        "title": "Синее Сердце",
-        "value": "&#128153;"
-    },
-    {
-        "title": "Фиолетовое Сердце",
-        "value": "&#128156;"
-    },
-    {
-        "title": "Чёрное Сердце",
-        "value": "&#128420;"
-    },
-    {
-        "title": "Символ 100 очков",
-        "value": "&#128175;"
-    },
-    {
-        "title": "Символ гнева",
-        "value": "&#128162;"
-    },
-    {
-        "title": "Символ столкновения",
-        "value": "&#128165;"
-    },
-    {
-        "title": "Символ головокружения",
-        "value": "&#128171;"
-    },
-    {
-        "title": "Символ брызг пота",
-        "value": "&#128166;"
-    },
-    {
-        "title": "Символ Ветер",
-        "value": "&#128168;"
-    },
-    {
-        "title": "Дыра",
-        "value": "&#128371;"
-    },
-    {
-        "title": "Бомба",
-        "value": "&#128163;"
-    },
-    {
-        "title": "Выноска с речью",
-        "value": "&#128172;"
-    },
-    {
-        "title": "Левый речевой пузырь",
-        "value": "&#128488;"
-    },
-    {
-        "title": "Правильный пузырь гнева",
-        "value": "&#128495;"
-    },
-    {
-        "title": "Мыслительный шар",
-        "value": "&#128173;"
-    },
-    {
-        "title": "Спящий Символ",
-        "value": "&#128164;"
-    }
+	{
+		"title": translate("A kiss"),
+		"value": "&#128139;"
+	},
+	{
+		"title": translate("A love letter"),
+		"value": "&#128140;"
+	},
+	{
+		"title": translate("A heart with an arrow"),
+		"value": "&#128152;"
+	},
+	{
+		"title": translate("Heart with ribbon"),
+		"value": "&#128157;"
+	},
+	{
+		"title": translate("The Sparkling Heart"),
+		"value": "&#128150;"
+	},
+	{
+		"title": translate("The growing heart"),
+		"value": "&#128151;"
+	},
+	{
+		"title": translate("A Beating Heart"),
+		"value": "&#128147;"
+	},
+	{
+		"title": translate("Spinning Hearts"),
+		"value": "&#128158;"
+	},
+	{
+		"title": translate("Two Hearts"),
+		"value": "&#128149;"
+	},
+	{
+		"title": translate("Heart-shaped decoration"),
+		"value": "&#128159;"
+	},
+	{
+		"title": translate("A heart with an exclamation mark"),
+		"value": "&#10083;"
+	},
+	{
+		"title": translate("A Broken Heart"),
+		"value": "&#128148;"
+	},
+	{
+		"title": translate("Heart"),
+		"value": "&#10084;"
+	},
+	{
+		"title": translate("The Orange Heart"),
+		"value": "&#129505;"
+	},
+	{
+		"title": translate("The Yellow Heart"),
+		"value": "&#128155;"
+	},
+	{
+		"title": translate("The Green Heart"),
+		"value": "&#128154;"
+	},
+	{
+		"title": translate("The Blue Heart"),
+		"value": "&#128153;"
+	},
+	{
+		"title": translate("Purple Heart"),
+		"value": "&#128156;"
+	},
+	{
+		"title": translate("The Black Heart"),
+		"value": "&#128420;"
+	},
+	{
+		"title": translate("The symbol is 100 points"),
+		"value": "&#128175;"
+	},
+	{
+		"title": translate("The symbol of anger"),
+		"value": "&#128162;"
+	},
+	{
+		"title": translate("Collision symbol"),
+		"value": "&#128165;"
+	},
+	{
+		"title": translate("The symbol of vertigo"),
+		"value": "&#128171;"
+	},
+	{
+		"title": translate("The sweat spray symbol"),
+		"value": "&#128166;"
+	},
+	{
+		"title": translate("The Wind symbol"),
+		"value": "&#128168;"
+	},
+	{
+		"title": translate("Hole"),
+		"value": "&#128371;"
+	},
+	{
+		"title": translate("Bomb"),
+		"value": "&#128163;"
+	},
+	{
+		"title": translate("A callout with a speech"),
+		"value": "&#128172;"
+	},
+	{
+		"title": translate("The left speech bubble"),
+		"value": "&#128488;"
+	},
+	{
+		"title": translate("The right anger bubble"),
+		"value": "&#128495;"
+	},
+	{
+		"title": translate("The Thought ball"),
+		"value": "&#128173;"
+	},
+	{
+		"title": translate("The Sleeping Symbol"),
+		"value": "&#128164;"
+	}
 ];
