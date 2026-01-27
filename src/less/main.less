@@ -9,7 +9,9 @@
  * Для сайта подключаются в шаблонах сайта в блоке head.
  */
 
-@fontpath: "/assets/plugins/utilites/notocoloremoji/fonts";
+@fontpath: "/assets/fonts";
+@fontsize: 16px;
+@emojisize: 21px;
 @import "../../node_modules/noto-color-emoji/src/less/noto-color-emoji.less";
 
 body,
@@ -113,13 +115,13 @@ textarea {
 		aspect-ratio: 1 / 1 !important;
 		display: flex;
 		font-family: "Noto Color Emoji" !important;
-		font-size: 25px !important;
+		font-size: @fontsize !important;
 		justify-content: center;
 		justify-items: center;
-		height: 33px !important;
+		height: @emojisize !important;
 		line-height: 1 !important;
 		overflow: hidden;
-		width: 33px !important;
+		width: @emojisize !important;
 		&:hover {
 			outline-width: 1px !important;
 			outline-color: #007bff !important;

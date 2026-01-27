@@ -56,7 +56,9 @@ let version = "v${PACK.version}";
 					ieCompat: false,
 					plugins: [],
 					modifyVars: {
-						fontpath: "/assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/fonts"
+						fontpath: "/assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/fonts",
+						fontsize: "25px",
+						emojisize: "34px"
 					},
 				},
 				files : {
@@ -121,7 +123,7 @@ let version = "v${PACK.version}";
 			main: {
 				options: {
 					baseUrl: "src/js/",
-					out: "test/js/plugin.js",
+					out: "temp/js/plugin.js",
 					paths: {},
 					wrap: true,
 					skipModuleInsertion: true,
@@ -193,7 +195,7 @@ let version = "v${PACK.version}";
 						expand: true,
 						flatten : true,
 						src: [
-							"test/js/plugin.js"
+							"temp/js/plugin.js"
 						],
 						dest: "assets/plugins/tinymce4/tinymce/plugins/notocoloremoji",
 						filter: "isFile",
