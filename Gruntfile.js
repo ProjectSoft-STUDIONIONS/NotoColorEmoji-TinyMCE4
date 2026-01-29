@@ -7,10 +7,11 @@ module.exports = function(grunt) {
 		date = new  Date(),
 		year = date.getFullYear(),
 		month = String(date.getMonth() + 1).padStart(2, "0"),
-		day = String(date.getDate()).padStart(2, "0");
+		day = String(date.getDate()).padStart(2, "0"),
+		update = grunt.template.today("yyyy-mm-dd'T'HH-MM-ss").replace(/[- ]+/gi, '');
 
 	grunt.log.writeln();
-	fs.writeFileSync('src/js/01$update.js', `let update = "${grunt.template.today("yyyy-mm-dd'T'HH-MM-ss").replace(/[- ]+/gi, '')}";
+	fs.writeFileSync('src/js/01$update.js', `let update = "${update}";
 let version = "v${PACK.version}";
 `);
 	grunt.log.writeln('File ' + chalk.cyan(`src/js/01$update.js`) + ' created or replace.' + chalk.yellow('...OK'));
@@ -45,6 +46,10 @@ let version = "v${PACK.version}";
 							pattern: /\@modx_category(\s+).+/gi,
 							replacement: `@modx_category Utilites`,
 						},
+						{
+							pattern: /\$mtime(?:\s+)?=(?:\s+)"(?:.+)?";/g,
+							replacement: `\$mtime = "${update}";`
+						}
 					],
 				},
 			},
@@ -132,11 +137,13 @@ let version = "v${PACK.version}";
 						// hash
 						"01$update.js",
 						// Languages
-						// Переменная
-						"02$lang.js",
 						// Локализации
-						"02-01$lang-ru.js",
-						"02-02$lang-ru_RU.js",
+						"02-01$lang-ru.js", // Русский
+						"02-02$lang-be.js", // Белорусский
+						"02-03$lang-de.js", // Немецкий
+						"02-04$lang-uk.js", // Украинский
+						// Переменная Локализации
+						"02$lang.js",
 						// Emoji
 						"emojis$01.js",
 						"emojis$02.js",

@@ -19,7 +19,7 @@
 //$this->set('font_formats', 'Open Sans=Open Sans', 'string');
 
 // Используемые плагины
-$this->set('plugins', 'save autolink lists layer table modxlink image media contextmenu paste visualchars nonbreaking visualblocks charmap wordcount code autoresize template spellchecker notocoloremoji', 'string');
+$this->set('plugins', 'save autolink lists layer table modxlink image media contextmenu paste visualchars nonbreaking visualblocks charmap wordcount code autoresize spellchecker notocoloremoji', 'string');
 // Первая строка тулбара
 $this->set('toolbar1', 'save | undo redo | cut copy paste pastetext | visualchars | visualblocks | code', 'string');
 // Вторая строка тулбара
@@ -29,7 +29,8 @@ $this->set('toolbar3', 'table | image media | link unlink | charmap | nonbreakin
 // Четвёртая строка тулбара (включаем emoji)
 $this->set('toolbar4', false, 'bool');
 // Основное меню (отключаем)
-$this->set('menubar', false, 'bool');
+//$this->set('menubar', false, 'bool');
+$this->set('menubar', 'edit insert view format tools table', 'string');
 // Выставляем свой формат выравнивания текста
 $this->set('formats', '{
 			alignleft: {
@@ -120,14 +121,19 @@ $this->set('visualchars_default_state', true, 'bool');
 // Вставить как текст
 $this->set('paste_as_text', true, 'bool');
 
+// Установить локаль
+//$this->set('language', 'be', 'string');
+//$this->set('language_load', true, 'bool');
+
 // Забираем css файл из настроек если он есть
 // Добавляем хэшь для отключения кэша скрипта
 try {
-	$hash = "1.0.0";
+	$hash = time();
 	$css = $this->themeConfig["content_css"]["value"][0];
-	if(is_file(MODX_BASE_PATH . $css)){
+	if(is_file(MODX_BASE_PATH . $css)):
 		$hash = filemtime(MODX_BASE_PATH . $css);
 		$css .= '?hash=hash' . $hash;
 		$this->themeConfig["content_css"]["value"][0] = $css;
-	}
+	else:
+	endif;
 } catch (Exception $e) {}

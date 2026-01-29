@@ -1,6 +1,7 @@
 
 	let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 		tools = tinymce.util.Tools.resolve("tinymce.util.Tools"),
+		domUtils = tinymce.util.Tools.resolve("tinymce.dom.DOMUtils"),
 		parts = 10,
 		// Генератор html для таба
 		smilesFn = (arr) => {
@@ -18,13 +19,10 @@
 			return html;
 		},
 		addButtons = (editor, url) => {
-			// Button notocoloremoji
-			editor.addButton('notocoloremoji', {
-				icon: false,
-				text: "😀",
-				onclick: () => {
+			let onclick = () => {
+					let emojis$temp = [...emojis$04, ...emojis$05];
 					tinymce.activeEditor.windowManager.open({
-						title: 'Emoji',
+						title: translate('Emoji'),
 						resizable : true,
 						class: "notocoloremoji",
 						resizable : true,
@@ -33,57 +31,52 @@
 							items: [
 								{
 									type: "label",
-									title: "Smiles",
+									title: translate("Smiles"),
 									html: smilesFn(emojis$01)
 								},
 								{
 									type: "label",
-									title: "Emotics",
+									title: translate("Emotics"),
 									html: smilesFn(emojis$02)
 								},
 								{
 									type: "label",
-									title: "People",
+									title: translate("People"),
 									html: smilesFn(emojis$03)
 								},
 								{
 									type: "label",
-									title: "Animals",
-									html: smilesFn(emojis$04)
+									title: translate("Animals and Nature"),
+									html: smilesFn(emojis$temp)
 								},
 								{
 									type: "label",
-									title: "Nature",
-									html: smilesFn(emojis$05)
-								},
-								{
-									type: "label",
-									title: "Food and Drinks",
+									title: translate("Food and Drinks"),
 									html: smilesFn(emojis$06)
 								},
 								{
 									type: "label",
-									title: "Places and Travels",
+									title: translate("Places and Travels"),
 									html: smilesFn(emojis$07)
 								},
 								{
 									type: "label",
-									title: "Events and Celebrations",
+									title: translate("Events and Celebrations"),
 									html: smilesFn(emojis$08)
 								},
 								{
 									type: "label",
-									title: "Objects and Things",
+									title: translate("Objects and Things"),
 									html: smilesFn(emojis$09)
 								},
 								{
 									type: "label",
-									title: "Symbols",
+									title: translate("Symbols"),
 									html: smilesFn(emojis$10)
 								},
 								{
 									type: "label",
-									title: "Flags",
+									title: translate("Flags"),
 									html: smilesFn(emojis$11)
 								},
 							],
@@ -112,7 +105,21 @@
 							},
 						],
 					});
-				},
+				};
+			// Button notocoloremoji
+			editor.addButton('notocoloremoji', {
+				icon: false,
+				text: "😀",
+				tooltip: translate("Emoji"),
+				onclick: onclick,
+			});
+			// Меню notocoloremoji
+			editor.addMenuItem('notocoloremoji', {
+				icon: "emoticons",
+				text: translate("Emoji"),
+				onclick: onclick,
+				context: "insert",
+				prependToContext: !0,
 			});
 		};
 	pluginManager.add("notocoloremoji", function(editor, url) {
@@ -134,6 +141,17 @@
 			link.href = url + '/plugin.min.css?v=' + update;
 			// Добавляем тег на страницу с редактором TinyMCE
 			head.append(link);
+			/**
+			 * Пока оставим. Вполне возможно будет нужен
+			 * 
+			 * Вставка стилей в iframe редактора
+			 */
+			/*
+			let doс_iframe = editor.getDoc(),
+				uniqueId = domUtils.DOM.uniqueId(),
+				lnk = domUtils.DOM.create("link", { id: uniqueId, rel: "stylesheet", href: link.href });
+			doс_iframe.getElementsByTagName("head")[0].append(lnk);
+			*/
 		});
 		// Добавляем кнопки
 		addButtons(editor, url);

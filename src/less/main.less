@@ -32,7 +32,7 @@ textarea {
 }
 
 .mce-panel {
-	&[aria-label="Emoji"] {
+	& {
 		.mce-foot {
 			.mce-btn {
 				&,
@@ -108,6 +108,7 @@ textarea {
 	flex-direction: row;
 	flex-wrap: wrap;
 	gap: 7px;
+	user-select: none;
 	[data-mce-emoji] {
 		align-content: center;
 		align-items: center;
@@ -132,4 +133,9 @@ textarea {
 }
 .mce-tooltip-inner {
 	white-space: pre-wrap !important;
+}
+
+// CodeMirror
+.CodeMirror pre {
+	font-family: monospace, Consolas, "Courier New", Courier, "Noto Color Emoji" !important;
 }

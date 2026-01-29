@@ -1,2 +1,2 @@
-let update = "20260128T002710";
-let version = "v1.1.0";
+let update = "20260129T101008";
+let version = "v1.2.0";

@@ -5,9 +5,9 @@
  * Подключение Noto Color Emoji в админке
  *
  * @category     plugin
- * @version      1.1.0
+ * @version      1.2.0
  * @package      evo
- * @internal     @events OnDocFormRender,OnManagerTopPrerender
+ * @internal     @events OnManagerTopPrerender,OnManagerMainFrameHeaderHTMLBlock
  * @internal     @properties 
  * @internal     @modx_category Utilites
  * @internal     @installset base
@@ -16,7 +16,7 @@
  * @license      https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4/blob/main/LICENSE GNU General Public License v3.0 (GPL-3.0)
  * @reportissues https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4/issues
  * @author       Чернышёв Андрей aka ProjectSoft <projectsoft2009@yandex.ru>
- * @lastupdate   2026-01-28 00:27:11
+ * @lastupdate   2026-01-29 10:10:08
  */
 
 /**
@@ -25,9 +25,9 @@
  * Подключение Noto Color Emoji в админке
  *
  * @category     plugin
- * @version      1.1.0
+ * @version      1.2.0
  * @package      evo
- * @internal     @events OnDocFormRender,OnManagerTopPrerender
+ * @internal     @events OnManagerTopPrerender,OnManagerMainFrameHeaderHTMLBlock
  * @internal     @properties 
  * @internal     @modx_category Utilites
  * @internal     @installset base
@@ -36,7 +36,7 @@
  * @license      https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4/blob/main/LICENSE GNU General Public License v3.0 (GPL-3.0)
  * @reportissues https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4/issues
  * @author       Чернышёв Андрей aka ProjectSoft <projectsoft2009@yandex.ru>
- * @lastupdate   2026-01-28 00:27:11
+ * @lastupdate   2026-01-29 10:10:08
  */
 
 require MODX_BASE_PATH.'assets/plugins/utilites/notocoloremoji/plugin.notocoloremoji.php';
