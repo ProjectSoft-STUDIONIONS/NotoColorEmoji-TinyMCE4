@@ -222,6 +222,12 @@ let version = "v${PACK.version}";
 						src: ['*.*'],
 						dest: 'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/fonts/',
 					},
+					{
+						expand: true,
+						cwd: 'node_modules/tinymce-i18n/langs',
+						src: ['*.*'],
+						dest: 'assets/plugins/tinymce4/tinymce/langs/',
+					},
 				]
 			}
 		},

@@ -2,6 +2,7 @@
 	let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 		tools = tinymce.util.Tools.resolve("tinymce.util.Tools"),
 		domUtils = tinymce.util.Tools.resolve("tinymce.dom.DOMUtils"),
+		_ = tinymce.util.Tools.resolve("tinymce.util.Delay"),
 		parts = 10,
 		// Генератор html для таба
 		smilesFn = (arr) => {
@@ -121,6 +122,8 @@
 				context: "insert",
 				prependToContext: !0,
 			});
+/*
+			*/
 		};
 	pluginManager.add("notocoloremoji", function(editor, url) {
 		editor.on("init", () => {
@@ -152,6 +155,24 @@
 				lnk = domUtils.DOM.create("link", { id: uniqueId, rel: "stylesheet", href: link.href });
 			doс_iframe.getElementsByTagName("head")[0].append(lnk);
 			*/
+			let status;
+			if(editor.theme.panel){
+				status = editor.theme.panel.find("#statusbar")[0];
+				if(status){
+					setTimeout(function() {
+						status.insert(
+							{
+								type: "label",
+								name: "notocoloremoji-tinymce4",
+								html: `<a href="https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4" target="_blank"><em>NotoCoorEmoji-TinyMCE4 ${version}</em></a>`,
+								classes: "notocoloremoji-tinymce4 path",
+								disabled: false,
+							},
+							0
+						)
+					}, 0);
+				}
+			}
 		});
 		// Добавляем кнопки
 		addButtons(editor, url);

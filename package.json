@@ -1,6 +1,6 @@
 {
 	"name": "notocoloremoji",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "Плагин подключения Emoji в админке EvolutionCMS",
 	"keywords": [
 		"plugin",
@@ -33,6 +33,7 @@
 		"grunt-string-replace": "^1.3.3",
 		"load-grunt-tasks": "^5.1.0",
 		"noto-color-emoji": "github:ProjectSoft-STUDIONIONS/noto-color-emoji",
-		"time-grunt": "github:ProjectSoft-STUDIONIONS/time-grunt"
+		"time-grunt": "github:ProjectSoft-STUDIONIONS/time-grunt",
+		"tinymce-i18n": "^26.1.12"
 	}
 }

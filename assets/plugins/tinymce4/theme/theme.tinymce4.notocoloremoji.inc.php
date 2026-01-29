@@ -25,7 +25,7 @@ $this->set('toolbar1', 'save | undo redo | cut copy paste pastetext | visualchar
 // Вторая строка тулбара
 $this->set('toolbar2', 'formatselect | bold italic underline strikethrough subscript superscript removeformat | alignleft aligncenter alignright alignjustify | bullist numlist | blockquote', 'string');
 // Третья строка тулбара
-$this->set('toolbar3', 'table | image media | link unlink | charmap | nonbreaking | spellchecker | notocoloremoji', 'string');
+$this->set('toolbar3', 'table | image media | link unlink | charmap | nonbreaking | spellchecker | notocoloremoji | wordcount', 'string');
 // Четвёртая строка тулбара (включаем emoji)
 $this->set('toolbar4', false, 'bool');
 // Основное меню (отключаем)
@@ -121,9 +121,55 @@ $this->set('visualchars_default_state', true, 'bool');
 // Вставить как текст
 $this->set('paste_as_text', true, 'bool');
 
-// Установить локаль
-//$this->set('language', 'be', 'string');
-//$this->set('language_load', true, 'bool');
+// Установить локаль по конфигурации локали EvolutionCMS
+// Этого нет из коробки EvolutionCMS, а должно по сути.
+$langCode = $modx->config["lang_code"];
+switch ($modx->config["lang_code"]) {
+	case 'bg':
+		$langCode = 'bg_BG';
+		break;
+	case 'zh':
+		$langCode = 'zh_CN';
+		break;
+	case 'he':
+		$langCode = 'he_IL';
+		break;
+	case 'no':
+		$langCode = 'nb_NO';
+		break;
+	case 'sv':
+		$langCode = 'sv_SE';
+		break;
+	default:
+		switch ($modx->config["manager_language"]) {
+			case 'portuguese':
+				$langCode = 'pt_PT';
+				break;
+			case 'portuguese-br':
+			case 'portuguese-br-utf8':
+				$langCode = 'pt_BR';
+				break;
+			default:
+				break;
+		}
+		break;
+}
+
+$dirLang = str_replace('\\', '/', dirname(__DIR__)) . '/';
+
+if(!is_file($dirLang . 'tinymce/langs/' . $langCode . '.js')):
+	$langCode = 'en_GB';
+endif;
+
+$fileLang = $dirLang . 'tinymce/langs/' . $langCode . '.js';
+
+
+$language_url = str_replace(MODX_BASE_PATH, "/", $fileLang);
+
+$this->set('language', $langCode, 'string');
+
+$this->set('language_url', $language_url, 'string');
+$this->set('language_load', true, 'bool');
 
 // Забираем css файл из настроек если он есть
 // Добавляем хэшь для отключения кэша скрипта
