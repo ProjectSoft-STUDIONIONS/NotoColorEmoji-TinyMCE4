@@ -32,51 +32,61 @@
 							items: [
 								{
 									type: "label",
+									classes: "emoticon-smiles",
 									title: translate("Smiles"),
 									html: smilesFn(emojis$01)
 								},
 								{
 									type: "label",
+									classes: "emoticon-emotics",
 									title: translate("Emotics"),
 									html: smilesFn(emojis$02)
 								},
 								{
 									type: "label",
+									classes: "emoticon-people",
 									title: translate("People"),
 									html: smilesFn(emojis$03)
 								},
 								{
 									type: "label",
+									classes: "emoticon-animals",
 									title: translate("Animals and Nature"),
 									html: smilesFn(emojis$temp)
 								},
 								{
 									type: "label",
+									classes: "emoticon-food",
 									title: translate("Food and Drinks"),
 									html: smilesFn(emojis$06)
 								},
 								{
 									type: "label",
+									classes: "emoticon-places",
 									title: translate("Places and Travels"),
 									html: smilesFn(emojis$07)
 								},
 								{
 									type: "label",
+									classes: "emoticon-events",
 									title: translate("Events and Celebrations"),
 									html: smilesFn(emojis$08)
 								},
 								{
 									type: "label",
+									classes: "emoticon-objects",
 									title: translate("Objects and Things"),
 									html: smilesFn(emojis$09)
 								},
 								{
 									type: "label",
+									classes: "emoticon-symbols",
 									title: translate("Symbols"),
 									html: smilesFn(emojis$10)
 								},
 								{
 									type: "label",
+									classes: "emoticon-flags",
 									title: translate("Flags"),
 									html: smilesFn(emojis$11)
 								},
@@ -113,6 +123,8 @@
 				text: "😀",
 				tooltip: translate("Emoji"),
 				onclick: onclick,
+				shortcut: 'Ctrl+Alt+E',
+				classes: "notocoloremoji-button",
 			});
 			// Меню notocoloremoji
 			editor.addMenuItem('notocoloremoji', {
@@ -120,8 +132,11 @@
 				text: translate("Emoji"),
 				onclick: onclick,
 				context: "insert",
-				prependToContext: !0,
+				prependToContext: !1,
+				shortcut: 'Ctrl+Alt+E',
+				classes: "notocoloremoji-menu-item",
 			});
+			editor.shortcuts.add('Ctrl+Alt+E', 'Insert Emoji', onclick);
 /*
 			*/
 		};
