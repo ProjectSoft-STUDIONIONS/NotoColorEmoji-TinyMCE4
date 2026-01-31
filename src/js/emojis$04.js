@@ -1,394 +1,394 @@
 let emojis$04 = [
 	{
-		"title": translate("Monkey face"),
+		"title": "Monkey face",
 		"value": "&#128053;"
 	},
 	{
-		"title": translate("A monkey"),
+		"title": "A monkey",
 		"value": "&#128018;"
 	},
 	{
-		"title": translate("Gorilla"),
+		"title": "Gorilla",
 		"value": "&#129421;"
 	},
 	{
-		"title": translate("The dog's face"),
+		"title": "The dog's face",
 		"value": "&#128054;"
 	},
 	{
-		"title": translate("Dog"),
+		"title": "Dog",
 		"value": "&#128021;"
 	},
 	{
-		"title": translate("The poodle"),
+		"title": "The poodle",
 		"value": "&#128041;"
 	},
 	{
-		"title": translate("The face of the wolf"),
+		"title": "The face of the wolf",
 		"value": "&#128058;"
 	},
 	{
-		"title": translate("The fox's face"),
+		"title": "The fox's face",
 		"value": "&#129418;"
 	},
 	{
-		"title": translate("Raccoon's face"),
+		"title": "Raccoon's face",
 		"value": "&#129437;"
 	},
 	{
-		"title": translate("The cat's face"),
+		"title": "The cat's face",
 		"value": "&#128049;"
 	},
 	{
-		"title": translate("Cat"),
+		"title": "Cat",
 		"value": "&#128008;"
 	},
 	{
-		"title": translate("The Lion's Face"),
+		"title": "The Lion's Face",
 		"value": "&#129409;"
 	},
 	{
-		"title": translate("Tiger's Face"),
+		"title": "Tiger's Face",
 		"value": "&#128047;"
 	},
 	{
-		"title": translate("Tiger"),
+		"title": "Tiger",
 		"value": "&#128005;"
 	},
 	{
-		"title": translate("Leopard"),
+		"title": "Leopard",
 		"value": "&#128006;"
 	},
 	{
-		"title": translate("The horse's face"),
+		"title": "The horse's face",
 		"value": "&#128052;"
 	},
 	{
-		"title": translate("Horse"),
+		"title": "Horse",
 		"value": "&#128014;"
 	},
 	{
-		"title": translate("The Unicorn's Face"),
+		"title": "The Unicorn's Face",
 		"value": "&#129412;"
 	},
 	{
-		"title": translate("Zebra's face"),
+		"title": "Zebra's face",
 		"value": "&#129427;"
 	},
 	{
-		"title": translate("Deer"),
+		"title": "Deer",
 		"value": "&#129420;"
 	},
 	{
-		"title": translate("Cow's face"),
+		"title": "Cow's face",
 		"value": "&#128046;"
 	},
 	{
-		"title": translate("Bull"),
+		"title": "Bull",
 		"value": "&#128002;"
 	},
 	{
-		"title": translate("Water buffalo"),
+		"title": "Water buffalo",
 		"value": "&#128003;"
 	},
 	{
-		"title": translate("Cow"),
+		"title": "Cow",
 		"value": "&#128004;"
 	},
 	{
-		"title": translate("Piglet's face"),
+		"title": "Piglet's face",
 		"value": "&#128055;"
 	},
 	{
-		"title": translate("The piglet"),
+		"title": "The piglet",
 		"value": "&#128022;"
 	},
 	{
-		"title": translate("The boar's face"),
+		"title": "The boar's face",
 		"value": "&#128023;"
 	},
 	{
-		"title": translate("Piglet's Nickel"),
+		"title": "Piglet's Nickel",
 		"value": "&#128061;"
 	},
 	{
-		"title": translate("Ram"),
+		"title": "Ram",
 		"value": "&#128015;"
 	},
 	{
-		"title": translate("Sheep"),
+		"title": "Sheep",
 		"value": "&#128017;"
 	},
 	{
-		"title": translate("Goat"),
+		"title": "Goat",
 		"value": "&#128016;"
 	},
 	{
-		"title": translate("The one-humped camel"),
+		"title": "The one-humped camel",
 		"value": "&#128042;"
 	},
 	{
-		"title": translate("The double-humped camel"),
+		"title": "The double-humped camel",
 		"value": "&#128043;"
 	},
 	{
-		"title": translate("Lama"),
+		"title": "Lama",
 		"value": "&#129433;"
 	},
 	{
-		"title": translate("Giraffe's face"),
+		"title": "Giraffe's face",
 		"value": "&#129426;"
 	},
 	{
-		"title": translate("Elephant"),
+		"title": "Elephant",
 		"value": "&#128024;"
 	},
 	{
-		"title": translate("Rhinoceros"),
+		"title": "Rhinoceros",
 		"value": "&#129423;"
 	},
 	{
-		"title": translate("Hippopotamus"),
+		"title": "Hippopotamus",
 		"value": "&#129435;"
 	},
 	{
-		"title": translate("The mouse's face"),
+		"title": "The mouse's face",
 		"value": "&#128045;"
 	},
 	{
-		"title": translate("Mouse"),
+		"title": "Mouse",
 		"value": "&#128001;"
 	},
 	{
-		"title": translate("Rat"),
+		"title": "Rat",
 		"value": "&#128000;"
 	},
 	{
-		"title": translate("Hamster's face"),
+		"title": "Hamster's face",
 		"value": "&#128057;"
 	},
 	{
-		"title": translate("The face of the hare"),
+		"title": "The face of the hare",
 		"value": "&#128048;"
 	},
 	{
-		"title": translate("Hare"),
+		"title": "Hare",
 		"value": "&#128007;"
 	},
 	{
-		"title": translate("The Chipmunk"),
+		"title": "The Chipmunk",
 		"value": "&#128063;"
 	},
 	{
-		"title": translate("The Hedgehog"),
+		"title": "The Hedgehog",
 		"value": "&#129428;"
 	},
 	{
-		"title": translate("Bat"),
+		"title": "Bat",
 		"value": "&#129415;"
 	},
 	{
-		"title": translate("The face of the bear"),
+		"title": "The face of the bear",
 		"value": "&#128059;"
 	},
 	{
-		"title": translate("Koala's face"),
+		"title": "Koala's face",
 		"value": "&#128040;"
 	},
 	{
-		"title": translate("Panda's Face"),
+		"title": "Panda's Face",
 		"value": "&#128060;"
 	},
 	{
-		"title": translate("Kangaroo"),
+		"title": "Kangaroo",
 		"value": "&#129432;"
 	},
 	{
-		"title": translate("Badger"),
+		"title": "Badger",
 		"value": "&#129441;"
 	},
 	{
-		"title": translate("Paw prints"),
+		"title": "Paw prints",
 		"value": "&#128062;"
 	},
 	{
-		"title": translate("Turkey"),
+		"title": "Turkey",
 		"value": "&#129411;"
 	},
 	{
-		"title": translate("Chicken"),
+		"title": "Chicken",
 		"value": "&#128020;"
 	},
 	{
-		"title": translate("Cock"),
+		"title": "Cock",
 		"value": "&#128019;"
 	},
 	{
-		"title": translate("The hatching chick"),
+		"title": "The hatching chick",
 		"value": "&#128035;"
 	},
 	{
-		"title": translate("Chicken"),
+		"title": "Chicken",
 		"value": "&#128036;"
 	},
 	{
-		"title": translate("The chicken looking forward"),
+		"title": "The chicken looking forward",
 		"value": "&#128037;"
 	},
 	{
-		"title": translate("Bird"),
+		"title": "Bird",
 		"value": "&#128038;"
 	},
 	{
-		"title": translate("Penguin"),
+		"title": "Penguin",
 		"value": "&#128039;"
 	},
 	{
-		"title": translate("The Dove of Peace"),
+		"title": "The Dove of Peace",
 		"value": "&#128330;"
 	},
 	{
-		"title": translate("Eagle"),
+		"title": "Eagle",
 		"value": "&#129413;"
 	},
 	{
-		"title": translate("Duck"),
+		"title": "Duck",
 		"value": "&#129414;"
 	},
 	{
-		"title": translate("Swan"),
+		"title": "Swan",
 		"value": "&#129442;"
 	},
 	{
-		"title": translate("Owl"),
+		"title": "Owl",
 		"value": "&#129417;"
 	},
 	{
-		"title": translate("Peacock"),
+		"title": "Peacock",
 		"value": "&#129434;"
 	},
 	{
-		"title": translate("Parrot"),
+		"title": "Parrot",
 		"value": "&#129436;"
 	},
 	{
-		"title": translate("The frog's face"),
+		"title": "The frog's face",
 		"value": "&#128056;"
 	},
 	{
-		"title": translate("Crocodile"),
+		"title": "Crocodile",
 		"value": "&#128010;"
 	},
 	{
-		"title": translate("Turtle"),
+		"title": "Turtle",
 		"value": "&#128034;"
 	},
 	{
-		"title": translate("Lizard"),
+		"title": "Lizard",
 		"value": "&#129422;"
 	},
 	{
-		"title": translate("Snake"),
+		"title": "Snake",
 		"value": "&#128013;"
 	},
 	{
-		"title": translate("The Dragon's Face"),
+		"title": "The Dragon's Face",
 		"value": "&#128050;"
 	},
 	{
-		"title": translate("Dragon"),
+		"title": "Dragon",
 		"value": "&#128009;"
 	},
 	{
-		"title": translate("Sauropod"),
+		"title": "Sauropod",
 		"value": "&#129429;"
 	},
 	{
-		"title": translate("T-Rex"),
+		"title": "T-Rex",
 		"value": "&#129430;"
 	},
 	{
-		"title": translate("The Splashing Whale"),
+		"title": "The Splashing Whale",
 		"value": "&#128051;"
 	},
 	{
-		"title": translate("Whale"),
+		"title": "Whale",
 		"value": "&#128011;"
 	},
 	{
-		"title": translate("Dolphin"),
+		"title": "Dolphin",
 		"value": "&#128044;"
 	},
 	{
-		"title": translate("Fish"),
+		"title": "Fish",
 		"value": "&#128031;"
 	},
 	{
-		"title": translate("Tropical fish"),
+		"title": "Tropical fish",
 		"value": "&#128032;"
 	},
 	{
-		"title": translate("Needle Fish"),
+		"title": "Needle Fish",
 		"value": "&#128033;"
 	},
 	{
-		"title": translate("Shark"),
+		"title": "Shark",
 		"value": "&#129416;"
 	},
 	{
-		"title": translate("Octopus"),
+		"title": "Octopus",
 		"value": "&#128025;"
 	},
 	{
-		"title": translate("Spiral Shell"),
+		"title": "Spiral Shell",
 		"value": "&#128026;"
 	},
 	{
-		"title": translate("Snail"),
+		"title": "Snail",
 		"value": "&#128012;"
 	},
 	{
-		"title": translate("Butterfly"),
+		"title": "Butterfly",
 		"value": "&#129419;"
 	},
 	{
-		"title": translate("Caterpillar"),
+		"title": "Caterpillar",
 		"value": "&#128027;"
 	},
 	{
-		"title": translate("Ant"),
+		"title": "Ant",
 		"value": "&#128028;"
 	},
 	{
-		"title": translate("The honey bee"),
+		"title": "The honey bee",
 		"value": "&#128029;"
 	},
 	{
-		"title": translate("Ladybug"),
+		"title": "Ladybug",
 		"value": "&#128030;"
 	},
 	{
-		"title": translate("The cricket"),
+		"title": "The cricket",
 		"value": "&#129431;"
 	},
 	{
-		"title": translate("Spider"),
+		"title": "Spider",
 		"value": "&#128375;"
 	},
 	{
-		"title": translate("Web"),
+		"title": "Web",
 		"value": "&#128376;"
 	},
 	{
-		"title": translate("Scorpio"),
+		"title": "Scorpio",
 		"value": "&#129410;"
 	},
 	{
-		"title": translate("Mosquito"),
+		"title": "Mosquito",
 		"value": "&#129439;"
 	},
 	{
-		"title": translate("The microbe"),
+		"title": "The microbe",
 		"value": "&#129440;"
 	}
 ];

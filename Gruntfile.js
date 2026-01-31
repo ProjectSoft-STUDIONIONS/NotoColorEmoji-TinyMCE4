@@ -11,8 +11,18 @@ module.exports = function(grunt) {
 		update = grunt.template.today("yyyy-mm-dd'T'HH-MM-ss").replace(/[- ]+/gi, '');
 
 	grunt.log.writeln();
+// При разработке/добавлении локализации всё добавляется здесь
 	fs.writeFileSync('src/js/01$update.js', `let update = "${update}";
 let version = "v${PACK.version}";
+/**
+ * Переводы, которые есть. Есть возможность добавить.
+ * 
+ * ru - Русский
+ * be - Белорусский
+ * de - Немецкий
+ * uk - Украинский
+ */
+tinymce.PluginManager.requireLangPack('notocoloremoji', 'ru,be,de,uk');
 `);
 	grunt.log.writeln('File ' + chalk.cyan(`src/js/01$update.js`) + ' created or replace.' + chalk.yellow('...OK'));
 	grunt.log.writeln();
@@ -136,14 +146,6 @@ let version = "v${PACK.version}";
 					include: [
 						// hash
 						"01$update.js",
-						// Languages
-						// Локализации
-						"02-01$lang-ru.js", // Русский
-						"02-02$lang-be.js", // Белорусский
-						"02-03$lang-de.js", // Немецкий
-						"02-04$lang-uk.js", // Украинский
-						// Переменная Локализации
-						"02$lang.js",
 						// Emoji
 						"emojis$01.js",
 						"emojis$02.js",
@@ -209,6 +211,18 @@ let version = "v${PACK.version}";
 						rename: function (dst, src) {
 							return dst + "/" + src.replace(".js", ".min.js");
 						}
+					},
+					{
+						expand: true,
+						flatten : true,
+						src: [
+							"src/js/langs/*.js"
+						],
+						dest: "assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/langs",
+						filter: "isFile",
+						/*rename: function (dst, src) {
+							return dst + "/" + src;
+						}*/
 					},
 				]
 			},

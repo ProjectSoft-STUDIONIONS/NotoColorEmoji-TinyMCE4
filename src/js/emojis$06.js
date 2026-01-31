@@ -1,450 +1,450 @@
 let emojis$06 = [
 	{
-		"title": translate("Grape"),
+		"title": "Grape",
 		"value": "&#127815;"
 	},
 	{
-		"title": translate("Melon"),
+		"title": "Melon",
 		"value": "&#127816;"
 	},
 	{
-		"title": translate("Watermelon"),
+		"title": "Watermelon",
 		"value": "&#127817;"
 	},
 	{
-		"title": translate("Mandarin"),
+		"title": "Mandarin",
 		"value": "&#127818;"
 	},
 	{
-		"title": translate("Lemon"),
+		"title": "Lemon",
 		"value": "&#127819;"
 	},
 	{
-		"title": translate("Banana"),
+		"title": "Banana",
 		"value": "&#127820;"
 	},
 	{
-		"title": translate("Pineapple"),
+		"title": "Pineapple",
 		"value": "&#127821;"
 	},
 	{
-		"title": translate("Mango"),
+		"title": "Mango",
 		"value": "&#129389;"
 	},
 	{
-		"title": translate("Red Apple"),
+		"title": "Red Apple",
 		"value": "&#127822;"
 	},
 	{
-		"title": translate("The green Apple"),
+		"title": "The green Apple",
 		"value": "&#127823;"
 	},
 	{
-		"title": translate("Pear"),
+		"title": "Pear",
 		"value": "&#127824;"
 	},
 	{
-		"title": translate("Peach"),
+		"title": "Peach",
 		"value": "&#127825;"
 	},
 	{
-		"title": translate("Cherry"),
+		"title": "Cherry",
 		"value": "&#127826;"
 	},
 	{
-		"title": translate("Strawberry"),
+		"title": "Strawberry",
 		"value": "&#127827;"
 	},
 	{
-		"title": translate("Kiwi"),
+		"title": "Kiwi",
 		"value": "&#129373;"
 	},
 	{
-		"title": translate("Tomato"),
+		"title": "Tomato",
 		"value": "&#127813;"
 	},
 	{
-		"title": translate("Kakos"),
+		"title": "Kakos",
 		"value": "&#129381;"
 	},
 	{
-		"title": translate("Avocado"),
+		"title": "Avocado",
 		"value": "&#129361;"
 	},
 	{
-		"title": translate("Eggplant"),
+		"title": "Eggplant",
 		"value": "&#127814;"
 	},
 	{
-		"title": translate("Potato"),
+		"title": "Potato",
 		"value": "&#129364;"
 	},
 	{
-		"title": translate("Markovka"),
+		"title": "Markovka",
 		"value": "&#129365;"
 	},
 	{
-		"title": translate("Corn"),
+		"title": "Corn",
 		"value": "&#127805;"
 	},
 	{
-		"title": translate("Hot pepper"),
+		"title": "Hot pepper",
 		"value": "&#127798;"
 	},
 	{
-		"title": translate("Cucumber"),
+		"title": "Cucumber",
 		"value": "&#129362;"
 	},
 	{
-		"title": translate("Leafy greens"),
+		"title": "Leafy greens",
 		"value": "&#129388;"
 	},
 	{
-		"title": translate("Broccoli"),
+		"title": "Broccoli",
 		"value": "&#129382;"
 	},
 	{
-		"title": translate("Fly agaric"),
+		"title": "Fly agaric",
 		"value": "&#127812;"
 	},
 	{
-		"title": translate("Peanut"),
+		"title": "Peanut",
 		"value": "&#129372;"
 	},
 	{
-		"title": translate("Chestnut"),
+		"title": "Chestnut",
 		"value": "&#127792;"
 	},
 	{
-		"title": translate("Bread"),
+		"title": "Bread",
 		"value": "&#127838;"
 	},
 	{
-		"title": translate("Croissant"),
+		"title": "Croissant",
 		"value": "&#129360;"
 	},
 	{
-		"title": translate("Baguette bread"),
+		"title": "Baguette bread",
 		"value": "&#129366;"
 	},
 	{
-		"title": translate("Pretzel"),
+		"title": "Pretzel",
 		"value": "&#129384;"
 	},
 	{
-		"title": translate("Bagel"),
+		"title": "Bagel",
 		"value": "&#129391;"
 	},
 	{
-		"title": translate("Pancakes"),
+		"title": "Pancakes",
 		"value": "&#129374;"
 	},
 	{
-		"title": translate("Cheese wedge"),
+		"title": "Cheese wedge",
 		"value": "&#129472;"
 	},
 	{
-		"title": translate("Meat on the bone"),
+		"title": "Meat on the bone",
 		"value": "&#127830;"
 	},
 	{
-		"title": translate("Bird's foot"),
+		"title": "Bird's foot",
 		"value": "&#127831;"
 	},
 	{
-		"title": translate("A piece of meat"),
+		"title": "A piece of meat",
 		"value": "&#129385;"
 	},
 	{
-		"title": translate("Bacon"),
+		"title": "Bacon",
 		"value": "&#129363;"
 	},
 	{
-		"title": translate("Hamburger"),
+		"title": "Hamburger",
 		"value": "&#127828;"
 	},
 	{
-		"title": translate("French fries"),
+		"title": "French fries",
 		"value": "&#127839;"
 	},
 	{
-		"title": translate("A slice of pizza"),
+		"title": "A slice of pizza",
 		"value": "&#127829;"
 	},
 	{
-		"title": translate("Hot dog"),
+		"title": "Hot dog",
 		"value": "&#127789;"
 	},
 	{
-		"title": translate("Sandwich"),
+		"title": "Sandwich",
 		"value": "&#129386;"
 	},
 	{
-		"title": translate("Tacos"),
+		"title": "Tacos",
 		"value": "&#127790;"
 	},
 	{
-		"title": translate("Burrito"),
+		"title": "Burrito",
 		"value": "&#127791;"
 	},
 	{
-		"title": translate("Tortilla with filling"),
+		"title": "Tortilla with filling",
 		"value": "&#129369;"
 	},
 	{
-		"title": translate("Egg"),
+		"title": "Egg",
 		"value": "&#129370;"
 	},
 	{
-		"title": translate("Scrambled eggs"),
+		"title": "Scrambled eggs",
 		"value": "&#127859;"
 	},
 	{
-		"title": translate("A shallow pot of food"),
+		"title": "A shallow pot of food",
 		"value": "&#129368;"
 	},
 	{
-		"title": translate("A pot of food"),
+		"title": "A pot of food",
 		"value": "&#127858;"
 	},
 	{
-		"title": translate("A bowl with a spoon"),
+		"title": "A bowl with a spoon",
 		"value": "&#129379;"
 	},
 	{
-		"title": translate("Green salad"),
+		"title": "Green salad",
 		"value": "&#129367;"
 	},
 	{
-		"title": translate("Popcorn"),
+		"title": "Popcorn",
 		"value": "&#127871;"
 	},
 	{
-		"title": translate("The salt shaker"),
+		"title": "The salt shaker",
 		"value": "&#129474;"
 	},
 	{
-		"title": translate("Preserves"),
+		"title": "Preserves",
 		"value": "&#129387;"
 	},
 	{
-		"title": translate("Container"),
+		"title": "Container",
 		"value": "&#127857;"
 	},
 	{
-		"title": translate("Rice Cracker"),
+		"title": "Rice Cracker",
 		"value": "&#127832;"
 	},
 	{
-		"title": translate("Rice ball"),
+		"title": "Rice ball",
 		"value": "&#127833;"
 	},
 	{
-		"title": translate("Boiled rice"),
+		"title": "Boiled rice",
 		"value": "&#127834;"
 	},
 	{
-		"title": translate("Curry and rice"),
+		"title": "Curry and rice",
 		"value": "&#127835;"
 	},
 	{
-		"title": translate("Steaming bowl"),
+		"title": "Steaming bowl",
 		"value": "&#127836;"
 	},
 	{
-		"title": translate("Spaghetti"),
+		"title": "Spaghetti",
 		"value": "&#127837;"
 	},
 	{
-		"title": translate("Fried sweet potatoes"),
+		"title": "Fried sweet potatoes",
 		"value": "&#127840;"
 	},
 	{
-		"title": translate("Dressed"),
+		"title": "Dressed",
 		"value": "&#127842;"
 	},
 	{
-		"title": translate("Sushi"),
+		"title": "Sushi",
 		"value": "&#127843;"
 	},
 	{
-		"title": translate("Fried shrimp"),
+		"title": "Fried shrimp",
 		"value": "&#127844;"
 	},
 	{
-		"title": translate("Fish pie with curls"),
+		"title": "Fish pie with curls",
 		"value": "&#127845;"
 	},
 	{
-		"title": translate("Mooncake"),
+		"title": "Mooncake",
 		"value": "&#129390;"
 	},
 	{
-		"title": translate("Dango"),
+		"title": "Dango",
 		"value": "&#127841;"
 	},
 	{
-		"title": translate("Cheburek"),
+		"title": "Cheburek",
 		"value": "&#129375;"
 	},
 	{
-		"title": translate("Fortune Cookies"),
+		"title": "Fortune Cookies",
 		"value": "&#129376;"
 	},
 	{
-		"title": translate("Takeaway Food Box"),
+		"title": "Takeaway Food Box",
 		"value": "&#129377;"
 	},
 	{
-		"title": translate("The crab"),
+		"title": "The crab",
 		"value": "&#129408;"
 	},
 	{
-		"title": translate("Lobster"),
+		"title": "Lobster",
 		"value": "&#129438;"
 	},
 	{
-		"title": translate("Shrimp"),
+		"title": "Shrimp",
 		"value": "&#129424;"
 	},
 	{
-		"title": translate("Squid"),
+		"title": "Squid",
 		"value": "&#129425;"
 	},
 	{
-		"title": translate("Soft ice cream"),
+		"title": "Soft ice cream",
 		"value": "&#127846;"
 	},
 	{
-		"title": translate("Planed ice"),
+		"title": "Planed ice",
 		"value": "&#127847;"
 	},
 	{
-		"title": translate("Ice cream"),
+		"title": "Ice cream",
 		"value": "&#127848;"
 	},
 	{
-		"title": translate("Donut"),
+		"title": "Donut",
 		"value": "&#127849;"
 	},
 	{
-		"title": translate("Cookie"),
+		"title": "Cookie",
 		"value": "&#127850;"
 	},
 	{
-		"title": translate("Birthday cake"),
+		"title": "Birthday cake",
 		"value": "&#127874;"
 	},
 	{
-		"title": translate("Shortbread cookies"),
+		"title": "Shortbread cookies",
 		"value": "&#127856;"
 	},
 	{
-		"title": translate("Cupcake"),
+		"title": "Cupcake",
 		"value": "&#129473;"
 	},
 	{
-		"title": translate("Pie"),
+		"title": "Pie",
 		"value": "&#129383;"
 	},
 	{
-		"title": translate("Chocolate bar"),
+		"title": "Chocolate bar",
 		"value": "&#127851;"
 	},
 	{
-		"title": translate("Candies"),
+		"title": "Candies",
 		"value": "&#127852;"
 	},
 	{
-		"title": translate("Candy"),
+		"title": "Candy",
 		"value": "&#127853;"
 	},
 	{
-		"title": translate("Custard cream"),
+		"title": "Custard cream",
 		"value": "&#127854;"
 	},
 	{
-		"title": translate("Honey"),
+		"title": "Honey",
 		"value": "&#127855;"
 	},
 	{
-		"title": translate("Baby bottle"),
+		"title": "Baby bottle",
 		"value": "&#127868;"
 	},
 	{
-		"title": translate("A Glass of Milk"),
+		"title": "A Glass of Milk",
 		"value": "&#129371;"
 	},
 	{
-		"title": translate("Hot drink"),
+		"title": "Hot drink",
 		"value": "&#9749;"
 	},
 	{
-		"title": translate("Cup without handle"),
+		"title": "Cup without handle",
 		"value": "&#127861;"
 	},
 	{
-		"title": translate("Sake bottle and cup"),
+		"title": "Sake bottle and cup",
 		"value": "&#127862;"
 	},
 	{
-		"title": translate("Champagne"),
+		"title": "Champagne",
 		"value": "&#127870;"
 	},
 	{
-		"title": translate("A glass of wine"),
+		"title": "A glass of wine",
 		"value": "&#127863;"
 	},
 	{
-		"title": translate("A glass of cocktail"),
+		"title": "A glass of cocktail",
 		"value": "&#127864;"
 	},
 	{
-		"title": translate("Tropical drink"),
+		"title": "Tropical drink",
 		"value": "&#127865;"
 	},
 	{
-		"title": translate("A mug of beer"),
+		"title": "A mug of beer",
 		"value": "&#127866;"
 	},
 	{
-		"title": translate("The clink of beer mugs"),
+		"title": "The clink of beer mugs",
 		"value": "&#127867;"
 	},
 	{
-		"title": translate("The clink of glasses"),
+		"title": "The clink of glasses",
 		"value": "&#129346;"
 	},
 	{
-		"title": translate("Glass"),
+		"title": "Glass",
 		"value": "&#129347;"
 	},
 	{
-		"title": translate("A cup with a straw"),
+		"title": "A cup with a straw",
 		"value": "&#129380;"
 	},
 	{
-		"title": translate("Chopsticks"),
+		"title": "Chopsticks",
 		"value": "&#129378;"
 	},
 	{
-		"title": translate("Fork and knife with plate"),
+		"title": "Fork and knife with plate",
 		"value": "&#127869;"
 	},
 	{
-		"title": translate("Fork and knife"),
+		"title": "Fork and knife",
 		"value": "&#127860;"
 	},
 	{
-		"title": translate("Spoon"),
+		"title": "Spoon",
 		"value": "&#129348;"
 	},
 	{
-		"title": translate("Knife"),
+		"title": "Knife",
 		"value": "&#128298;"
 	},
 	{
-		"title": translate("The Amphora"),
+		"title": "The Amphora",
 		"value": "&#127994;"
 	}
 ];

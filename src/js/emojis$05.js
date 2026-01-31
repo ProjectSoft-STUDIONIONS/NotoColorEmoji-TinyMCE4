@@ -1,90 +1,90 @@
 let emojis$05 = [
     {
-        "title": translate("Bouquet"),
+        "title": "Bouquet",
         "value": "&#128144;"
     },
     {
-        "title": translate("Cherry blossoms"),
+        "title": "Cherry blossoms",
         "value": "&#127800;"
     },
     {
-        "title": translate("The White Flower"),
+        "title": "The White Flower",
         "value": "&#128174;"
     },
     {
-        "title": translate("Rosette of leaves"),
+        "title": "Rosette of leaves",
         "value": "&#127989;"
     },
     {
-        "title": translate("Rose"),
+        "title": "Rose",
         "value": "&#127801;"
     },
     {
-        "title": translate("A faded flower"),
+        "title": "A faded flower",
         "value": "&#129344;"
     },
     {
-        "title": translate("Hibiscus"),
+        "title": "Hibiscus",
         "value": "&#127802;"
     },
     {
-        "title": translate("Sunflower"),
+        "title": "Sunflower",
         "value": "&#127803;"
     },
     {
-        "title": translate("The White Flower"),
+        "title": "The White Flower",
         "value": "&#127804;"
     },
     {
-        "title": translate("Tulip"),
+        "title": "Tulip",
         "value": "&#127799;"
     },
     {
-        "title": translate("Seedlings"),
+        "title": "Seedlings",
         "value": "&#127793;"
     },
     {
-        "title": translate("The evergreen tree"),
+        "title": "The evergreen tree",
         "value": "&#127794;"
     },
     {
-        "title": translate("Deciduous tree"),
+        "title": "Deciduous tree",
         "value": "&#127795;"
     },
     {
-        "title": translate("Palm tree"),
+        "title": "Palm tree",
         "value": "&#127796;"
     },
     {
-        "title": translate("Cactus"),
+        "title": "Cactus",
         "value": "&#127797;"
     },
     {
-        "title": translate("Rice"),
+        "title": "Rice",
         "value": "&#127806;"
     },
     {
-        "title": translate("Grass"),
+        "title": "Grass",
         "value": "&#127807;"
     },
     {
-        "title": translate("The Shamrock"),
+        "title": "The Shamrock",
         "value": "&#9752;"
     },
     {
-        "title": translate("Four-leaf clover"),
+        "title": "Four-leaf clover",
         "value": "🍀"
     },
     {
-        "title": translate("Maple Leaf"),
+        "title": "Maple Leaf",
         "value": "&#127809;"
     },
     {
-        "title": translate("The fallen leaf"),
+        "title": "The fallen leaf",
         "value": "&#127810;"
     },
     {
-        "title": translate("A leaf flutters in the wind"),
+        "title": "A leaf flutters in the wind",
         "value": "&#127811;"
     }
 ];

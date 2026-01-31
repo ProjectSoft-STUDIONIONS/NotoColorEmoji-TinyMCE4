@@ -1,130 +1,130 @@
 let emojis$02 = [
 	{
-		"title": translate("A kiss"),
+		"title": "A kiss",
 		"value": "&#128139;"
 	},
 	{
-		"title": translate("A love letter"),
+		"title": "A love letter",
 		"value": "&#128140;"
 	},
 	{
-		"title": translate("A heart with an arrow"),
+		"title": "A heart with an arrow",
 		"value": "&#128152;"
 	},
 	{
-		"title": translate("Heart with ribbon"),
+		"title": "Heart with ribbon",
 		"value": "&#128157;"
 	},
 	{
-		"title": translate("The Sparkling Heart"),
+		"title": "The Sparkling Heart",
 		"value": "&#128150;"
 	},
 	{
-		"title": translate("The growing heart"),
+		"title": "The growing heart",
 		"value": "&#128151;"
 	},
 	{
-		"title": translate("A Beating Heart"),
+		"title": "A Beating Heart",
 		"value": "&#128147;"
 	},
 	{
-		"title": translate("Spinning Hearts"),
+		"title": "Spinning Hearts",
 		"value": "&#128158;"
 	},
 	{
-		"title": translate("Two Hearts"),
+		"title": "Two Hearts",
 		"value": "&#128149;"
 	},
 	{
-		"title": translate("Heart-shaped decoration"),
+		"title": "Heart-shaped decoration",
 		"value": "&#128159;"
 	},
 	{
-		"title": translate("A heart with an exclamation mark"),
+		"title": "A heart with an exclamation mark",
 		"value": "&#10083;"
 	},
 	{
-		"title": translate("A Broken Heart"),
+		"title": "A Broken Heart",
 		"value": "&#128148;"
 	},
 	{
-		"title": translate("Heart"),
+		"title": "Heart",
 		"value": "&#10084;"
 	},
 	{
-		"title": translate("The Orange Heart"),
+		"title": "The Orange Heart",
 		"value": "&#129505;"
 	},
 	{
-		"title": translate("The Yellow Heart"),
+		"title": "The Yellow Heart",
 		"value": "&#128155;"
 	},
 	{
-		"title": translate("The Green Heart"),
+		"title": "The Green Heart",
 		"value": "&#128154;"
 	},
 	{
-		"title": translate("The Blue Heart"),
+		"title": "The Blue Heart",
 		"value": "&#128153;"
 	},
 	{
-		"title": translate("Purple Heart"),
+		"title": "Purple Heart",
 		"value": "&#128156;"
 	},
 	{
-		"title": translate("The Black Heart"),
+		"title": "The Black Heart",
 		"value": "&#128420;"
 	},
 	{
-		"title": translate("The symbol is 100 points"),
+		"title": "The symbol is 100 points",
 		"value": "&#128175;"
 	},
 	{
-		"title": translate("The symbol of anger"),
+		"title": "The symbol of anger",
 		"value": "&#128162;"
 	},
 	{
-		"title": translate("Collision symbol"),
+		"title": "Collision symbol",
 		"value": "&#128165;"
 	},
 	{
-		"title": translate("The symbol of vertigo"),
+		"title": "The symbol of vertigo",
 		"value": "&#128171;"
 	},
 	{
-		"title": translate("The sweat spray symbol"),
+		"title": "The sweat spray symbol",
 		"value": "&#128166;"
 	},
 	{
-		"title": translate("The Wind symbol"),
+		"title": "The Wind symbol",
 		"value": "&#128168;"
 	},
 	{
-		"title": translate("Hole"),
+		"title": "Hole",
 		"value": "&#128371;"
 	},
 	{
-		"title": translate("Bomb"),
+		"title": "Bomb",
 		"value": "&#128163;"
 	},
 	{
-		"title": translate("A callout with a speech"),
+		"title": "A callout with a speech",
 		"value": "&#128172;"
 	},
 	{
-		"title": translate("The left speech bubble"),
+		"title": "The left speech bubble",
 		"value": "&#128488;"
 	},
 	{
-		"title": translate("The right anger bubble"),
+		"title": "The right anger bubble",
 		"value": "&#128495;"
 	},
 	{
-		"title": translate("The Thought ball"),
+		"title": "The Thought ball",
 		"value": "&#128173;"
 	},
 	{
-		"title": translate("The Sleeping Symbol"),
+		"title": "The Sleeping Symbol",
 		"value": "&#128164;"
 	}
 ];

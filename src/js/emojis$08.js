@@ -1,334 +1,334 @@
 let emojis$08 = [
 	{
-		"title": translate("Jack-o'-lanterns"),
+		"title": "Jack-o'-lanterns",
 		"value": "&#127875;"
 	},
 	{
-		"title": translate("Christmas tree"),
+		"title": "Christmas tree",
 		"value": "&#127876;"
 	},
 	{
-		"title": translate("Fireworks display"),
+		"title": "Fireworks display",
 		"value": "&#127878;"
 	},
 	{
-		"title": translate("Bengal fire"),
+		"title": "Bengal fire",
 		"value": "&#127879;"
 	},
 	{
-		"title": translate("Firecracker"),
+		"title": "Firecracker",
 		"value": "&#129512;"
 	},
 	{
-		"title": translate("Sparks"),
+		"title": "Sparks",
 		"value": "&#10024;"
 	},
 	{
-		"title": translate("Air balloon"),
+		"title": "Air balloon",
 		"value": "&#127880;"
 	},
 	{
-		"title": translate("A party cracker"),
+		"title": "A party cracker",
 		"value": "&#127881;"
 	},
 	{
-		"title": translate("A ball of confetti"),
+		"title": "A ball of confetti",
 		"value": "&#127882;"
 	},
 	{
-		"title": translate("The Tanabata Tree"),
+		"title": "The Tanabata Tree",
 		"value": "&#127883;"
 	},
 	{
-		"title": translate("Pine ornaments"),
+		"title": "Pine ornaments",
 		"value": "&#127885;"
 	},
 	{
-		"title": translate("Japanese dolls"),
+		"title": "Japanese dolls",
 		"value": "&#127886;"
 	},
 	{
-		"title": translate("Carp Streamer"),
+		"title": "Carp Streamer",
 		"value": "&#127887;"
 	},
 	{
-		"title": translate("Wind Music"),
+		"title": "Wind Music",
 		"value": "&#127888;"
 	},
 	{
-		"title": translate("Moon Viewing Ceremony"),
+		"title": "Moon Viewing Ceremony",
 		"value": "&#127889;"
 	},
 	{
-		"title": translate("Red gift Envelope"),
+		"title": "Red gift Envelope",
 		"value": "&#129511;"
 	},
 	{
-		"title": translate("Tape"),
+		"title": "Tape",
 		"value": "&#127872;"
 	},
 	{
-		"title": translate("A packaged gift"),
+		"title": "A packaged gift",
 		"value": "&#127873;"
 	},
 	{
-		"title": translate("Reminder Feed"),
+		"title": "Reminder Feed",
 		"value": "&#127895;"
 	},
 	{
-		"title": translate("Entrance fees"),
+		"title": "Entrance fees",
 		"value": "&#127903;"
 	},
 	{
-		"title": translate("Ticket"),
+		"title": "Ticket",
 		"value": "&#127915;"
 	},
 	{
-		"title": translate("Military Medal"),
+		"title": "Military Medal",
 		"value": "&#127894;"
 	},
 	{
-		"title": translate("Cup"),
+		"title": "Cup",
 		"value": "&#127942;"
 	},
 	{
-		"title": translate("Sports medal"),
+		"title": "Sports medal",
 		"value": "&#127941;"
 	},
 	{
-		"title": translate("Medal for the first place"),
+		"title": "Medal for the first place",
 		"value": "&#129351;"
 	},
 	{
-		"title": translate("Medal for the second place"),
+		"title": "Medal for the second place",
 		"value": "&#129352;"
 	},
 	{
-		"title": translate("Medal for the third place"),
+		"title": "Medal for the third place",
 		"value": "&#129353;"
 	},
 	{
-		"title": translate("football"),
+		"title": "football",
 		"value": "&#9917;"
 	},
 	{
-		"title": translate("Baseball ball"),
+		"title": "Baseball ball",
 		"value": "&#9918;"
 	},
 	{
-		"title": translate("Softball ball"),
+		"title": "Softball ball",
 		"value": "&#129358;"
 	},
 	{
-		"title": translate("Basketball ball"),
+		"title": "Basketball ball",
 		"value": "&#127936;"
 	},
 	{
-		"title": translate("A volleyball ball"),
+		"title": "A volleyball ball",
 		"value": "&#127952;"
 	},
 	{
-		"title": translate("An American football ball"),
+		"title": "An American football ball",
 		"value": "&#127944;"
 	},
 	{
-		"title": translate("A Rugby ball"),
+		"title": "A Rugby ball",
 		"value": "&#127945;"
 	},
 	{
-		"title": translate("Tennis racket and ball"),
+		"title": "Tennis racket and ball",
 		"value": "&#127934;"
 	},
 	{
-		"title": translate("The Flying Disc"),
+		"title": "The Flying Disc",
 		"value": "&#129359;"
 	},
 	{
-		"title": translate("Bowling"),
+		"title": "Bowling",
 		"value": "&#127923;"
 	},
 	{
-		"title": translate("Cricket bat and ball"),
+		"title": "Cricket bat and ball",
 		"value": "&#127951;"
 	},
 	{
-		"title": translate("Field hockey stick and ball"),
+		"title": "Field hockey stick and ball",
 		"value": "&#127953;"
 	},
 	{
-		"title": translate("Hockey stick and puck"),
+		"title": "Hockey stick and puck",
 		"value": "&#127954;"
 	},
 	{
-		"title": translate("A club and a lacrosse ball"),
+		"title": "A club and a lacrosse ball",
 		"value": "&#129357;"
 	},
 	{
-		"title": translate("Table tennis racket and ball"),
+		"title": "Table tennis racket and ball",
 		"value": "&#127955;"
 	},
 	{
-		"title": translate("Badminton racket and shuttlecock"),
+		"title": "Badminton racket and shuttlecock",
 		"value": "&#127992;"
 	},
 	{
-		"title": translate("Boxing glove"),
+		"title": "Boxing glove",
 		"value": "&#129354;"
 	},
 	{
-		"title": translate("Martial Arts Uniforms"),
+		"title": "Martial Arts Uniforms",
 		"value": "&#129355;"
 	},
 	{
-		"title": translate("Paved gates"),
+		"title": "Paved gates",
 		"value": "&#129349;"
 	},
 	{
-		"title": translate("Golf Flags"),
+		"title": "Golf Flags",
 		"value": "&#9971;"
 	},
 	{
-		"title": translate("Skates"),
+		"title": "Skates",
 		"value": "&#9976;"
 	},
 	{
-		"title": translate("Fishing rod and fish"),
+		"title": "Fishing rod and fish",
 		"value": "&#127907;"
 	},
 	{
-		"title": translate("Running T-shirt"),
+		"title": "Running T-shirt",
 		"value": "&#127933;"
 	},
 	{
-		"title": translate("Skis and ski boots"),
+		"title": "Skis and ski boots",
 		"value": "&#127935;"
 	},
 	{
-		"title": translate("Sleigh"),
+		"title": "Sleigh",
 		"value": "&#128759;"
 	},
 	{
-		"title": translate("Stone for curling"),
+		"title": "Stone for curling",
 		"value": "&#129356;"
 	},
 	{
-		"title": translate("Direct hit"),
+		"title": "Direct hit",
 		"value": "&#127919;"
 	},
 	{
-		"title": translate("Billiard"),
+		"title": "Billiard",
 		"value": "&#127921;"
 	},
 	{
-		"title": translate("The Crystal Ball"),
+		"title": "The Crystal Ball",
 		"value": "&#128302;"
 	},
 	{
-		"title": translate("Nazar's Amulet"),
+		"title": "Nazar's Amulet",
 		"value": "&#129535;"
 	},
 	{
-		"title": translate("Video game"),
+		"title": "Video game",
 		"value": "&#127918;"
 	},
 	{
-		"title": translate("The joystick"),
+		"title": "The joystick",
 		"value": "&#128377;"
 	},
 	{
-		"title": translate("Slot machine"),
+		"title": "Slot machine",
 		"value": "&#127920;"
 	},
 	{
-		"title": translate("The game cube"),
+		"title": "The game cube",
 		"value": "&#127922;"
 	},
 	{
-		"title": translate("A piece of the puzzle"),
+		"title": "A piece of the puzzle",
 		"value": "&#129513;"
 	},
 	{
-		"title": translate("Teddy bear"),
+		"title": "Teddy bear",
 		"value": "&#129528;"
 	},
 	{
-		"title": translate("The Suit of Spades"),
+		"title": "The Suit of Spades",
 		"value": "&#9824;"
 	},
 	{
-		"title": translate("Suit of Hearts"),
+		"title": "Suit of Hearts",
 		"value": "&#9829;"
 	},
 	{
-		"title": translate("The Bubi Suit"),
+		"title": "The Bubi Suit",
 		"value": "&#9830;"
 	},
 	{
-		"title": translate("The suit of the Cross"),
+		"title": "The suit of the Cross",
 		"value": "&#9827;"
 	},
 	{
-		"title": translate("The Black pawn"),
+		"title": "The Black pawn",
 		"value": "&#9823;"
 	},
 	{
-		"title": translate("The Joker Playing card"),
+		"title": "The Joker Playing card",
 		"value": "&#127183;"
 	},
 	{
-		"title": translate("Mahjong Tile Red Dragon"),
+		"title": "Mahjong Tile Red Dragon",
 		"value": "&#126980;"
 	},
 	{
-		"title": translate("Floral Playing Cards"),
+		"title": "Floral Playing Cards",
 		"value": "&#127924;"
 	},
 	{
-		"title": translate("Theatrical masks"),
+		"title": "Theatrical masks",
 		"value": "&#127917;"
 	},
 	{
-		"title": translate("Framed painting"),
+		"title": "Framed painting",
 		"value": "&#128444;"
 	},
 	{
-		"title": translate("The artist's palette"),
+		"title": "The artist's palette",
 		"value": "&#127912;"
 	},
 	{
-		"title": translate("A Spool of Thread"),
+		"title": "A Spool of Thread",
 		"value": "&#129525;"
 	},
 	{
-		"title": translate("A ball of yarn"),
+		"title": "A ball of yarn",
 		"value": "&#129526;"
 	},
 	{
-		"title": translate("Uh-huh"),
+		"title": "Uh-huh",
 		"value": "&#129664;"
 	},
 	{
-		"title": translate("Kite"),
+		"title": "Kite",
 		"value": "&#129665;"
 	},
 	{
-		"title": translate("Skydiver"),
+		"title": "Skydiver",
 		"value": "&#129666;"
 	},
 	{
-		"title": translate("The Boomerang"),
+		"title": "The Boomerang",
 		"value": "&#129667;"
 	},
 	{
-		"title": translate("The magic wand"),
+		"title": "The magic wand",
 		"value": "&#129668;"
 	},
 	{
-		"title": translate("Pinata"),
+		"title": "Pinata",
 		"value": "&#129669;"
 	},
 	{
-		"title": translate("Matryoshka dolls"),
+		"title": "Matryoshka dolls",
 		"value": "&#129670;"
 	}
 ];

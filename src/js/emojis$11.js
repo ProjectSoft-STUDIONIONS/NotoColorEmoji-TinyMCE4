@@ -1,1078 +1,1078 @@
 let emojis$11 = [
 	{
-		"title": translate("The Checkered Flag"),
+		"title": "The Checkered Flag",
 		"value": "&#127937;"
 	},
 	{
-		"title": translate("Triangular flag"),
+		"title": "Triangular flag",
 		"value": "&#128681;"
 	},
 	{
-		"title": translate("Crossed flags"),
+		"title": "Crossed flags",
 		"value": "&#127884;"
 	},
 	{
-		"title": translate("The Black Flag"),
+		"title": "The Black Flag",
 		"value": "&#127988;"
 	},
 	{
-		"title": translate("The White flag"),
+		"title": "The White flag",
 		"value": "&#127987;"
 	},
 	{
-		"title": translate("Rainbow Flag"),
+		"title": "Rainbow Flag",
 		"value": "&#127987;&#65039;&#8205;&#127752;"
 	},
 	{
-		"title": translate("The Flag of the Transgender Community"),
+		"title": "The Flag of the Transgender Community",
 		"value": "&#127987;&#65039;&#8205;&#9895;&#65039;"
 	},
 	{
-		"title": translate("The Pirate Flag"),
+		"title": "The Pirate Flag",
 		"value": "&#127988;&#8205;&#9760;&#65039;"
 	},
 	{
-		"title": translate("Flag: Ascension Island"),
+		"title": "Flag: Ascension Island",
 		"value": "&#127462;&#127464;"
 	},
 	{
-		"title": translate("Flag: Andorra"),
+		"title": "Flag: Andorra",
 		"value": "&#127462;&#127465;"
 	},
 	{
-		"title": translate("Flag: UAE"),
+		"title": "Flag: UAE",
 		"value": "&#127462;&#127466;"
 	},
 	{
-		"title": translate("Flag: Afghanistan"),
+		"title": "Flag: Afghanistan",
 		"value": "&#127462;&#127467;"
 	},
 	{
-		"title": translate("Flag: Antigua and Barbuda"),
+		"title": "Flag: Antigua and Barbuda",
 		"value": "&#127462;&#127468;"
 	},
 	{
-		"title": translate("Flag: Anguilla"),
+		"title": "Flag: Anguilla",
 		"value": "&#127462;&#127470;"
 	},
 	{
-		"title": translate("Flag: Albania"),
+		"title": "Flag: Albania",
 		"value": "&#127462;&#127473;"
 	},
 	{
-		"title": translate("Flag: Armenia"),
+		"title": "Flag: Armenia",
 		"value": "&#127462;&#127474;"
 	},
 	{
-		"title": translate("Flag: Angola"),
+		"title": "Flag: Angola",
 		"value": "&#127462;&#127476;"
 	},
 	{
-		"title": translate("Flag: Antarctica"),
+		"title": "Flag: Antarctica",
 		"value": "&#127462;&#127478;"
 	},
 	{
-		"title": translate("Flag: Argentina"),
+		"title": "Flag: Argentina",
 		"value": "&#127462;&#127479;"
 	},
 	{
-		"title": translate("Flag: American Samoa"),
+		"title": "Flag: American Samoa",
 		"value": "&#127462;&#127480;"
 	},
 	{
-		"title": translate("Flag: Austria"),
+		"title": "Flag: Austria",
 		"value": "&#127462;&#127481;"
 	},
 	{
-		"title": translate("Flag: Australia"),
+		"title": "Flag: Australia",
 		"value": "&#127462;&#127482;"
 	},
 	{
-		"title": translate("Flag: Aruba"),
+		"title": "Flag: Aruba",
 		"value": "&#127462;&#127484;"
 	},
 	{
-		"title": translate("Flag: Aland Islands"),
+		"title": "Flag: Aland Islands",
 		"value": "&#127462;&#127485;"
 	},
 	{
-		"title": translate("Flag: Azerbaijan"),
+		"title": "Flag: Azerbaijan",
 		"value": "&#127462;&#127487;"
 	},
 	{
-		"title": translate("Flag: Bosnia and Herzegovina"),
+		"title": "Flag: Bosnia and Herzegovina",
 		"value": "&#127463;&#127462;"
 	},
 	{
-		"title": translate("Flag: Barbados"),
+		"title": "Flag: Barbados",
 		"value": "&#127463;&#127463;"
 	},
 	{
-		"title": translate("Flag: Bangladesh"),
+		"title": "Flag: Bangladesh",
 		"value": "&#127463;&#127465;"
 	},
 	{
-		"title": translate("Flag: Belgium"),
+		"title": "Flag: Belgium",
 		"value": "&#127463;&#127466;"
 	},
 	{
-		"title": translate("Flag: Burkina Faso"),
+		"title": "Flag: Burkina Faso",
 		"value": "&#127463;&#127467;"
 	},
 	{
-		"title": translate("Flag: Bulgaria"),
+		"title": "Flag: Bulgaria",
 		"value": "&#127463;&#127468;"
 	},
 	{
-		"title": translate("Flag: Bahrain"),
+		"title": "Flag: Bahrain",
 		"value": "&#127463;&#127469;"
 	},
 	{
-		"title": translate("Flag: Burundi"),
+		"title": "Flag: Burundi",
 		"value": "&#127463;&#127470;"
 	},
 	{
-		"title": translate("Flag: Benin"),
+		"title": "Flag: Benin",
 		"value": "&#127463;&#127471;"
 	},
 	{
-		"title": translate("Flag: Saint Barthélémy"),
+		"title": "Flag: Saint Barthélémy",
 		"value": "&#127463;&#127473;"
 	},
 	{
-		"title": translate("Flag: Bermuda"),
+		"title": "Flag: Bermuda",
 		"value": "&#127463;&#127474;"
 	},
 	{
-		"title": translate("Flag: Brunei"),
+		"title": "Flag: Brunei",
 		"value": "&#127463;&#127475;"
 	},
 	{
-		"title": translate("Flag: Bolivia"),
+		"title": "Flag: Bolivia",
 		"value": "&#127463;&#127476;"
 	},
 	{
-		"title": translate("Flag: Bonaire, Sint Eustatius and Saba"),
+		"title": "Flag: Bonaire, Sint Eustatius and Saba",
 		"value": "&#127463;&#127478;"
 	},
 	{
-		"title": translate("Flag: Brazil"),
+		"title": "Flag: Brazil",
 		"value": "&#127463;&#127479;"
 	},
 	{
-		"title": translate("Flag: Bahamas"),
+		"title": "Flag: Bahamas",
 		"value": "&#127463;&#127480;"
 	},
 	{
-		"title": translate("Flag: Bhutan"),
+		"title": "Flag: Bhutan",
 		"value": "&#127463;&#127481;"
 	},
 	{
-		"title": translate("Flag: O-In Bouvet"),
+		"title": "Flag: O-In Bouvet",
 		"value": "&#127463;&#127483;"
 	},
 	{
-		"title": translate("Flag: Botswana"),
+		"title": "Flag: Botswana",
 		"value": "&#127463;&#127484;"
 	},
 	{
-		"title": translate("Flag: Belarus"),
+		"title": "Flag: Belarus",
 		"value": "&#127463;&#127486;"
 	},
 	{
-		"title": translate("Flag: Belize"),
+		"title": "Flag: Belize",
 		"value": "&#127463;&#127487;"
 	},
 	{
-		"title": translate("Flag: Canada"),
+		"title": "Flag: Canada",
 		"value": "🇨🇦"
 	},
 	{
-		"title": translate("Flag: Coconut Islands"),
+		"title": "Flag: Coconut Islands",
 		"value": "&#127464;&#127464;"
 	},
 	{
-		"title": translate("Flag: Congo - Kinshasa"),
+		"title": "Flag: Congo - Kinshasa",
 		"value": "&#127464;&#127465;"
 	},
 	{
-		"title": translate("Flag: Central African Republic"),
+		"title": "Flag: Central African Republic",
 		"value": "&#127464;&#127467;"
 	},
 	{
-		"title": translate("Flag: Congo - Brazzaville"),
+		"title": "Flag: Congo - Brazzaville",
 		"value": "&#127464;&#127468;"
 	},
 	{
-		"title": translate("Flag: Switzerland"),
+		"title": "Flag: Switzerland",
 		"value": "&#127464;&#127469;"
 	},
 	{
-		"title": translate("Flag: Ivory Coast"),
+		"title": "Flag: Ivory Coast",
 		"value": "&#127464;&#127470;"
 	},
 	{
-		"title": translate("Flag: Cook Island"),
+		"title": "Flag: Cook Island",
 		"value": "&#127464;&#127472;"
 	},
 	{
-		"title": translate("Flag: Chile"),
+		"title": "Flag: Chile",
 		"value": "&#127464;&#127473;"
 	},
 	{
-		"title": translate("Flag: Cameroon"),
+		"title": "Flag: Cameroon",
 		"value": "&#127464;&#127474;"
 	},
 	{
-		"title": translate("Flag: China"),
+		"title": "Flag: China",
 		"value": "&#127464;&#127475;"
 	},
 	{
-		"title": translate("Flag: Colombia-"),
+		"title": "Flag: Colombia-",
 		"value": "&#127464;&#127476;"
 	},
 	{
-		"title": translate("Flag: Clipperton Island"),
+		"title": "Flag: Clipperton Island",
 		"value": "&#127464;&#127477;"
 	},
 	{
-		"title": translate("Flag: Costa Rica"),
+		"title": "Flag: Costa Rica",
 		"value": "&#127464;&#127479;"
 	},
 	{
-		"title": translate("Flag: Cuba"),
+		"title": "Flag: Cuba",
 		"value": "&#127464;&#127482;"
 	},
 	{
-		"title": translate("Flag: Cape Verde"),
+		"title": "Flag: Cape Verde",
 		"value": "&#127464;&#127483;"
 	},
 	{
-		"title": translate("Flag: Curacao"),
+		"title": "Flag: Curacao",
 		"value": "&#127464;&#127484;"
 	},
 	{
-		"title": translate("Flag: Christmas Island"),
+		"title": "Flag: Christmas Island",
 		"value": "&#127464;&#127485;"
 	},
 	{
-		"title": translate("Flag: Cyprus"),
+		"title": "Flag: Cyprus",
 		"value": "&#127464;&#127486;"
 	},
 	{
-		"title": translate("Flag: Czech Republic"),
+		"title": "Flag: Czech Republic",
 		"value": "&#127464;&#127487;"
 	},
 	{
-		"title": translate("Flag: Germany"),
+		"title": "Flag: Germany",
 		"value": "&#127465;&#127466;"
 	},
 	{
-		"title": translate("Flag: Diego Garcia"),
+		"title": "Flag: Diego Garcia",
 		"value": "&#127465;&#127468;"
 	},
 	{
-		"title": translate("Flag: Djibouti"),
+		"title": "Flag: Djibouti",
 		"value": "&#127465;&#127471;"
 	},
 	{
-		"title": translate("Flag: Denmark"),
+		"title": "Flag: Denmark",
 		"value": "&#127465;&#127472;"
 	},
 	{
-		"title": translate("Flag: Dominica"),
+		"title": "Flag: Dominica",
 		"value": "&#127465;&#127474;"
 	},
 	{
-		"title": translate("Flag: Dominican Republic"),
+		"title": "Flag: Dominican Republic",
 		"value": "&#127465;&#127476;"
 	},
 	{
-		"title": translate("Flag: Algeria"),
+		"title": "Flag: Algeria",
 		"value": "&#127465;&#127487;"
 	},
 	{
-		"title": translate("Flag: Ceuta and Melilla"),
+		"title": "Flag: Ceuta and Melilla",
 		"value": "&#127466;&#127462;"
 	},
 	{
-		"title": translate("Flag: Ecuador"),
+		"title": "Flag: Ecuador",
 		"value": "&#127466;&#127464;"
 	},
 	{
-		"title": translate("Flag: Estonia"),
+		"title": "Flag: Estonia",
 		"value": "&#127466;&#127466;"
 	},
 	{
-		"title": translate("Flag: Egypt"),
+		"title": "Flag: Egypt",
 		"value": "&#127466;&#127468;"
 	},
 	{
-		"title": translate("Flag: Western Sahara"),
+		"title": "Flag: Western Sahara",
 		"value": "&#127466;&#127469;"
 	},
 	{
-		"title": translate("Flag: Eritrea"),
+		"title": "Flag: Eritrea",
 		"value": "&#127466;&#127479;"
 	},
 	{
-		"title": translate("Flag: Spain"),
+		"title": "Flag: Spain",
 		"value": "&#127466;&#127480;"
 	},
 	{
-		"title": translate("Flag: Ethiopia"),
+		"title": "Flag: Ethiopia",
 		"value": "&#127466;&#127481;"
 	},
 	{
-		"title": translate("Flag: European Union"),
+		"title": "Flag: European Union",
 		"value": "&#127466;&#127482;"
 	},
 	{
-		"title": translate("Flag: Finland"),
+		"title": "Flag: Finland",
 		"value": "&#127467;&#127470;"
 	},
 	{
-		"title": translate("Flag: Fiji"),
+		"title": "Flag: Fiji",
 		"value": "&#127467;&#127471;"
 	},
 	{
-		"title": translate("Flag: Falkland Islands"),
+		"title": "Flag: Falkland Islands",
 		"value": "&#127467;&#127472;"
 	},
 	{
-		"title": translate("Flag: Federated States of Micronesia"),
+		"title": "Flag: Federated States of Micronesia",
 		"value": "&#127467;&#127474;"
 	},
 	{
-		"title": translate("Flag: Faroe Islands"),
+		"title": "Flag: Faroe Islands",
 		"value": "&#127467;&#127476;"
 	},
 	{
-		"title": translate("Flag: France"),
+		"title": "Flag: France",
 		"value": "&#127467;&#127479;"
 	},
 	{
-		"title": translate("Flag: Gabon"),
+		"title": "Flag: Gabon",
 		"value": "&#127468;&#127462;"
 	},
 	{
-		"title": translate("Flag: United Kingdom"),
+		"title": "Flag: United Kingdom",
 		"value": "&#127468;&#127463;"
 	},
 	{
-		"title": translate("Flag: Grenada"),
+		"title": "Flag: Grenada",
 		"value": "&#127468;&#127465;"
 	},
 	{
-		"title": translate("Flag: Georgia"),
+		"title": "Flag: Georgia",
 		"value": "&#127468;&#127466;"
 	},
 	{
-		"title": translate("Flag: French Guiana"),
+		"title": "Flag: French Guiana",
 		"value": "&#127468;&#127467;"
 	},
 	{
-		"title": translate("Flag: Guernsey"),
+		"title": "Flag: Guernsey",
 		"value": "&#127468;&#127468;"
 	},
 	{
-		"title": translate("Flag: Ghana"),
+		"title": "Flag: Ghana",
 		"value": "&#127468;&#127469;"
 	},
 	{
-		"title": translate("Flag: Gibraltar"),
+		"title": "Flag: Gibraltar",
 		"value": "&#127468;&#127470;"
 	},
 	{
-		"title": translate("Flag: Greenland"),
+		"title": "Flag: Greenland",
 		"value": "&#127468;&#127473;"
 	},
 	{
-		"title": translate("Flag: Gambia"),
+		"title": "Flag: Gambia",
 		"value": "&#127468;&#127474;"
 	},
 	{
-		"title": translate("Flag: Guinea"),
+		"title": "Flag: Guinea",
 		"value": "&#127468;&#127475;"
 	},
 	{
-		"title": translate("Flag: Guadeloupe"),
+		"title": "Flag: Guadeloupe",
 		"value": "&#127468;&#127477;"
 	},
 	{
-		"title": translate("Flag: Equatorial Guinea"),
+		"title": "Flag: Equatorial Guinea",
 		"value": "&#127468;&#127478;"
 	},
 	{
-		"title": translate("Flag: Greece"),
+		"title": "Flag: Greece",
 		"value": "&#127468;&#127479;"
 	},
 	{
-		"title": translate("Flag: South Georgia and the South Sandwich Islands"),
+		"title": "Flag: South Georgia and the South Sandwich Islands",
 		"value": "&#127468;&#127480;"
 	},
 	{
-		"title": translate("Flag: Guatemala"),
+		"title": "Flag: Guatemala",
 		"value": "&#127468;&#127481;"
 	},
 	{
-		"title": translate("Flag: Guam"),
+		"title": "Flag: Guam",
 		"value": "&#127468;&#127482;"
 	},
 	{
-		"title": translate("Flag: Guinea-Bissau"),
+		"title": "Flag: Guinea-Bissau",
 		"value": "&#127468;&#127484;"
 	},
 	{
-		"title": translate("Flag: Guyana"),
+		"title": "Flag: Guyana",
 		"value": "&#127468;&#127486;"
 	},
 	{
-		"title": translate("Flag: Hong Kong (SAR)"),
+		"title": "Flag: Hong Kong (SAR)",
 		"value": "&#127469;&#127472;"
 	},
 	{
-		"title": translate("Flag: Heard and McDonald Islands"),
+		"title": "Flag: Heard and McDonald Islands",
 		"value": "&#127469;&#127474;"
 	},
 	{
-		"title": translate("Flag: Honduras"),
+		"title": "Flag: Honduras",
 		"value": "&#127469;&#127475;"
 	},
 	{
-		"title": translate("Flag: Croatia"),
+		"title": "Flag: Croatia",
 		"value": "&#127469;&#127479;"
 	},
 	{
-		"title": translate("Flag: Haiti"),
+		"title": "Flag: Haiti",
 		"value": "&#127469;&#127481;"
 	},
 	{
-		"title": translate("Flag: Hungary"),
+		"title": "Flag: Hungary",
 		"value": "&#127469;&#127482;"
 	},
 	{
-		"title": translate("Flag: Canary Islands"),
+		"title": "Flag: Canary Islands",
 		"value": "&#127470;&#127464;"
 	},
 	{
-		"title": translate("Flag: Indonesia"),
+		"title": "Flag: Indonesia",
 		"value": "&#127470;&#127465;"
 	},
 	{
-		"title": translate("Flag: Ireland"),
+		"title": "Flag: Ireland",
 		"value": "&#127470;&#127466;"
 	},
 	{
-		"title": translate("Flag: Israel"),
+		"title": "Flag: Israel",
 		"value": "&#127470;&#127473;"
 	},
 	{
-		"title": translate("Flag: Isle of Man"),
+		"title": "Flag: Isle of Man",
 		"value": "&#127470;&#127474;"
 	},
 	{
-		"title": translate("Flag: India"),
+		"title": "Flag: India",
 		"value": "&#127470;&#127475;"
 	},
 	{
-		"title": translate("Flag: British Indian Ocean Territory"),
+		"title": "Flag: British Indian Ocean Territory",
 		"value": "&#127470;&#127476;"
 	},
 	{
-		"title": translate("Flag: Iraq"),
+		"title": "Flag: Iraq",
 		"value": "&#127470;&#127478;"
 	},
 	{
-		"title": translate("Flag: Iran"),
+		"title": "Flag: Iran",
 		"value": "&#127470;&#127479;"
 	},
 	{
-		"title": translate("Flag: Iceland"),
+		"title": "Flag: Iceland",
 		"value": "&#127470;&#127480;"
 	},
 	{
-		"title": translate("Flag: Italy"),
+		"title": "Flag: Italy",
 		"value": "&#127470;&#127481;"
 	},
 	{
-		"title": translate("Flag: Jersey"),
+		"title": "Flag: Jersey",
 		"value": "&#127471;&#127466;"
 	},
 	{
-		"title": translate("Flag: Jamaica"),
+		"title": "Flag: Jamaica",
 		"value": "&#127471;&#127474;"
 	},
 	{
-		"title": translate("Flag: Jordan"),
+		"title": "Flag: Jordan",
 		"value": "&#127471;&#127476;"
 	},
 	{
-		"title": translate("Flag: Japan"),
+		"title": "Flag: Japan",
 		"value": "&#127471;&#127477;"
 	},
 	{
-		"title": translate("Flag: Kenya"),
+		"title": "Flag: Kenya",
 		"value": "&#127472;&#127466;"
 	},
 	{
-		"title": translate("Flag: Kyrgyzstan"),
+		"title": "Flag: Kyrgyzstan",
 		"value": "&#127472;&#127468;"
 	},
 	{
-		"title": translate("Flag: Cambodia"),
+		"title": "Flag: Cambodia",
 		"value": "&#127472;&#127469;"
 	},
 	{
-		"title": translate("Flag: Kiribati"),
+		"title": "Flag: Kiribati",
 		"value": "&#127472;&#127470;"
 	},
 	{
-		"title": translate("Flag: Comoros"),
+		"title": "Flag: Comoros",
 		"value": "&#127472;&#127474;"
 	},
 	{
-		"title": translate("Flag: Saint Kitts and Nevis"),
+		"title": "Flag: Saint Kitts and Nevis",
 		"value": "&#127472;&#127475;"
 	},
 	{
-		"title": translate("Flag: North Korea"),
+		"title": "Flag: North Korea",
 		"value": "&#127472;&#127477;"
 	},
 	{
-		"title": translate("Flag: Republic of Korea"),
+		"title": "Flag: Republic of Korea",
 		"value": "&#127472;&#127479;"
 	},
 	{
-		"title": translate("Flag: Kuwait"),
+		"title": "Flag: Kuwait",
 		"value": "&#127472;&#127484;"
 	},
 	{
-		"title": translate("Flag: Cayman Island"),
+		"title": "Flag: Cayman Island",
 		"value": "&#127472;&#127486;"
 	},
 	{
-		"title": translate("Flag: Kazakhstan"),
+		"title": "Flag: Kazakhstan",
 		"value": "&#127472;&#127487;"
 	},
 	{
-		"title": translate("Flag: Laos"),
+		"title": "Flag: Laos",
 		"value": "&#127473;&#127462;"
 	},
 	{
-		"title": translate("Flag: Lebanon"),
+		"title": "Flag: Lebanon",
 		"value": "&#127473;&#127463;"
 	},
 	{
-		"title": translate("Flag: Saint Lucia"),
+		"title": "Flag: Saint Lucia",
 		"value": "&#127473;&#127464;"
 	},
 	{
-		"title": translate("Flag: Liechtenstein"),
+		"title": "Flag: Liechtenstein",
 		"value": "&#127473;&#127470;"
 	},
 	{
-		"title": translate("Flag: Sri Lanka"),
+		"title": "Flag: Sri Lanka",
 		"value": "&#127473;&#127472;"
 	},
 	{
-		"title": translate("Flag: Liberia"),
+		"title": "Flag: Liberia",
 		"value": "&#127473;&#127479;"
 	},
 	{
-		"title": translate("Flag: Lesotho"),
+		"title": "Flag: Lesotho",
 		"value": "&#127473;&#127480;"
 	},
 	{
-		"title": translate("Flag: Lithuania"),
+		"title": "Flag: Lithuania",
 		"value": "&#127473;&#127481;"
 	},
 	{
-		"title": translate("Flag: Luxembourg"),
+		"title": "Flag: Luxembourg",
 		"value": "&#127473;&#127482;"
 	},
 	{
-		"title": translate("Flag: Latvia"),
+		"title": "Flag: Latvia",
 		"value": "&#127473;&#127483;"
 	},
 	{
-		"title": translate("Flag: Libya"),
+		"title": "Flag: Libya",
 		"value": "&#127473;&#127486;"
 	},
 	{
-		"title": translate("Flag: Morocco"),
+		"title": "Flag: Morocco",
 		"value": "&#127474;&#127462;"
 	},
 	{
-		"title": translate("Flag: Monaco"),
+		"title": "Flag: Monaco",
 		"value": "&#127474;&#127464;"
 	},
 	{
-		"title": translate("Flag: Moldova"),
+		"title": "Flag: Moldova",
 		"value": "&#127474;&#127465;"
 	},
 	{
-		"title": translate("Flag: Montenegro"),
+		"title": "Flag: Montenegro",
 		"value": "&#127474;&#127466;"
 	},
 	{
-		"title": translate("Flag: Saint Martin"),
+		"title": "Flag: Saint Martin",
 		"value": "&#127474;&#127467;"
 	},
 	{
-		"title": translate("Flag: Madagascar"),
+		"title": "Flag: Madagascar",
 		"value": "&#127474;&#127468;"
 	},
 	{
-		"title": translate("Flag: Marshall Islands"),
+		"title": "Flag: Marshall Islands",
 		"value": "&#127474;&#127469;"
 	},
 	{
-		"title": translate("Flag: North Macedonia"),
+		"title": "Flag: North Macedonia",
 		"value": "&#127474;&#127472;"
 	},
 	{
-		"title": translate("Flag: Mali"),
+		"title": "Flag: Mali",
 		"value": "&#127474;&#127473;"
 	},
 	{
-		"title": translate("Flag: Myanmar (Burma)"),
+		"title": "Flag: Myanmar (Burma)",
 		"value": "&#127474;&#127474;"
 	},
 	{
-		"title": translate("Flag: Mongolia"),
+		"title": "Flag: Mongolia",
 		"value": "&#127474;&#127475;"
 	},
 	{
-		"title": translate("Flag: Macau (Sar)"),
+		"title": "Flag: Macau (Sar)",
 		"value": "&#127474;&#127476;"
 	},
 	{
-		"title": translate("Flag: Northern Mariana Islands"),
+		"title": "Flag: Northern Mariana Islands",
 		"value": "&#127474;&#127477;"
 	},
 	{
-		"title": translate("Flag: Martinique"),
+		"title": "Flag: Martinique",
 		"value": "&#127474;&#127478;"
 	},
 	{
-		"title": translate("Flag: Mauritania"),
+		"title": "Flag: Mauritania",
 		"value": "&#127474;&#127479;"
 	},
 	{
-		"title": translate("Flag: Montserrat"),
+		"title": "Flag: Montserrat",
 		"value": "&#127474;&#127480;"
 	},
 	{
-		"title": translate("Flag: Malta"),
+		"title": "Flag: Malta",
 		"value": "&#127474;&#127481;"
 	},
 	{
-		"title": translate("Flag: Mauritius"),
+		"title": "Flag: Mauritius",
 		"value": "&#127474;&#127482;"
 	},
 	{
-		"title": translate("Flag: Maldives"),
+		"title": "Flag: Maldives",
 		"value": "&#127474;&#127483;"
 	},
 	{
-		"title": translate("Flag: Malawi"),
+		"title": "Flag: Malawi",
 		"value": "&#127474;&#127484;"
 	},
 	{
-		"title": translate("Flag: Mexico"),
+		"title": "Flag: Mexico",
 		"value": "&#127474;&#127485;"
 	},
 	{
-		"title": translate("Flag: Malaysia"),
+		"title": "Flag: Malaysia",
 		"value": "&#127474;&#127486;"
 	},
 	{
-		"title": translate("Flag: Mozambique"),
+		"title": "Flag: Mozambique",
 		"value": "&#127474;&#127487;"
 	},
 	{
-		"title": translate("Flag: Namibia"),
+		"title": "Flag: Namibia",
 		"value": "&#127475;&#127462;"
 	},
 	{
-		"title": translate("Flag: New Caledonia"),
+		"title": "Flag: New Caledonia",
 		"value": "&#127475;&#127464;"
 	},
 	{
-		"title": translate("Flag: Niger"),
+		"title": "Flag: Niger",
 		"value": "&#127475;&#127466;"
 	},
 	{
-		"title": translate("Flag: Norfolk Island"),
+		"title": "Flag: Norfolk Island",
 		"value": "&#127475;&#127467;"
 	},
 	{
-		"title": translate("Flag: Nigeria"),
+		"title": "Flag: Nigeria",
 		"value": "&#127475;&#127468;"
 	},
 	{
-		"title": translate("Flag: Nicaragua"),
+		"title": "Flag: Nicaragua",
 		"value": "&#127475;&#127470;"
 	},
 	{
-		"title": translate("Flag: Netherlands"),
+		"title": "Flag: Netherlands",
 		"value": "&#127475;&#127473;"
 	},
 	{
-		"title": translate("Flag: Norway"),
+		"title": "Flag: Norway",
 		"value": "&#127475;&#127476;"
 	},
 	{
-		"title": translate("Flag: Nepal"),
+		"title": "Flag: Nepal",
 		"value": "&#127475;&#127477;"
 	},
 	{
-		"title": translate("Flag: Nauru"),
+		"title": "Flag: Nauru",
 		"value": "&#127475;&#127479;"
 	},
 	{
-		"title": translate("Flag: Niue"),
+		"title": "Flag: Niue",
 		"value": "&#127475;&#127482;"
 	},
 	{
-		"title": translate("Flag: New Zealand"),
+		"title": "Flag: New Zealand",
 		"value": "&#127475;&#127487;"
 	},
 	{
-		"title": translate("Flag: Oman"),
+		"title": "Flag: Oman",
 		"value": "&#127476;&#127474;"
 	},
 	{
-		"title": translate("Flag: Panama"),
+		"title": "Flag: Panama",
 		"value": "&#127477;&#127462;"
 	},
 	{
-		"title": translate("Flag: Peru"),
+		"title": "Flag: Peru",
 		"value": "&#127477;&#127466;"
 	},
 	{
-		"title": translate("Flag: French Polynesia"),
+		"title": "Flag: French Polynesia",
 		"value": "&#127477;&#127467;"
 	},
 	{
-		"title": translate("Flag: Papua New Guinea"),
+		"title": "Flag: Papua New Guinea",
 		"value": "&#127477;&#127468;"
 	},
 	{
-		"title": translate("Flag: Philippines"),
+		"title": "Flag: Philippines",
 		"value": "&#127477;&#127469;"
 	},
 	{
-		"title": translate("Flag: Pakistan"),
+		"title": "Flag: Pakistan",
 		"value": "&#127477;&#127472;"
 	},
 	{
-		"title": translate("Flag: Poland"),
+		"title": "Flag: Poland",
 		"value": "&#127477;&#127473;"
 	},
 	{
-		"title": translate("Flag: Saint Pierre and Miquelon"),
+		"title": "Flag: Saint Pierre and Miquelon",
 		"value": "&#127477;&#127474;"
 	},
 	{
-		"title": translate("Flag: Pitcairn Island"),
+		"title": "Flag: Pitcairn Island",
 		"value": "&#127477;&#127475;"
 	},
 	{
-		"title": translate("Flag: Puerto Rico"),
+		"title": "Flag: Puerto Rico",
 		"value": "&#127477;&#127479;"
 	},
 	{
-		"title": translate("Flag: Palestinian Territories"),
+		"title": "Flag: Palestinian Territories",
 		"value": "&#127477;&#127480;"
 	},
 	{
-		"title": translate("Flag: Portugal"),
+		"title": "Flag: Portugal",
 		"value": "&#127477;&#127481;"
 	},
 	{
-		"title": translate("Flag: Palau"),
+		"title": "Flag: Palau",
 		"value": "&#127477;&#127484;"
 	},
 	{
-		"title": translate("Flag: Paraguay"),
+		"title": "Flag: Paraguay",
 		"value": "&#127477;&#127486;"
 	},
 	{
-		"title": translate("Flag: Qatar"),
+		"title": "Flag: Qatar",
 		"value": "&#127478;&#127462;"
 	},
 	{
-		"title": translate("Flag: Reunion"),
+		"title": "Flag: Reunion",
 		"value": "&#127479;&#127466;"
 	},
 	{
-		"title": translate("Flag: Romania"),
+		"title": "Flag: Romania",
 		"value": "&#127479;&#127476;"
 	},
 	{
-		"title": translate("Flag: Serbia"),
+		"title": "Flag: Serbia",
 		"value": "&#127479;&#127480;"
 	},
 	{
-		"title": translate("Flag: Russia"),
+		"title": "Flag: Russia",
 		"value": "&#127479;&#127482;"
 	},
 	{
-		"title": translate("Flag: Rwanda"),
+		"title": "Flag: Rwanda",
 		"value": "&#127479;&#127484;"
 	},
 	{
-		"title": translate("Flag: Saudi Arabia"),
+		"title": "Flag: Saudi Arabia",
 		"value": "&#127480;&#127462;"
 	},
 	{
-		"title": translate("Flag: Solomon Islands"),
+		"title": "Flag: Solomon Islands",
 		"value": "&#127480;&#127463;"
 	},
 	{
-		"title": translate("Flag: Seychelles"),
+		"title": "Flag: Seychelles",
 		"value": "&#127480;&#127464;"
 	},
 	{
-		"title": translate("Flag: Sudan"),
+		"title": "Flag: Sudan",
 		"value": "&#127480;&#127465;"
 	},
 	{
-		"title": translate("Flag: Sweden"),
+		"title": "Flag: Sweden",
 		"value": "&#127480;&#127466;"
 	},
 	{
-		"title": translate("Flag: Singapore"),
+		"title": "Flag: Singapore",
 		"value": "&#127480;&#127468;"
 	},
 	{
-		"title": translate("Flag: St. Helena Island"),
+		"title": "Flag: St. Helena Island",
 		"value": "&#127480;&#127469;"
 	},
 	{
-		"title": translate("Flag: Slovenia"),
+		"title": "Flag: Slovenia",
 		"value": "&#127480;&#127470;"
 	},
 	{
-		"title": translate("Flag: Svalbard and Jan Mayen"),
+		"title": "Flag: Svalbard and Jan Mayen",
 		"value": "&#127480;&#127471;"
 	},
 	{
-		"title": translate("Flag: Slovakia"),
+		"title": "Flag: Slovakia",
 		"value": "&#127480;&#127472;"
 	},
 	{
-		"title": translate("Flag: Sierra Leone"),
+		"title": "Flag: Sierra Leone",
 		"value": "&#127480;&#127473;"
 	},
 	{
-		"title": translate("Flag: San Marino"),
+		"title": "Flag: San Marino",
 		"value": "&#127480;&#127474;"
 	},
 	{
-		"title": translate("Flag: Senegal"),
+		"title": "Flag: Senegal",
 		"value": "&#127480;&#127475;"
 	},
 	{
-		"title": translate("Flag: Somalia"),
+		"title": "Flag: Somalia",
 		"value": "&#127480;&#127476;"
 	},
 	{
-		"title": translate("Flag: Suriname"),
+		"title": "Flag: Suriname",
 		"value": "&#127480;&#127479;"
 	},
 	{
-		"title": translate("Flag: South Sudan"),
+		"title": "Flag: South Sudan",
 		"value": "&#127480;&#127480;"
 	},
 	{
-		"title": translate("Flag: Sao Tome and Principe"),
+		"title": "Flag: Sao Tome and Principe",
 		"value": "&#127480;&#127481;"
 	},
 	{
-		"title": translate("Flag: El Salvador"),
+		"title": "Flag: El Salvador",
 		"value": "&#127480;&#127483;"
 	},
 	{
-		"title": translate("Flag: Sint Maarten"),
+		"title": "Flag: Sint Maarten",
 		"value": "&#127480;&#127485;"
 	},
 	{
-		"title": translate("Flag: Syria"),
+		"title": "Flag: Syria",
 		"value": "&#127480;&#127486;"
 	},
 	{
-		"title": translate("Flag: Eswatini"),
+		"title": "Flag: Eswatini",
 		"value": "&#127480;&#127487;"
 	},
 	{
-		"title": translate("Flag: Tristan Da Cunha"),
+		"title": "Flag: Tristan Da Cunha",
 		"value": "&#127481;&#127462;"
 	},
 	{
-		"title": translate("Flag: Turks and Caicos Islands"),
+		"title": "Flag: Turks and Caicos Islands",
 		"value": "&#127481;&#127464;"
 	},
 	{
-		"title": translate("Flag: Chad"),
+		"title": "Flag: Chad",
 		"value": "&#127481;&#127465;"
 	},
 	{
-		"title": translate("Flag: French Southern Territories"),
+		"title": "Flag: French Southern Territories",
 		"value": "&#127481;&#127467;"
 	},
 	{
-		"title": translate("Flag: Togo"),
+		"title": "Flag: Togo",
 		"value": "&#127481;&#127468;"
 	},
 	{
-		"title": translate("Flag: Thailand"),
+		"title": "Flag: Thailand",
 		"value": "&#127481;&#127469;"
 	},
 	{
-		"title": translate("Flag: Tajikistan"),
+		"title": "Flag: Tajikistan",
 		"value": "&#127481;&#127471;"
 	},
 	{
-		"title": translate("Flag: Tokelau"),
+		"title": "Flag: Tokelau",
 		"value": "&#127481;&#127472;"
 	},
 	{
-		"title": translate("Flag: East Timor"),
+		"title": "Flag: East Timor",
 		"value": "&#127481;&#127473;"
 	},
 	{
-		"title": translate("Flag: Turkmenistan"),
+		"title": "Flag: Turkmenistan",
 		"value": "&#127481;&#127474;"
 	},
 	{
-		"title": translate("Flag: Tunis"),
+		"title": "Flag: Tunis",
 		"value": "&#127481;&#127475;"
 	},
 	{
-		"title": translate("Flag: Tonga"),
+		"title": "Flag: Tonga",
 		"value": "&#127481;&#127476;"
 	},
 	{
-		"title": translate("Flag: Turkey"),
+		"title": "Flag: Turkey",
 		"value": "&#127481;&#127479;"
 	},
 	{
-		"title": translate("Flag: Trinidad and Tobago"),
+		"title": "Flag: Trinidad and Tobago",
 		"value": "&#127481;&#127481;"
 	},
 	{
-		"title": translate("Flag: Tuvalu"),
+		"title": "Flag: Tuvalu",
 		"value": "&#127481;&#127483;"
 	},
 	{
-		"title": translate("Flag: Taiwan"),
+		"title": "Flag: Taiwan",
 		"value": "&#127481;&#127484;"
 	},
 	{
-		"title": translate("Flag: Tanzania"),
+		"title": "Flag: Tanzania",
 		"value": "&#127481;&#127487;"
 	},
 	{
-		"title": translate("Flag: Ukraine"),
+		"title": "Flag: Ukraine",
 		"value": "&#127482;&#127462;"
 	},
 	{
-		"title": translate("Flag: Uganda"),
+		"title": "Flag: Uganda",
 		"value": "&#127482;&#127468;"
 	},
 	{
-		"title": translate("Flag: Outer Small Islands (USA)"),
+		"title": "Flag: Outer Small Islands (USA)",
 		"value": "&#127482;&#127474;"
 	},
 	{
-		"title": translate("Flag: United Nations"),
+		"title": "Flag: United Nations",
 		"value": "&#127482;&#127475;"
 	},
 	{
-		"title": translate("Flag: United States"),
+		"title": "Flag: United States",
 		"value": "&#127482;&#127480;"
 	},
 	{
-		"title": translate("Flag: Uruguay"),
+		"title": "Flag: Uruguay",
 		"value": "&#127482;&#127486;"
 	},
 	{
-		"title": translate("Flag: Uzbekistan"),
+		"title": "Flag: Uzbekistan",
 		"value": "&#127482;&#127487;"
 	},
 	{
-		"title": translate("Flag: Vatican City"),
+		"title": "Flag: Vatican City",
 		"value": "&#127483;&#127462;"
 	},
 	{
-		"title": translate("Flag: Saint Vincent and the Grenadines"),
+		"title": "Flag: Saint Vincent and the Grenadines",
 		"value": "&#127483;&#127464;"
 	},
 	{
-		"title": translate("Flag: Venezuela"),
+		"title": "Flag: Venezuela",
 		"value": "&#127483;&#127466;"
 	},
 	{
-		"title": translate("Flag: Virgin Islands (Great Britain)"),
+		"title": "Flag: Virgin Islands (Great Britain)",
 		"value": "&#127483;&#127468;"
 	},
 	{
-		"title": translate("Flag: Virgin Islands (USA)"),
+		"title": "Flag: Virgin Islands (USA)",
 		"value": "&#127483;&#127470;"
 	},
 	{
-		"title": translate("Flag: Vietnam"),
+		"title": "Flag: Vietnam",
 		"value": "&#127483;&#127475;"
 	},
 	{
-		"title": translate("Flag: Vanuatu"),
+		"title": "Flag: Vanuatu",
 		"value": "&#127483;&#127482;"
 	},
 	{
-		"title": translate("Flag: Wallis and Futuna"),
+		"title": "Flag: Wallis and Futuna",
 		"value": "&#127484;&#127467;"
 	},
 	{
-		"title": translate("Flag: Samoa"),
+		"title": "Flag: Samoa",
 		"value": "&#127484;&#127480;"
 	},
 	{
-		"title": translate("Flag: Kosovo"),
+		"title": "Flag: Kosovo",
 		"value": "&#127485;&#127472;"
 	},
 	{
-		"title": translate("Flag: Yemen"),
+		"title": "Flag: Yemen",
 		"value": "&#127486;&#127466;"
 	},
 	{
-		"title": translate("Flag: Mayotte"),
+		"title": "Flag: Mayotte",
 		"value": "&#127486;&#127481;"
 	},
 	{
-		"title": translate("Flag: Republic of South Africa"),
+		"title": "Flag: Republic of South Africa",
 		"value": "&#127487;&#127462;"
 	},
 	{
-		"title": translate("Flag: Zambia"),
+		"title": "Flag: Zambia",
 		"value": "&#127487;&#127474;"
 	},
 	{
-		"title": translate("Flag: Zimbabwe"),
+		"title": "Flag: Zimbabwe",
 		"value": "&#127487;&#127484;"
 	},
 	{
-		"title": translate("Flag: England"),
+		"title": "Flag: England",
 		"value": "&#127988;&#917607;&#917602;&#917605;&#917614;&#917607;&#917631;"
 	},
 	{
-		"title": translate("Flag: Scotland"),
+		"title": "Flag: Scotland",
 		"value": "&#127988;&#917607;&#917602;&#917619;&#917603;&#917620;&#917631;"
 	},
 	{
-		"title": translate("Flag: Wales"),
+		"title": "Flag: Wales",
 		"value": "&#127988;&#917607;&#917602;&#917623;&#917612;&#917619;&#917631;"
 	}
 ];

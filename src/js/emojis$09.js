@@ -1,874 +1,874 @@
 let emojis$09 = [
     {
-        "title": translate("Glasses"),
+        "title": "Glasses",
         "value": "&#128083;"
     },
     {
-        "title": translate("Black glasses"),
+        "title": "Black glasses",
         "value": "&#128374;"
     },
     {
-        "title": translate("Scuba Diver's Mask"),
+        "title": "Scuba Diver's Mask",
         "value": "&#129405;"
     },
     {
-        "title": translate("Laboratory (doctor's) coat"),
+        "title": "Laboratory (doctor's) coat",
         "value": "&#129404;"
     },
     {
-        "title": translate("Tie"),
+        "title": "Tie",
         "value": "&#128084;"
     },
     {
-        "title": translate("T-shirt"),
+        "title": "T-shirt",
         "value": "&#128085;"
     },
     {
-        "title": translate("Jeans"),
+        "title": "Jeans",
         "value": "&#128086;"
     },
     {
-        "title": translate("Scarf"),
+        "title": "Scarf",
         "value": "&#129507;"
     },
     {
-        "title": translate("Gloves"),
+        "title": "Gloves",
         "value": "&#129508;"
     },
     {
-        "title": translate("Coat"),
+        "title": "Coat",
         "value": "&#129509;"
     },
     {
-        "title": translate("Socks"),
+        "title": "Socks",
         "value": "&#129510;"
     },
     {
-        "title": translate("Dress"),
+        "title": "Dress",
         "value": "&#128087;"
     },
     {
-        "title": translate("Kimano"),
+        "title": "Kimano",
         "value": "&#128088;"
     },
     {
-        "title": translate("Bikini (swimsuit)"),
+        "title": "Bikini (swimsuit)",
         "value": "&#128089;"
     },
     {
-        "title": translate("Women's bathrobe"),
+        "title": "Women's bathrobe",
         "value": "&#128090;"
     },
     {
-        "title": translate("Wallet"),
+        "title": "Wallet",
         "value": "&#128091;"
     },
     {
-        "title": translate("Handbag"),
+        "title": "Handbag",
         "value": "&#128092;"
     },
     {
-        "title": translate("The pouch"),
+        "title": "The pouch",
         "value": "&#128093;"
     },
     {
-        "title": translate("Shopping Bags"),
+        "title": "Shopping Bags",
         "value": "&#128717;"
     },
     {
-        "title": translate("School backpack"),
+        "title": "School backpack",
         "value": "&#127890;"
     },
     {
-        "title": translate("Men's shoes"),
+        "title": "Men's shoes",
         "value": "&#128094;"
     },
     {
-        "title": translate("Sports shoes"),
+        "title": "Sports shoes",
         "value": "&#128095;"
     },
     {
-        "title": translate("Hiking boots"),
+        "title": "Hiking boots",
         "value": "&#129406;"
     },
     {
-        "title": translate("Women's Flat Shoes"),
+        "title": "Women's Flat Shoes",
         "value": "&#129407;"
     },
     {
-        "title": translate("High-heeled shoes"),
+        "title": "High-heeled shoes",
         "value": "&#128096;"
     },
     {
-        "title": translate("Women's Sandals"),
+        "title": "Women's Sandals",
         "value": "&#128097;"
     },
     {
-        "title": translate("Women's boots"),
+        "title": "Women's boots",
         "value": "&#128098;"
     },
     {
-        "title": translate("Crown"),
+        "title": "Crown",
         "value": "&#128081;"
     },
     {
-        "title": translate("Women's Panama"),
+        "title": "Women's Panama",
         "value": "&#128082;"
     },
     {
-        "title": translate("Top hat (male)"),
+        "title": "Top hat (male)",
         "value": "&#127913;"
     },
     {
-        "title": translate("Graduate's hat"),
+        "title": "Graduate's hat",
         "value": "&#127891;"
     },
     {
-        "title": translate("Baseball cap"),
+        "title": "Baseball cap",
         "value": "&#129506;"
     },
     {
-        "title": translate("Helmet with a white cross"),
+        "title": "Helmet with a white cross",
         "value": "&#9937;"
     },
     {
-        "title": translate("Prayer beads"),
+        "title": "Prayer beads",
         "value": "&#128255;"
     },
     {
-        "title": translate("Lipstick (sponge)"),
+        "title": "Lipstick (sponge)",
         "value": "&#128132;"
     },
     {
-        "title": translate("Ring"),
+        "title": "Ring",
         "value": "&#128141;"
     },
     {
-        "title": translate("A precious stone"),
+        "title": "A precious stone",
         "value": "&#128142;"
     },
     {
-        "title": translate("Sound is prohibited"),
+        "title": "Sound is prohibited",
         "value": "&#128263;"
     },
     {
-        "title": translate("The speaker is off"),
+        "title": "The speaker is off",
         "value": "&#128264;"
     },
     {
-        "title": translate("Speaker at minimum volume"),
+        "title": "Speaker at minimum volume",
         "value": "&#128265;"
     },
     {
-        "title": translate("Speaker at maximum volume"),
+        "title": "Speaker at maximum volume",
         "value": "&#128266;"
     },
     {
-        "title": translate("Speaker for notification"),
+        "title": "Speaker for notification",
         "value": "&#128226;"
     },
     {
-        "title": translate("Megafon"),
+        "title": "Megafon",
         "value": "&#128227;"
     },
     {
-        "title": translate("Postal Horn"),
+        "title": "Postal Horn",
         "value": "&#128239;"
     },
     {
-        "title": translate("Bell"),
+        "title": "Bell",
         "value": "&#128276;"
     },
     {
-        "title": translate("The bell is forbidden"),
+        "title": "The bell is forbidden",
         "value": "&#128277;"
     },
     {
-        "title": translate("Musical score"),
+        "title": "Musical score",
         "value": "&#127932;"
     },
     {
-        "title": translate("Musical note"),
+        "title": "Musical note",
         "value": "&#127925;"
     },
     {
-        "title": translate("Musical notes"),
+        "title": "Musical notes",
         "value": "&#127926;"
     },
     {
-        "title": translate("Studio Microphone"),
+        "title": "Studio Microphone",
         "value": "&#127897;"
     },
     {
-        "title": translate("Slider control"),
+        "title": "Slider control",
         "value": "&#127898;"
     },
     {
-        "title": translate("Control knobs"),
+        "title": "Control knobs",
         "value": "&#127899;"
     },
     {
-        "title": translate("Microphone"),
+        "title": "Microphone",
         "value": "&#127908;"
     },
     {
-        "title": translate("Headphones"),
+        "title": "Headphones",
         "value": "&#127911;"
     },
     {
-        "title": translate("Radio"),
+        "title": "Radio",
         "value": "&#128251;"
     },
     {
-        "title": translate("The saxophone"),
+        "title": "The saxophone",
         "value": "&#127927;"
     },
     {
-        "title": translate("Guitar"),
+        "title": "Guitar",
         "value": "&#127928;"
     },
     {
-        "title": translate("Musical keyboard"),
+        "title": "Musical keyboard",
         "value": "&#127929;"
     },
     {
-        "title": translate("Musical Trumpet"),
+        "title": "Musical Trumpet",
         "value": "&#127930;"
     },
     {
-        "title": translate("Violin"),
+        "title": "Violin",
         "value": "&#127931;"
     },
     {
-        "title": translate("A drum with drumsticks"),
+        "title": "A drum with drumsticks",
         "value": "&#129345;"
     },
     {
-        "title": translate("Mobile phone"),
+        "title": "Mobile phone",
         "value": "&#128241;"
     },
     {
-        "title": translate("Mobile phone receiving a call"),
+        "title": "Mobile phone receiving a call",
         "value": "&#128242;"
     },
     {
-        "title": translate("Disk Phone Number"),
+        "title": "Disk Phone Number",
         "value": "&#9742;"
     },
     {
-        "title": translate("The handset"),
+        "title": "The handset",
         "value": "&#128222;"
     },
     {
-        "title": translate("The pager"),
+        "title": "The pager",
         "value": "&#128223;"
     },
     {
-        "title": translate("Fax number"),
+        "title": "Fax number",
         "value": "&#128224;"
     },
     {
-        "title": translate("Battery"),
+        "title": "Battery",
         "value": "&#128267;"
     },
     {
-        "title": translate("Electric plug"),
+        "title": "Electric plug",
         "value": "&#128268;"
     },
     {
-        "title": translate("A laptop"),
+        "title": "A laptop",
         "value": "&#128187;"
     },
     {
-        "title": translate("Computer"),
+        "title": "Computer",
         "value": "&#128421;"
     },
     {
-        "title": translate("Printer"),
+        "title": "Printer",
         "value": "&#128424;"
     },
     {
-        "title": translate("Keyboard"),
+        "title": "Keyboard",
         "value": "&#9000;"
     },
     {
-        "title": translate("Three-button mouse"),
+        "title": "Three-button mouse",
         "value": "&#128433;"
     },
     {
-        "title": translate("Trackball"),
+        "title": "Trackball",
         "value": "&#128434;"
     },
     {
-        "title": translate("Minidisc"),
+        "title": "Minidisc",
         "value": "&#128189;"
     },
     {
-        "title": translate("3.5\" Floppy Disk 1.44Mb"),
+        "title": "3.5\" Floppy Disk 1.44Mb",
         "value": "&#128190;"
     },
     {
-        "title": translate("Optical Disc CD"),
+        "title": "Optical Disc CD",
         "value": "&#128191;"
     },
     {
-        "title": translate("Optical Disc DVD"),
+        "title": "Optical Disc DVD",
         "value": "&#128192;"
     },
     {
-        "title": translate("Accounts"),
+        "title": "Accounts",
         "value": "&#129518;"
     },
     {
-        "title": translate("Movie Camera"),
+        "title": "Movie Camera",
         "value": "&#127909;"
     },
     {
-        "title": translate("The movie"),
+        "title": "The movie",
         "value": "&#127902;"
     },
     {
-        "title": translate("Filmoscope (projector)"),
+        "title": "Filmoscope (projector)",
         "value": "&#128253;"
     },
     {
-        "title": translate("The movie Cracker"),
+        "title": "The movie Cracker",
         "value": "&#127916;"
     },
     {
-        "title": translate("TV"),
+        "title": "TV",
         "value": "&#128250;"
     },
     {
-        "title": translate("The camera"),
+        "title": "The camera",
         "value": "&#128247;"
     },
     {
-        "title": translate("Camera with flash light"),
+        "title": "Camera with flash light",
         "value": "&#128248;"
     },
     {
-        "title": translate("Video camera"),
+        "title": "Video camera",
         "value": "&#128249;"
     },
     {
-        "title": translate("Video tape"),
+        "title": "Video tape",
         "value": "&#128252;"
     },
     {
-        "title": translate("Healing glass with a stream on the left"),
+        "title": "Healing glass with a stream on the left",
         "value": "&#128269;"
     },
     {
-        "title": translate("Healing glass with a stream on the right"),
+        "title": "Healing glass with a stream on the right",
         "value": "&#128270;"
     },
     {
-        "title": translate("A Burning Candle"),
+        "title": "A Burning Candle",
         "value": "&#128367;"
     },
     {
-        "title": translate("Electric light bulb"),
+        "title": "Electric light bulb",
         "value": "&#128161;"
     },
     {
-        "title": translate("Electric flashlight"),
+        "title": "Electric flashlight",
         "value": "&#128294;"
     },
     {
-        "title": translate("The red lantern"),
+        "title": "The red lantern",
         "value": "&#127982;"
     },
     {
-        "title": translate("A notebook with a decorative cover"),
+        "title": "A notebook with a decorative cover",
         "value": "&#128212;"
     },
     {
-        "title": translate("The Closed book"),
+        "title": "The Closed book",
         "value": "&#128213;"
     },
     {
-        "title": translate("An open book"),
+        "title": "An open book",
         "value": "&#128214;"
     },
     {
-        "title": translate("The Green Book"),
+        "title": "The Green Book",
         "value": "&#128215;"
     },
     {
-        "title": translate("The Blue Book"),
+        "title": "The Blue Book",
         "value": "&#128216;"
     },
     {
-        "title": translate("The Orange Book"),
+        "title": "The Orange Book",
         "value": "&#128217;"
     },
     {
-        "title": translate("Books"),
+        "title": "Books",
         "value": "&#128218;"
     },
     {
-        "title": translate("Notepad"),
+        "title": "Notepad",
         "value": "&#128211;"
     },
     {
-        "title": translate("Accounting Book"),
+        "title": "Accounting Book",
         "value": "&#128210;"
     },
     {
-        "title": translate("The Curl page"),
+        "title": "The Curl page",
         "value": "&#128195;"
     },
     {
-        "title": translate("A page with swirls at the top and bottom"),
+        "title": "A page with swirls at the top and bottom",
         "value": "&#128220;"
     },
     {
-        "title": translate("The page is face up"),
+        "title": "The page is face up",
         "value": "&#128196;"
     },
     {
-        "title": translate("Newspaper"),
+        "title": "Newspaper",
         "value": "&#128240;"
     },
     {
-        "title": translate("A rolled-up newspaper"),
+        "title": "A rolled-up newspaper",
         "value": "&#128478;"
     },
     {
-        "title": translate("Bookmarks Tabs"),
+        "title": "Bookmarks Tabs",
         "value": "&#128209;"
     },
     {
-        "title": translate("Bookmark"),
+        "title": "Bookmark",
         "value": "&#128278;"
     },
     {
-        "title": translate("Label"),
+        "title": "Label",
         "value": "&#127991;"
     },
     {
-        "title": translate("The money Bag"),
+        "title": "The money Bag",
         "value": "&#128176;"
     },
     {
-        "title": translate("A banknote with a yen sign"),
+        "title": "A banknote with a yen sign",
         "value": "&#128180;"
     },
     {
-        "title": translate("A banknote with a dollar sign"),
+        "title": "A banknote with a dollar sign",
         "value": "&#128181;"
     },
     {
-        "title": translate("Banknote with the euro sign"),
+        "title": "Banknote with the euro sign",
         "value": "&#128182;"
     },
     {
-        "title": translate("A banknote with a pound sign"),
+        "title": "A banknote with a pound sign",
         "value": "&#128183;"
     },
     {
-        "title": translate("Money with wings"),
+        "title": "Money with wings",
         "value": "&#128184;"
     },
     {
-        "title": translate("Credit card"),
+        "title": "Credit card",
         "value": "&#128179;"
     },
     {
-        "title": translate("Receipt"),
+        "title": "Receipt",
         "value": "&#129534;"
     },
     {
-        "title": translate("Chart with an uptrend and a yen sign"),
+        "title": "Chart with an uptrend and a yen sign",
         "value": "&#128185;"
     },
     {
-        "title": translate("Currency exchange"),
+        "title": "Currency exchange",
         "value": "&#128177;"
     },
     {
-        "title": translate("Heavy Dollar sign"),
+        "title": "Heavy Dollar sign",
         "value": "&#128178;"
     },
     {
-        "title": translate("The envelope"),
+        "title": "The envelope",
         "value": "&#9993;"
     },
     {
-        "title": translate("The email symbol"),
+        "title": "The email symbol",
         "value": "&#128231;"
     },
     {
-        "title": translate("Incoming envelope"),
+        "title": "Incoming envelope",
         "value": "&#128232;"
     },
     {
-        "title": translate("An envelope with a downward arrow on top"),
+        "title": "An envelope with a downward arrow on top",
         "value": "&#128233;"
     },
     {
-        "title": translate("Outgoing Mail tray"),
+        "title": "Outgoing Mail tray",
         "value": "&#128228;"
     },
     {
-        "title": translate("Incoming Message tray"),
+        "title": "Incoming Message tray",
         "value": "&#128229;"
     },
     {
-        "title": translate("Packaging"),
+        "title": "Packaging",
         "value": "&#128230;"
     },
     {
-        "title": translate("A closed mailbox with a raised flag"),
+        "title": "A closed mailbox with a raised flag",
         "value": "&#128235;"
     },
     {
-        "title": translate("A closed mailbox with a lowered flag"),
+        "title": "A closed mailbox with a lowered flag",
         "value": "&#128234;"
     },
     {
-        "title": translate("An open mailbox with a raised flag"),
+        "title": "An open mailbox with a raised flag",
         "value": "&#128236;"
     },
     {
-        "title": translate("An open mailbox with the flag down"),
+        "title": "An open mailbox with the flag down",
         "value": "&#128237;"
     },
     {
-        "title": translate("Mailbox"),
+        "title": "Mailbox",
         "value": "&#128238;"
     },
     {
-        "title": translate("The ballot box"),
+        "title": "The ballot box",
         "value": "&#128499;"
     },
     {
-        "title": translate("Pencil"),
+        "title": "Pencil",
         "value": "&#9999;"
     },
     {
-        "title": translate("Fountain Pen"),
+        "title": "Fountain Pen",
         "value": "&#10002;"
     },
     {
-        "title": translate("Lower left fountain pen"),
+        "title": "Lower left fountain pen",
         "value": "&#128395;"
     },
     {
-        "title": translate("Lower left ballpoint pen"),
+        "title": "Lower left ballpoint pen",
         "value": "&#128394;"
     },
     {
-        "title": translate("Lower left hand"),
+        "title": "Lower left hand",
         "value": "&#128396;"
     },
     {
-        "title": translate("Lower left pencil"),
+        "title": "Lower left pencil",
         "value": "&#128397;"
     },
     {
-        "title": translate("The memo"),
+        "title": "The memo",
         "value": "&#128221;"
     },
     {
-        "title": translate("Briefcase"),
+        "title": "Briefcase",
         "value": "&#128188;"
     },
     {
-        "title": translate("Folder with files"),
+        "title": "Folder with files",
         "value": "&#128193;"
     },
     {
-        "title": translate("An open folder with files"),
+        "title": "An open folder with files",
         "value": "&#128194;"
     },
     {
-        "title": translate("File dividers"),
+        "title": "File dividers",
         "value": "&#128450;"
     },
     {
-        "title": translate("Calendar"),
+        "title": "Calendar",
         "value": "&#128197;"
     },
     {
-        "title": translate("Tear-off calendar"),
+        "title": "Tear-off calendar",
         "value": "&#128198;"
     },
     {
-        "title": translate("Spiral Notebook"),
+        "title": "Spiral Notebook",
         "value": "&#128466;"
     },
     {
-        "title": translate("Notepad calendar with spiral"),
+        "title": "Notepad calendar with spiral",
         "value": "&#128467;"
     },
     {
-        "title": translate("File cabinet"),
+        "title": "File cabinet",
         "value": "&#128199;"
     },
     {
-        "title": translate("An uptrend chart"),
+        "title": "An uptrend chart",
         "value": "&#128200;"
     },
     {
-        "title": translate("A chart with a downtrend"),
+        "title": "A chart with a downtrend",
         "value": "&#128201;"
     },
     {
-        "title": translate("Bar chart"),
+        "title": "Bar chart",
         "value": "&#128202;"
     },
     {
-        "title": translate("Clipboard"),
+        "title": "Clipboard",
         "value": "&#128203;"
     },
     {
-        "title": translate("Button"),
+        "title": "Button",
         "value": "&#128204;"
     },
     {
-        "title": translate("Round button"),
+        "title": "Round button",
         "value": "&#128205;"
     },
     {
-        "title": translate("Paper clip"),
+        "title": "Paper clip",
         "value": "&#128206;"
     },
     {
-        "title": translate("Bound Paper Clips"),
+        "title": "Bound Paper Clips",
         "value": "&#128391;"
     },
     {
-        "title": translate("Ruler"),
+        "title": "Ruler",
         "value": "&#128207;"
     },
     {
-        "title": translate("Triangular ruler"),
+        "title": "Triangular ruler",
         "value": "&#128208;"
     },
     {
-        "title": translate("Scissors"),
+        "title": "Scissors",
         "value": "&#9986;"
     },
     {
-        "title": translate("The filing cabinet box"),
+        "title": "The filing cabinet box",
         "value": "&#128451;"
     },
     {
-        "title": translate("File Cabinet"),
+        "title": "File Cabinet",
         "value": "&#128452;"
     },
     {
-        "title": translate("The wastebasket"),
+        "title": "The wastebasket",
         "value": "&#128465;"
     },
     {
-        "title": translate("Castle"),
+        "title": "Castle",
         "value": "&#128274;"
     },
     {
-        "title": translate("An open castle"),
+        "title": "An open castle",
         "value": "&#128275;"
     },
     {
-        "title": translate("Lock with ink pen"),
+        "title": "Lock with ink pen",
         "value": "&#128271;"
     },
     {
-        "title": translate("A closed lock with a key"),
+        "title": "A closed lock with a key",
         "value": "&#128272;"
     },
     {
-        "title": translate("Key"),
+        "title": "Key",
         "value": "&#128273;"
     },
     {
-        "title": translate("The old key"),
+        "title": "The old key",
         "value": "&#128477;"
     },
     {
-        "title": translate("A hammer"),
+        "title": "A hammer",
         "value": "&#128296;"
     },
     {
-        "title": translate("Pickaxe"),
+        "title": "Pickaxe",
         "value": "&#9935;"
     },
     {
-        "title": translate("Hammer and pickaxe"),
+        "title": "Hammer and pickaxe",
         "value": "&#9874;"
     },
     {
-        "title": translate("Hammer and wrench"),
+        "title": "Hammer and wrench",
         "value": "&#128736;"
     },
     {
-        "title": translate("Dagger-knife"),
+        "title": "Dagger-knife",
         "value": "&#128481;"
     },
     {
-        "title": translate("Crossed swords"),
+        "title": "Crossed swords",
         "value": "&#9876;"
     },
     {
-        "title": translate("Gun"),
+        "title": "Gun",
         "value": "&#128299;"
     },
     {
-        "title": translate("Bow and arrows"),
+        "title": "Bow and arrows",
         "value": "&#127993;"
     },
     {
-        "title": translate("Shield"),
+        "title": "Shield",
         "value": "&#128737;"
     },
     {
-        "title": translate("Wrench"),
+        "title": "Wrench",
         "value": "&#128295;"
     },
     {
-        "title": translate("A bolt with a spike"),
+        "title": "A bolt with a spike",
         "value": "&#128297;"
     },
     {
-        "title": translate("Mechanism"),
+        "title": "Mechanism",
         "value": "&#9881;"
     },
     {
-        "title": translate("Compression"),
+        "title": "Compression",
         "value": "&#128476;"
     },
     {
-        "title": translate("Scales"),
+        "title": "Scales",
         "value": "&#9878;"
     },
     {
-        "title": translate("The link symbol"),
+        "title": "The link symbol",
         "value": "&#128279;"
     },
     {
-        "title": translate("Chains"),
+        "title": "Chains",
         "value": "&#9939;"
     },
     {
-        "title": translate("The toolbox"),
+        "title": "The toolbox",
         "value": "&#129520;"
     },
     {
-        "title": translate("Magnet"),
+        "title": "Magnet",
         "value": "&#129522;"
     },
     {
-        "title": translate("The alembic"),
+        "title": "The alembic",
         "value": "&#9879;"
     },
     {
-        "title": translate("Test tube"),
+        "title": "Test tube",
         "value": "&#129514;"
     },
     {
-        "title": translate("Petri Dish"),
+        "title": "Petri Dish",
         "value": "&#129515;"
     },
     {
-        "title": translate("The double helix of DNA"),
+        "title": "The double helix of DNA",
         "value": "&#129516;"
     },
     {
-        "title": translate("The microscope"),
+        "title": "The microscope",
         "value": "&#128300;"
     },
     {
-        "title": translate("The telescope"),
+        "title": "The telescope",
         "value": "&#128301;"
     },
     {
-        "title": translate("Satellite dish"),
+        "title": "Satellite dish",
         "value": "&#128225;"
     },
     {
-        "title": translate("Syringe"),
+        "title": "Syringe",
         "value": "&#128137;"
     },
     {
-        "title": translate("The pill"),
+        "title": "The pill",
         "value": "&#128138;"
     },
     {
-        "title": translate("Door"),
+        "title": "Door",
         "value": "&#128682;"
     },
     {
-        "title": translate("Bed"),
+        "title": "Bed",
         "value": "&#128719;"
     },
     {
-        "title": translate("Sofa and lamp"),
+        "title": "Sofa and lamp",
         "value": "&#128715;"
     },
     {
-        "title": translate("Toilet"),
+        "title": "Toilet",
         "value": "&#128701;"
     },
     {
-        "title": translate("Shower"),
+        "title": "Shower",
         "value": "&#128703;"
     },
     {
-        "title": translate("Bath"),
+        "title": "Bath",
         "value": "&#128705;"
     },
     {
-        "title": translate("A bottle of lotion"),
+        "title": "A bottle of lotion",
         "value": "&#129524;"
     },
     {
-        "title": translate("Safety Pin"),
+        "title": "Safety Pin",
         "value": "&#129527;"
     },
     {
-        "title": translate("Broomstick"),
+        "title": "Broomstick",
         "value": "&#129529;"
     },
     {
-        "title": translate("Basket"),
+        "title": "Basket",
         "value": "&#129530;"
     },
     {
-        "title": translate("A roll of paper"),
+        "title": "A roll of paper",
         "value": "&#129531;"
     },
     {
-        "title": translate("A bar of soap"),
+        "title": "A bar of soap",
         "value": "&#129532;"
     },
     {
-        "title": translate("Sponge"),
+        "title": "Sponge",
         "value": "&#129533;"
     },
     {
-        "title": translate("Fire extinguisher"),
+        "title": "Fire extinguisher",
         "value": "&#129519;"
     },
     {
-        "title": translate("Shopping cart"),
+        "title": "Shopping cart",
         "value": "&#128722;"
     },
     {
-        "title": translate("The symbol of smoking"),
+        "title": "The symbol of smoking",
         "value": "&#128684;"
     },
     {
-        "title": translate("Coffin"),
+        "title": "Coffin",
         "value": "&#9904;"
     },
     {
-        "title": translate("Funeral urn"),
+        "title": "Funeral urn",
         "value": "&#9905;"
     },
     {
-        "title": translate("Moyai statue"),
+        "title": "Moyai statue",
         "value": "&#128511;"
     }
 ];
