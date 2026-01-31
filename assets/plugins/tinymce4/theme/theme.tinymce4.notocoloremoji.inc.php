@@ -14,22 +14,29 @@
   *
   * $this->modxParams содержит массив фактических настроек Modx/user-settings
   *
-  * */
+  **/
+
+//-------------------------------------
+// Вы всегда можете скопировать и перенести нужные настройки в ваши настройки.
+// Просто помните, что если вы обновите плагин NotoColorEmoji, то файл `theme.tinymce4.notocoloremoji.inc.php` перезапишется и будет иметь настройки которые установил разработчик.
+//-------------------------------------
+
 // Используемые шрифты. Шрифты указывать так, как они именуются в CSS
 //$this->set('font_formats', 'Open Sans=Open Sans', 'string');
 
 // Используемые плагины
 $this->set('plugins', 'save autolink lists layer table modxlink image media contextmenu paste visualchars nonbreaking visualblocks charmap wordcount code autoresize spellchecker notocoloremoji', 'string');
+// Отключаем templates
+$this->set('templates', false, 'bool');
 // Первая строка тулбара
 $this->set('toolbar1', 'save | undo redo | cut copy paste pastetext | visualchars | visualblocks | code', 'string');
 // Вторая строка тулбара
 $this->set('toolbar2', 'formatselect | bold italic underline strikethrough subscript superscript removeformat | alignleft aligncenter alignright alignjustify | bullist numlist | blockquote', 'string');
 // Третья строка тулбара
 $this->set('toolbar3', 'table | image media | link unlink | charmap | nonbreaking | spellchecker | notocoloremoji | wordcount', 'string');
-// Четвёртая строка тулбара (включаем emoji)
+// Четвёртая строка тулбара
 $this->set('toolbar4', false, 'bool');
-// Основное меню (отключаем)
-//$this->set('menubar', false, 'bool');
+// Основное меню (включаем)
 $this->set('menubar', 'edit insert view format tools table', 'string');
 // Выставляем свой формат выравнивания текста
 $this->set('formats', '{
@@ -82,7 +89,8 @@ $this->set('invalid_styles', '{
 		"th" : "width height border border-width border-style border-collapse",
 		"td" : "width height border border-width border-style border-collapse",
 		"img" : "width height border border-width border-style float",
-		"iframe" : "width height border border-width border-style float"
+		"iframe" : "width height border border-width border-style float",
+		"*": "font-size"
 	}', 'json');
 // По умолчанию аттрибут таблицы class имеет значение table-bordered
 $this->set('table_default_attributes', '{
@@ -107,8 +115,16 @@ $this->set('image_dimensions', false, 'bool');
 $this->set('image_description', false, 'bool');
 
 // Старт и сохранение
-$this->set('setup', 'function(ed) { ed.on("change", function(e) { documentDirty=true; }); }',  'object');
-$this->set('save_onsavecallback', 'function () { documentDirty=false; document.getElementById("stay").value = 2; document.mutate.save.click(); }',  'object');
+$this->set('setup', 'function(ed) {
+	ed.on("change", function(e) {
+		documentDirty=true;
+	});
+}',  'object');
+$this->set('save_onsavecallback', 'function () {
+	documentDirty=false;
+	document.getElementById("stay").value = 2;
+	document.mutate.save.click();
+}',  'object');
 // Проверка орфографии
 $this->set('spellchecker_languages', 'Russian=ru,English=en', 'string');
 $this->set('spellchecker_language', 'ru', 'string');
@@ -120,6 +136,11 @@ $this->set('visualchars_default_state', true, 'bool');
 
 // Вставить как текст
 $this->set('paste_as_text', true, 'bool');
+// Конфигурируем контекстное меню
+// По умолчанию, если включён плагин `contextmenu`, имеются значения - `llink openlink image inserttable | cell row column deletetable`
+// Добавим `notocoloremoji`, проверку `spellchecker` и иструменты таблицы, но изменим порядок + добавим свойства таблицы
+// Со значениями для таблицы `nserttable tableprops deletetable | cell row column` не шутить. Они нужны все и всегда )))
+$this->set('contextmenu', 'link openlink image notocoloremoji | spellchecker | inserttable tableprops deletetable | cell row column', 'string');
 
 // Установить локаль по конфигурации локали EvolutionCMS
 // Этого нет из коробки EvolutionCMS, а должно по сути.

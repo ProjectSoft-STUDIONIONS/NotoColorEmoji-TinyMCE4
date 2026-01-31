@@ -135,7 +135,7 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 			classes: "notocoloremoji-button",
 		});
 		/**
-		 * Добавляем пункт меню к инструментам Вставить
+		 * Добавляем пункт меню к инструментам "Вставить"
 		 * Меню notocoloremoji
 		 */
 		editor.addMenuItem('notocoloremoji', {
@@ -143,7 +143,7 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 			text: tinymce.translate("Emoji"),
 			onclick: onclick,
 			context: "insert",
-			prependToContext: !1,
+			prependToContext: true,
 			shortcut: 'Ctrl+Alt+E',
 			classes: "notocoloremoji-menu-item",
 		});

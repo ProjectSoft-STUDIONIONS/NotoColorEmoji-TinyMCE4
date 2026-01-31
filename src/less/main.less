@@ -28,86 +28,134 @@ textarea {
 .mce-widget,
 .mce-widget *,
 .mce-reset {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "Noto Color Emoji" !important;
+	
 }
 
-.mce-panel {
-	& {
-		.mce-foot {
-			.mce-btn {
+.mce {
+	&-container,
+	&-widget,
+	&-reset {
+		&,
+		* {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "Noto Color Emoji" !important;
+		}
+	}
+	&-container {
+		&-body {
+			.mce {
+				&-top {
+					&-part {
+						top: 0;
+						position: sticky;
+						background-color: #ffffff;
+					}
+				}
+			}
+		}
+	}
+	&-ico {
+		font-family: 'tinymce', Arial !important;
+		&.mce {
+			&-i {
+				&-emoji {
+					font-family: "Noto Color Emoji" !important;
+					width: auto !important;
+					height: auto !important;
+					&.emoji {
+						&-smiles::before {
+							content: "😀";
+						}
+						&-emotics::before {
+							content: "💯";
+						}
+						&-people::before {
+							content: "🧒";
+						}
+						&-animals::before {
+							content: "🐵";
+						}
+						&-nature::before {
+							content: "💐";
+						}
+						&-food::before {
+							content: "🍅";
+						}
+						&-travel::before {
+							content: "🌍";
+						}
+						&-activy::before {
+							content: "🎄";
+						}
+						&-objects::before {
+							content: "🎹";
+						}
+						&-symbols::before {
+							content: "🔆";
+						}
+						&-flags::before {
+							content: "🇷🇺";
+						}
+					}
+				}
+			}
+		}
+	}
+	&-panel {
+		& {
+			.mce-foot {
+				.mce-btn {
+					&,
+					&:focus {
+						border-color: transparent !important;
+					}
+				}
+				button {
+					font-style: italic;
+					color: #a3a3a3;
+					&:hover,
+					&:focus {
+						color: #000000;
+					}
+				}
+			}
+		}
+	}
+	&-tab {
+		&:last-child {
+			border-right-color: transparent;
+		}
+	}
+	&-tooltip {
+		&-inner {
+			white-space: pre-wrap !important;
+		}
+	}
+	&-notocoloremoji {
+		&-tinymce4 {
+			padding: 8px;
+			&,
+			a {
 				&,
-				&:focus {
-					border-color: transparent !important;
-				}
-			}
-			button {
-				font-style: italic;
-				color: #a3a3a3;
-				&:hover,
-				&:focus {
-					color: #000000;
+				em {
+					font-size: 11px;
 				}
 			}
 		}
 	}
 }
 
-.mce-ico {
-	font-family: 'tinymce', Arial !important;
-}
-.mce-ico {
-	&.mce-i-emoji {
-		font-family: "Noto Color Emoji" !important;
-		width: auto !important;
-		height: auto !important;
-		&.emoji {
-			&-smiles::before {
-				content: "😀";
-			}
-			&-emotics::before {
-				content: "💯";
-			}
-			&-people::before {
-				content: "🧒";
-			}
-			&-animals::before {
-				content: "🐵";
-			}
-			&-nature::before {
-				content: "💐";
-			}
-			&-food::before {
-				content: "🍅";
-			}
-			&-travel::before {
-				content: "🌍";
-			}
-			&-activy::before {
-				content: "🎄";
-			}
-			&-objects::before {
-				content: "🎹";
-			}
-			&-symbols::before {
-				content: "🔆";
-			}
-			&-flags::before {
-				content: "🇷🇺";
-			}
-		}
-	}
-}
 .wrapper-emojis {
 	padding-top: 10px;
 	padding-bottom: 5px;
 	padding-left: 2px;
 	padding-right: 2px;
 }
+
 .table-emoji {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 7px;
+	gap: 8px 1.5%;
 	user-select: none;
 	[data-mce-emoji] {
 		align-content: center;
@@ -119,10 +167,10 @@ textarea {
 		font-size: @fontsize !important;
 		justify-content: center;
 		justify-items: center;
-		height: @emojisize !important;
+		//height: @emojisize !important;
 		line-height: 1 !important;
 		overflow: hidden;
-		width: @emojisize !important;
+		//width: @emojisize !important;
 		&:hover {
 			outline-width: 1px !important;
 			outline-color: #007bff !important;
@@ -131,22 +179,8 @@ textarea {
 		}
 	}
 }
-.mce-tooltip-inner {
-	white-space: pre-wrap !important;
-}
 
 // CodeMirror
 .CodeMirror pre {
 	font-family: monospace, Consolas, "Courier New", Courier, "Noto Color Emoji" !important;
-}
-
-.mce-notocoloremoji-tinymce4 {
-	padding: 8px;
-	&,
-	a {
-		&,
-		em {
-			font-size: 11px;
-		}
-	}
 }
