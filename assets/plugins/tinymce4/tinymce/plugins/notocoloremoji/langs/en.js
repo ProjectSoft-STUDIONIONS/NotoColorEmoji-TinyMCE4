@@ -11,6 +11,6 @@
  * Version: 1.2.3
  * License: GPL-3.0
  * Author: ProjectSoft <projectsoft2009@yandex.ru>
- * Last Update: 2026-02-04 21:16:00
+ * Last Update: 2026-02-04 21:22:00
  */
 tinymce.addI18n("en",{emoji:"Emoji",smiles:"Smiles",emotics:"Emotics",people:"People",animals:"Animals",nature:"Nature",food:"Food and Drinks",places:"Places and Travels",events:"Events and Celebrations",objects:"Objects and Things",symbols:"Symbols",flags:"Flags"});

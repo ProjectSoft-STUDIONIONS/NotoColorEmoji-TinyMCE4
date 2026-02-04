@@ -87,7 +87,7 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 					// Собтветственно информация о плагине
 					{
 						name: 'custom',
-						text: `NotoCoorEmoji-TinyMCE4 ${version}`,
+						text: `NotoColorEmoji-TinyMCE4 ${version}`,
 						disabled: false,
 						primary: false,
 						classes: 'notocoloremoji-tinymce4-link',
