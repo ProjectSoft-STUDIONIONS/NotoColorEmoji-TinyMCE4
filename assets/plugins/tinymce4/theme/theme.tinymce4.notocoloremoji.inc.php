@@ -160,8 +160,8 @@ $this->set('contextmenu', 'link openlink image notocoloremoji | spellchecker | i
 
 // Установить локаль по конфигурации локали EvolutionCMS
 // Этого нет из коробки EvolutionCMS, а должно по сути.
-$langCode = $modx_evo->config["lang_code"];
-switch ($modx_evo->config["lang_code"]) {
+$langCode = $modx_evo->config["locale"];
+switch ($modx_evo->config["manager_language"]) {
 	case 'bg':
 		$langCode = 'bg_BG';
 		break;
@@ -177,18 +177,14 @@ switch ($modx_evo->config["lang_code"]) {
 	case 'sv':
 		$langCode = 'sv_SE';
 		break;
+	case 'portuguese':
+		$langCode = 'pt_PT';
+		break;
+	case 'portuguese-br':
+	case 'portuguese-br-utf8':
+		$langCode = 'pt_BR';
+		break;
 	default:
-		switch ($modx_evo->config["manager_language"]) {
-			case 'portuguese':
-				$langCode = 'pt_PT';
-				break;
-			case 'portuguese-br':
-			case 'portuguese-br-utf8':
-				$langCode = 'pt_BR';
-				break;
-			default:
-				break;
-		}
 		break;
 }
 
