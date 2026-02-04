@@ -1,4 +1,4 @@
-let emojis$01 = [
+this.smiles = [
     {
         "title": "The grinning face",
         "value": "&#128512;"

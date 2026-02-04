@@ -1,4 +1,4 @@
-let emojis$05 = [
+this.nature = [
     {
         "title": "Bouquet",
         "value": "&#128144;"

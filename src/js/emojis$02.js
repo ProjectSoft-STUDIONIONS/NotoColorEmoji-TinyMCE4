@@ -1,4 +1,4 @@
-let emojis$02 = [
+this.emotics = [
 	{
 		"title": "A kiss",
 		"value": "&#128139;"

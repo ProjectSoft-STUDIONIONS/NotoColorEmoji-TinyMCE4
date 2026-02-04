@@ -1,4 +1,4 @@
-let emojis$11 = [
+this.flags = [
 	{
 		"title": "The Checkered Flag",
 		"value": "&#127937;"

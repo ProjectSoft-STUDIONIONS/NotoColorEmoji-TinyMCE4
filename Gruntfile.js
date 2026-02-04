@@ -8,24 +8,25 @@ module.exports = function(grunt) {
 		year = date.getFullYear(),
 		month = String(date.getMonth() + 1).padStart(2, "0"),
 		day = String(date.getDate()).padStart(2, "0"),
-		update = grunt.template.today("yyyy-mm-dd'T'HH-MM-ss").replace(/[- ]+/gi, '');
+		update = grunt.template.today("yyyy-mm-dd'T'HH-MM-ss").replace(/[- ]+/gi, ''),
 
-	grunt.log.writeln();
 // При разработке/добавлении локализации всё добавляется здесь
+		langs = [
+			"be",
+			"de",
+			"en_GB",
+			"en",
+			"ru",
+			"uk"
+		];
+	grunt.log.writeln();
 	fs.writeFileSync('src/js/01$update.js', `let update = "${update}";
 let version = "v${PACK.version}";
-/**
- * Переводы, которые есть. Есть возможность добавить.
- * 
- * ru - Русский
- * be - Белорусский
- * de - Немецкий
- * uk - Украинский
- */
-tinymce.PluginManager.requireLangPack('notocoloremoji', 'ru,be,de,uk');
+tinymce.PluginManager.requireLangPack('notocoloremoji', '${langs.join(",")}');
 `);
 	grunt.log.writeln('File ' + chalk.cyan(`src/js/01$update.js`) + ' created or replace.' + chalk.yellow('...OK'));
 	grunt.log.writeln();
+//---------------------------------------------
 
 	require('load-grunt-tasks')(grunt);
 
@@ -50,7 +51,7 @@ tinymce.PluginManager.requireLangPack('notocoloremoji', 'ru,be,de,uk');
 						},
 						{
 							pattern: /[ ]+\*(?:\s+)\@lastupdate(\s+)([\d.\- \:]+)/gi,
-							replacement: ` * @lastupdate$1${grunt.template.today("yyyy-mm-dd HH:MM:ss")}`,
+							replacement: ` * @lastupdate$1${grunt.template.today("yyyy-mm-dd HH:MM:00")}`,
 						},
 						{
 							pattern: /\@modx_category(\s+).+/gi,
@@ -116,7 +117,7 @@ tinymce.PluginManager.requireLangPack('notocoloremoji', 'ru,be,de,uk');
  * Version: ${PACK.version}
  * License: GPL-3.0
  * Author: ProjectSoft <projectsoft2009@yandex.ru>
- * Last Update: ${grunt.template.today("yyyy-mm-dd HH:MM:ss")}
+ * Last Update: ${grunt.template.today("yyyy-mm-dd HH:MM:00")}
  * 
  * TinyMCE plugin notocoloremoji
  * Разработка велась под EvolutionCMS
@@ -171,7 +172,7 @@ tinymce.PluginManager.requireLangPack('notocoloremoji', 'ru,be,de,uk');
 						done();
 					}
 				}
-			}
+			},
 		},
 		uglify: {
 			options: {
@@ -189,7 +190,7 @@ tinymce.PluginManager.requireLangPack('notocoloremoji', 'ru,be,de,uk');
  * Version: ${PACK.version}
  * License: GPL-3.0
  * Author: ProjectSoft <projectsoft2009@yandex.ru>
- * Last Update: ${grunt.template.today("yyyy-mm-dd HH-MM")}
+ * Last Update: ${grunt.template.today("yyyy-mm-dd HH:MM:00")}
  */`,
 				compress: {
 					drop_console: false

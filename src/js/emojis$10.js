@@ -1,4 +1,4 @@
-let emojis$10 = [
+this.symbols = [
 	{
 		"title": "ATM machine",
 		"value": "&#127975;"

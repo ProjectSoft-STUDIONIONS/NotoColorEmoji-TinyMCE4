@@ -1,4 +1,4 @@
-let emojis$09 = [
+this.objects = [
     {
         "title": "Glasses",
         "value": "&#128083;"

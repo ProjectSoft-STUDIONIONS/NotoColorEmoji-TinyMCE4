@@ -3,19 +3,18 @@
  */
 tinymce.addI18n('ru', {
 	// Табы
-	"Emoji": "Эмодзи (Emoji)",
-	"Smiles": "Смайлики",
-	"Emotics": "Эмоции",
-	"People": "Люди",
-	"Animals": "Животные",
-	"Nature": "Природа",
-	"Food and Drinks": "Еда и Напитки",
-	"Places and Travels": "Места и Путешествия",
-	"Events and Celebrations": "Мероприятия и Праздники",
-	"Objects and Things": "Объекты и Вещи",
-	"Symbols": "Символы",
-	"Flags": "Флаги",
-	"Animals and Nature": "Животные и Природа",
+	"emoji": "Эмодзи (Emoji)",
+	"smiles": "Смайлики",
+	"emotics": "Эмоции",
+	"people": "Люди",
+	"animals": "Животные",
+	"nature": "Природа",
+	"food": "Еда и Напитки",
+	"places": "Места и Путешествия",
+	"events": "Мероприятия и Праздники",
+	"objects": "Объекты и Вещи",
+	"symbols": "Символы",
+	"flags": "Флаги",
 	// Иконки
 	// Смайлмки
 	"The grinning face": "Ухмыляющееся лицо",

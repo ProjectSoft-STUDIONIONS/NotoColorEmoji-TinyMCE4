@@ -40,19 +40,6 @@ textarea {
 			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "Noto Color Emoji" !important;
 		}
 	}
-	&-container {
-		&-body {
-			.mce {
-				&-top {
-					&-part {
-						top: 0;
-						position: sticky;
-						background-color: #ffffff;
-					}
-				}
-			}
-		}
-	}
 	&-ico {
 		font-family: 'tinymce', Arial !important;
 		&.mce {
@@ -100,29 +87,12 @@ textarea {
 			}
 		}
 	}
-	&-panel {
-		& {
-			.mce-foot {
-				.mce-btn {
-					&,
-					&:focus {
-						border-color: transparent !important;
-					}
-				}
-				button {
-					font-style: italic;
-					color: #a3a3a3;
-					&:hover,
-					&:focus {
-						color: #000000;
-					}
-				}
-			}
-		}
-	}
 	&-tab {
+		&::first-letter {
+			text-transform: uppercase;
+		}
 		&:last-child {
-			border-right-color: transparent;
+			//border-right-color: transparent;
 		}
 	}
 	&-tooltip {
@@ -140,8 +110,45 @@ textarea {
 					font-size: 11px;
 				}
 			}
+			&-link {
+				&,
+				&:focus {
+					border-color: transparent !important;
+				}
+				button {
+					font-style: italic;
+					//color: #a3a3a3;
+					&:hover,
+					&:focus {
+						//color: #000000;
+					}
+				}
+			}
 		}
 	}
+	&-notocoloremoji-dialog {
+		> .mce-reset {
+			> .mce-window-body {
+				//z-index: 5;
+			}
+		}
+		.mce-container-body,
+		.mce-label {
+			overflow: visible;
+		}
+	}
+	&-grid {
+		&.notocoloremoji-emoji-table {
+			border-spacing: 0px;
+			.notocoloremoji-emoji-td {
+				padding: 4px;
+				&-charset {
+					//
+				}
+			}
+		}
+	}
+
 }
 
 .wrapper-emojis {
@@ -158,6 +165,7 @@ textarea {
 	gap: 8px 1.5%;
 	user-select: none;
 	[data-mce-emoji] {
+		background-color: initial;
 		align-content: center;
 		align-items: center;
 		cursor: pointer;
@@ -167,15 +175,21 @@ textarea {
 		font-size: @fontsize !important;
 		justify-content: center;
 		justify-items: center;
-		//height: @emojisize !important;
 		line-height: 1 !important;
 		overflow: hidden;
-		//width: @emojisize !important;
+		transition: transform .3s ease;
+		transform: scale(1);
+		transform-origin: 50% 50%;
+		position: relative;
+		z-index: 0;
 		&:hover {
+			background-color: initial;
 			outline-width: 1px !important;
 			outline-color: #007bff !important;
 			outline-style: solid !important;
 			outline-offset: 1px;
+			transform: scale(1.5);
+			z-index: 10;
 		}
 	}
 }
@@ -183,4 +197,112 @@ textarea {
 // CodeMirror
 .CodeMirror pre {
 	font-family: monospace, Consolas, "Courier New", Courier, "Noto Color Emoji" !important;
+}
+.darkness {
+	.table-emoji {
+		[data-mce-emoji] {
+			background-color: #202329;
+			&:hover {
+				background-color: #444444;
+			}
+		}
+	}
+	.mce {
+		&-tab {
+			&.mce-active,
+			&:focus {
+				color: #eee;
+			}
+		}
+		&-container {
+			&-body {
+				.mce {
+					&-top {
+						&-part {
+							background-color: #202329;
+						}
+					}
+				}
+			}
+		}
+		&-menubar {
+			border-color: #495057;
+			.mce-menubtn {
+				button {
+					span {
+						color: #aaa;
+					}
+				}
+				&.mce-active,
+				&:focus,
+				&:hover {
+					background-color: #343942;
+					border-color: #495057;
+					button {
+						span {
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		&-splitbtn {
+			&.mce-opened {
+				border-color: #414449;
+			}
+		}
+		&-panel {
+			&.mce-menu {
+				&.mce-in {
+					background-color: #343942;
+					box-shadow: 0 1.8rem 3rem rgba(0, 0, 0, 0.4)
+				}
+			}
+		}
+		&-menu {
+			&-item {
+				.mce-ico,
+				.mce-text {
+					color: #bbb;
+				}
+				&.mce-disabled {
+					&,
+					&:hover,
+					&:focus {
+						background: #343942;
+						.mce-ico,
+						.mce-text {
+							color: #676767;
+						}
+					}
+				}
+			}
+		}
+		&-grid {
+			&-border {
+				a {
+					&:hover,
+					&.mce-active {
+						border-color: #ffffff;
+						background: #555c66;
+					}
+				}
+			}
+		}
+	}
+}
+.light {
+	.mce {
+		&-container {
+			&-body {
+				.mce {
+					&-top {
+						&-part {
+							background-color: #ffffff;
+						}
+					}
+				}
+			}
+		}
+	}
 }

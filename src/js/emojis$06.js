@@ -1,4 +1,4 @@
-let emojis$06 = [
+this.food = [
 	{
 		"title": "Grape",
 		"value": "&#127815;"

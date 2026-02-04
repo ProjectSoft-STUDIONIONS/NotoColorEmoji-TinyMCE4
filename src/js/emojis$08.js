@@ -1,4 +1,4 @@
-let emojis$08 = [
+this.events = [
 	{
 		"title": "Jack-o'-lanterns",
 		"value": "&#127875;"

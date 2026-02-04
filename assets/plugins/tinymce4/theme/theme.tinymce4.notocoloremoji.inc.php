@@ -21,6 +21,8 @@
 // Просто помните, что если вы обновите плагин NotoColorEmoji, то файл `theme.tinymce4.notocoloremoji.inc.php` перезапишется и будет иметь настройки которые установил разработчик.
 //-------------------------------------
 
+$modx_evo = evo();
+
 // Используемые шрифты. Шрифты указывать так, как они именуются в CSS
 //$this->set('font_formats', 'Open Sans=Open Sans', 'string');
 
@@ -70,6 +72,20 @@ $this->set('formats', '{
 			}
 		}', 'json');
 // Думаю, что ещё не всё...
+
+// Исключить эможи. Это пример, если раскоментировать
+$this->set('notocoloremoji_exclude', '[
+		/*"smiles",
+		"emotics",
+		"people",
+		"animals",
+		"places",
+		"events",
+		"objects",
+		"symbols"*/
+]', 'json');
+// Количество Emoji вряд. По умолчанию 30
+$this->set('notocoloremoji_length', '31', 'string');
 // Классы для таблицы
 $this->set('table_class_list', '[
 		{title: "None", value: "table"},
@@ -144,8 +160,8 @@ $this->set('contextmenu', 'link openlink image notocoloremoji | spellchecker | i
 
 // Установить локаль по конфигурации локали EvolutionCMS
 // Этого нет из коробки EvolutionCMS, а должно по сути.
-$langCode = $modx->config["lang_code"];
-switch ($modx->config["lang_code"]) {
+$langCode = $modx_evo->config["lang_code"];
+switch ($modx_evo->config["lang_code"]) {
 	case 'bg':
 		$langCode = 'bg_BG';
 		break;
@@ -162,7 +178,7 @@ switch ($modx->config["lang_code"]) {
 		$langCode = 'sv_SE';
 		break;
 	default:
-		switch ($modx->config["manager_language"]) {
+		switch ($modx_evo->config["manager_language"]) {
 			case 'portuguese':
 				$langCode = 'pt_PT';
 				break;

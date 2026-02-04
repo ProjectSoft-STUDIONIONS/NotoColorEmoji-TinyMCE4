@@ -1,4 +1,4 @@
-let emojis$04 = [
+this.animals = [
 	{
 		"title": "Monkey face",
 		"value": "&#128053;"

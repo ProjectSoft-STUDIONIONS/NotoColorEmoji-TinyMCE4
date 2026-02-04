@@ -16,7 +16,7 @@
  * @license      https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4/blob/main/LICENSE GNU General Public License v3.0 (GPL-3.0)
  * @reportissues https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4/issues
  * @author       Чернышёв Андрей aka ProjectSoft <projectsoft2009@yandex.ru>
- * @lastupdate   2026-02-01 01:55:53
+ * @lastupdate   2026-02-04 21:16:00
  */
 
 if (!defined('MODX_BASE_PATH')):
@@ -37,7 +37,7 @@ switch ($e->name) {
 		// Для правильного отображения Emoji в контролах и контенте административной панели
 		$css_path = 'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.min.css';
 		// Фиксированно. Зависит только от даты обновления при сборке плагина
-		$mtime = "20260201T015553";
+		$mtime = "20260204T211638";
 		$output = <<<EOD
 <link rel="stylesheet" type="text/css" href="{$modx->config['site_url']}{$css_path}?v={$mtime}">
 EOD;

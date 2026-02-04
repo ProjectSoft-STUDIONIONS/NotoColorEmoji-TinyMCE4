@@ -1,4 +1,4 @@
-let emojis$03 = [
+this.people = [
 	{
 		"title": "Waving hand",
 		"value": "&#128075;"

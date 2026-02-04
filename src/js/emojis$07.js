@@ -1,4 +1,4 @@
-let emojis$07 = [
+this.places = [
 	{
 		"title": "Globe Europe-Africa",
 		"value": "&#127757;"
