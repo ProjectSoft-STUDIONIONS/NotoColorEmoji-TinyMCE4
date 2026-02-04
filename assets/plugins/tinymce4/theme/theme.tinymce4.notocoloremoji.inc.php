@@ -85,7 +85,7 @@ $this->set('notocoloremoji_exclude', '[
 		"symbols"*/
 ]', 'json');
 // Количество Emoji вряд. По умолчанию 30
-$this->set('notocoloremoji_length', '31', 'string');
+$this->set('notocoloremoji_length', '30', 'string');
 // Классы для таблицы
 $this->set('table_class_list', '[
 		{title: "None", value: "table"},
