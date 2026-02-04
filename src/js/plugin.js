@@ -1,12 +1,18 @@
 let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 	tools = tinymce.util.Tools.resolve("tinymce.util.Tools"),
 	domUtils = tinymce.util.Tools.resolve("tinymce.dom.DOMUtils"),
+	// Переменные параметров
+	notocoloremoji_length = 30,
+	exclude = [],
+	// Метадата плагина
 	plugin_metadata = {
 		name: "Noto Color Emoji plugin for TinyMCE4",
 		url: "https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4",
 		author: "ProjectSoft <projectsoft2009@yandex.ru>"
 	},
+	// Родитель
 	self = this,
+	// Доступные вкладки
 	default_emotics = [
 		"smiles",
 		"emotics",
@@ -22,9 +28,7 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 	],
 	// Генератор html для таба
 	renderContentTabHtml = (arr, editor) => {
-		let notocoloremoji_length = parseInt(tinymce.activeEditor.getParam('notocoloremoji_length', 'string', 30));
 		notocoloremoji_length = notocoloremoji_length ? notocoloremoji_length : 30;
-		console.log(typeof notocoloremoji_length);
 		const chunks = (a, size) => Array.from( new Array(Math.ceil(a.length / size)), (_, i) => a.slice(i * size, i * size + size) );
 		let html = '';
 		html += `<div class="wrapper-emojis"><div role="presentation" cellspacing="0" class="mce-grid table-emoji"><table role="grid" class="mce-grid notocoloremoji-emoji-table"><tbody>`;
@@ -46,9 +50,13 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 	},
 	// Генерация кнопки, пункта меню, информации
 	addButtons = (editor, url) => {
-		// Собрать элементы исключив запрещённые пользователем
-		let exclude = editor.getParam('notocoloremoji_exclude', 'array', []),
-			emojis_list = [], items = [];
+		// Получаем параметры
+		notocoloremoji_length = parseInt(tinymce.activeEditor.getParam('notocoloremoji_length', 'string', 30));
+		notocoloremoji_length = notocoloremoji_length ? notocoloremoji_length : 30;
+		exclude = tinymce.activeEditor.getParam('notocoloremoji_exclude', 'array', []);
+		exclude = typeof exclude == "object" ? Array.from(exclude) : [];
+		// Собрать элементы (вкладки) исключив запрещённые пользователем
+		let emojis_list = [], items = [];
 		emojis_list = default_emotics.filter((element) => !exclude.includes(element));
 		for(const item of emojis_list){
 			if(self[item]) {
@@ -61,6 +69,10 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 				items.push(push);
 			}
 		}
+		// Данные готовы
+		/**
+		 * Функция клика
+		 */
 		let onclick = () => {
 			// Открываем диалог
 			editor.windowManager.open({
@@ -128,7 +140,7 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 			classes: "notocoloremoji-menu-item",
 		});
 		/**
-		 * Shotcuts
+		 * Shotcuts. Быстрые клавиши
 		 */
 		editor.shortcuts.add('Ctrl+Alt+E', 'Insert Emoji', onclick);
 	};
@@ -158,23 +170,13 @@ pluginManager.add("notocoloremoji", function(editor, url) {
 		link.href = url + '/plugin.min.css?v=' + update;
 		// Добавляем тег на страницу с редактором TinyMCE
 		head.append(link);
-		/**
-		 * Пока оставим. Вполне возможно будет нужен
-		 * 
-		 * Вставка стилей в iframe редактора
-		 */
-		/*
-		let doс_iframe = editor.getDoc(),
-			uniqueId = domUtils.DOM.uniqueId(),
-			lnk = domUtils.DOM.create("link", { id: uniqueId, rel: "stylesheet", href: link.href });
-		doс_iframe.getElementsByTagName("head")[0].append(lnk);
-		*/
-		let status;
+
 		/**
 		 * Если доступна нижняя панель
 		 * Добавляем ссылку на плагин
 		 */
 		if(editor.theme.panel){
+			let status;
 			// Ищем статусбар
 			status = editor.theme.panel.find("#statusbar")[0];
 			// Если есть, то вставляем ссылку на GitHub страницу плагина
