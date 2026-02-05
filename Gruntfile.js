@@ -15,7 +15,6 @@ module.exports = function(grunt) {
 			"be",
 			"de",
 			"en_GB",
-			"en",
 			"ru",
 			"uk"
 		];
@@ -64,6 +63,50 @@ tinymce.PluginManager.requireLangPack('notocoloremoji', '${langs.join(",")}');
 					],
 				},
 			},
+			theme: {
+				files: {
+					"assets/plugins/tinymce4/theme/": "assets/plugins/tinymce4/theme/**"
+				},
+				options: {
+					replacements: [
+						{
+							pattern: /<\?php\s+\/\*[^*]*\*+(?:[^\/*][^*]*\*+)*\//g,
+							replacement: `<?php
+/**
+ * 
+ * Plugins Noto Color Emoji for TinyMCE
+ * 
+ * Plugin:
+ * [+] notocoloremoji
+ * 
+ * Button:
+ * [+] notocoloremoji
+ * 
+ * Version: ${PACK.version}
+ * License: GPL-3.0
+ * Author: ProjectSoft <projectsoft2009@yandex.ru>
+ * Last Update: ${grunt.template.today("yyyy-mm-dd HH:MM:00")}
+ * Home Page URL: https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4
+ * 
+ * Конфиг-параметры TinyMCE4 для сайта
+ * https://www.tinymce.com/docs/configure/
+ *
+ * Приведенная ниже настройка конфигурации по умолчанию гарантирует, что все параметры редактора имеют резервное значение, а тип для каждого ключа известен.
+ * $this->set($editorParam, $value, $type, $emptyAllowed=false)
+ *
+ * $editorParam = параметр для установки
+ * $value = значение для установки
+ * $type = строка, число, логическое значение, json (массив или строка)
+ * $emptyAllowed = true, false (разрешает параметр: '' вместо возврата к значениям по умолчанию)
+ * Если $editorParam пуст, а $emptyAllowed равен true, $defaultValue будет игнорироваться
+ *
+ * $this->modxParams содержит массив фактических настроек Modx/user-settings
+ *
+ */`
+						}
+					]
+				}
+			}
 		},
 		less: {
 			main: {
@@ -81,6 +124,9 @@ tinymce.PluginManager.requireLangPack('notocoloremoji', '${langs.join(",")}');
 					'temp/css/plugin.css' : [
 						'src/less/main.less'
 					],
+					'temp/css/content.css' : [
+						'src/less/content.less'
+					],
 				}
 			}
 		},
@@ -95,6 +141,9 @@ tinymce.PluginManager.requireLangPack('notocoloremoji', '${langs.join(",")}');
 				files: {
 					'temp/css/plugin.css' : [
 						'temp/css/plugin.css'
+					],
+					'temp/css/content.css' : [
+						'temp/css/content.css'
 					],
 				}
 			}
@@ -118,6 +167,7 @@ tinymce.PluginManager.requireLangPack('notocoloremoji', '${langs.join(",")}');
  * License: GPL-3.0
  * Author: ProjectSoft <projectsoft2009@yandex.ru>
  * Last Update: ${grunt.template.today("yyyy-mm-dd HH:MM:00")}
+ * Home Page URL: https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4
  * 
  * TinyMCE plugin notocoloremoji
  * Разработка велась под EvolutionCMS
@@ -131,7 +181,10 @@ tinymce.PluginManager.requireLangPack('notocoloremoji', '${langs.join(",")}');
 				files: {
 					"assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.min.css": [
 						"temp/css/plugin.css"
-					]
+					],
+					'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/content.min.css' : [
+						'temp/css/content.css'
+					],
 				}
 			}
 		},
@@ -191,6 +244,7 @@ tinymce.PluginManager.requireLangPack('notocoloremoji', '${langs.join(",")}');
  * License: GPL-3.0
  * Author: ProjectSoft <projectsoft2009@yandex.ru>
  * Last Update: ${grunt.template.today("yyyy-mm-dd HH:MM:00")}
+ * Home Page URL: https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4
  */`,
 				compress: {
 					drop_console: false

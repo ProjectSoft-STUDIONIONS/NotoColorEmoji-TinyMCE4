@@ -31,21 +31,21 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 		notocoloremoji_length = notocoloremoji_length ? notocoloremoji_length : 30;
 		const chunks = (a, size) => Array.from( new Array(Math.ceil(a.length / size)), (_, i) => a.slice(i * size, i * size + size) );
 		let html = '';
-		html += `<div class="wrapper-emojis"><div role="presentation" cellspacing="0" class="mce-grid table-emoji"><table role="grid" class="mce-grid notocoloremoji-emoji-table"><tbody>`;
+		html += `<div class="wrapper-emojis"><div role="presentation" cellspacing="0" class="mce-grid table-emoji table-emoji-columns">`;
 		/**
 		 * При сборке html применяем перевод для названий иконок
 		 */
 		arr = chunks(arr, notocoloremoji_length);
 		tools.each(arr, (obj) => {
-			html += "<tr>";
+			html += `<div class="table-emoji-rows">`;
 			tools.each(obj, (s) => {
 				let title = tinymce.translate(s.title),
 					value = s.value;
-				html += `<td class="gridcell notocoloremoji-emoji-td" tabindex="-1"><div class="notocoloremoji-emoji-td-charset" data-mce-emoji="${value}" tabindex="-1" title="${title}" role="option" aria-label="${title}">${value}</div></td>`;
+				html += `<div class="notocoloremoji-emoji-td-charset" style="aspect-ratio: 1 / 1 !important;font-family: 'Noto Color Emoji' !important;font-size: 25px !important;" data-mce-emoji="${value}" tabindex="-1" title="${title}" role="option" aria-label="${title}">${value}</div>`;
 			});
-			html += "</tr>";
+			html += "</div>";
 		});
-		html += `</table></tbody></div></div>`;
+		html += `</div></div>`;
 		return html;
 	},
 	// Генерация кнопки, пункта меню, информации

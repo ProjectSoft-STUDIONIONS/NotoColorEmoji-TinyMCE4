@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/**
+ * Переопределить стили файла темы (/assets/plugins/tinymce4/tinymce/skins/lightgray/content.min.css)
+ * Данный файл подключается только при отсутствии стилей указанных в конфигурации в параметре editor_css_path
+ */
+
+@import "../../node_modules/noto-color-emoji/src/less/noto-color-emoji.less";
+body,
+button,
+input,
+optgroup,
+select,
+textarea,
+td,
+th {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "Noto Color Emoji";
+}

@@ -137,18 +137,6 @@ textarea {
 			overflow: visible;
 		}
 	}
-	&-grid {
-		&.notocoloremoji-emoji-table {
-			border-spacing: 0px;
-			.notocoloremoji-emoji-td {
-				padding: 4px;
-				&-charset {
-					//
-				}
-			}
-		}
-	}
-
 }
 
 .wrapper-emojis {
@@ -164,8 +152,20 @@ textarea {
 	flex-wrap: wrap;
 	gap: 8px 1.5%;
 	user-select: none;
+	&-columns,
+	&-rows {
+		display: flex;
+		gap: 9px;
+		flex-wrap: nowrap;
+	}
+	&-columns {
+		flex-direction: column;
+	}
+	&-rows {
+		flex-direction: row;
+	}
 	[data-mce-emoji] {
-		background-color: initial;
+		background-color: #ffffff;
 		align-content: center;
 		align-items: center;
 		cursor: pointer;
@@ -177,17 +177,21 @@ textarea {
 		justify-items: center;
 		line-height: 1 !important;
 		overflow: hidden;
+		outline-width: 0px !important;
+		outline-color: transparent !important;
+		outline-style: solid !important;
+		outline-offset: 0px;
 		transition: transform .3s ease;
 		transform: scale(1);
 		transform-origin: 50% 50%;
 		position: relative;
 		z-index: 0;
 		&:hover {
-			background-color: initial;
+			background-color: #eeeeee;
 			outline-width: 1px !important;
 			outline-color: #007bff !important;
 			outline-style: solid !important;
-			outline-offset: 1px;
+			outline-offset: -1px;
 			transform: scale(1.5);
 			z-index: 10;
 		}
@@ -211,7 +215,7 @@ textarea {
 		&-tab {
 			&.mce-active,
 			&:focus {
-				color: #eee;
+				color: #eeeeee;
 			}
 		}
 		&-container {

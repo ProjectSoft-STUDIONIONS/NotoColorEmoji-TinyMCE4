@@ -1,20 +1,35 @@
 <?php
-/*
-  * Конфиг-параметры TinyMCE4 для сайта
-  * https://www.tinymce.com/docs/configure/
-  *
-  * Приведенная ниже настройка конфигурации по умолчанию гарантирует, что все параметры редактора имеют резервное значение, а тип для каждого ключа известен.
-  * $this->set($editorParam, $value, $type, $emptyAllowed=false)
-  *
-  * $editorParam = параметр для установки
-  * $value = значение для установки
-  * $type = строка, число, логическое значение, json (массив или строка)
-  * $emptyAllowed = true, false (разрешает параметр: '' вместо возврата к значениям по умолчанию)
-  * Если $editorParam пуст, а $emptyAllowed равен true, $defaultValue будет игнорироваться
-  *
-  * $this->modxParams содержит массив фактических настроек Modx/user-settings
-  *
-  **/
+/**
+ * 
+ * Plugins Noto Color Emoji for TinyMCE
+ * 
+ * Plugin:
+ * [+] notocoloremoji
+ * 
+ * Button:
+ * [+] notocoloremoji
+ * 
+ * Version: 1.2.4
+ * License: GPL-3.0
+ * Author: ProjectSoft <projectsoft2009@yandex.ru>
+ * Last Update: 2026-02-05 04:06:00
+ * Home Page URL: https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4
+ * 
+ * Конфиг-параметры TinyMCE4 для сайта
+ * https://www.tinymce.com/docs/configure/
+ *
+ * Приведенная ниже настройка конфигурации по умолчанию гарантирует, что все параметры редактора имеют резервное значение, а тип для каждого ключа известен.
+ * $this->set($editorParam, $value, $type, $emptyAllowed=false)
+ *
+ * $editorParam = параметр для установки
+ * $value = значение для установки
+ * $type = строка, число, логическое значение, json (массив или строка)
+ * $emptyAllowed = true, false (разрешает параметр: '' вместо возврата к значениям по умолчанию)
+ * Если $editorParam пуст, а $emptyAllowed равен true, $defaultValue будет игнорироваться
+ *
+ * $this->modxParams содержит массив фактических настроек Modx/user-settings
+ *
+ */
 
 //-------------------------------------
 // Вы всегда можете скопировать и перенести нужные настройки в ваши настройки.
@@ -85,7 +100,8 @@ $this->set('notocoloremoji_exclude', '[
 		"symbols"*/
 ]', 'json');
 // Количество Emoji вряд. По умолчанию 30
-$this->set('notocoloremoji_length', '30', 'string');
+$this->set('notocoloremoji_length', '31', 'string');
+
 // Классы для таблицы
 $this->set('table_class_list', '[
 		{title: "None", value: "table"},
@@ -201,18 +217,34 @@ $language_url = str_replace(MODX_BASE_PATH, "/", $fileLang);
 
 $this->set('language', $langCode, 'string');
 
-$this->set('language_url', $language_url, 'string');
 $this->set('language_load', true, 'bool');
 
 // Забираем css файл из настроек если он есть
 // Добавляем хэшь для отключения кэша скрипта
+$hash = time();
 try {
-	$hash = time();
-	$css = $this->themeConfig["content_css"]["value"][0];
-	if(is_file(MODX_BASE_PATH . $css)):
-		$hash = filemtime(MODX_BASE_PATH . $css);
-		$css .= '?hash=hash' . $hash;
-		$this->themeConfig["content_css"]["value"][0] = $css;
+	$css_conf = trim($modx_evo->config["editor_css_path"]);
+	$pattern = "/([|,;]+)/";
+	$css = preg_split($pattern, $css_conf, -1, PREG_SPLIT_NO_EMPTY);
+	$array_css = [];
+	foreach ($css as $key => $value):
+		$value = "/" . trim($value, "/");
+		if(is_file(MODX_BASE_PATH . $value)):
+			$hash = filemtime(MODX_BASE_PATH . $value);
+			$value .= '?hash=hash' . $hash;
+			$array_css[] = $value;
+		endif;
+	endforeach;
+	if(count($array_css)):
+		$files_css = json_encode($array_css, JSON_OBJECT_AS_ARRAY | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
+		$this->set('content_css', $files_css, 'json');
 	else:
+		// Если нет файлов. Пытаемся подключить от плагина
+		$path = '/' . str_replace(MODX_BASE_PATH, "", str_replace('\\', '/', dirname(__DIR__, 1))) . '/tinymce/plugins/notocoloremoji/content.min.css';
+		if(is_file(MODX_BASE_PATH . $path)):
+			$hash = filemtime(MODX_BASE_PATH . $path);
+			$path .= '?hash=hash' . $hash;
+			$this->set('content_css', $path, 'string');
+		endif;
 	endif;
 } catch (Exception $e) {}
