@@ -12,7 +12,7 @@
  * Version: 1.2.4
  * License: GPL-3.0
  * Author: ProjectSoft <projectsoft2009@yandex.ru>
- * Last Update: 2026-02-05 04:06:00
+ * Last Update: 2026-02-05 04:20:00
  * Home Page URL: https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4
  * 
  * Конфиг-параметры TinyMCE4 для сайта

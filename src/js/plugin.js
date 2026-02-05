@@ -76,7 +76,7 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 		let onclick = () => {
 			// Открываем диалог
 			editor.windowManager.open({
-				title: tinymce.translate('Emoji'),
+				title: tinymce.translate('emoji'),
 				resizable : true,
 				classes: "notocoloremoji-dialog",
 				size: 'normal',
