@@ -9,10 +9,10 @@
  * Button:
  * [+] notocoloremoji
  * 
- * Version: 1.2.5
+ * Version: 1.2.6
  * License: GPL-3.0
  * Author: ProjectSoft <projectsoft2009@yandex.ru>
- * Last Update: 2026-05-15 11:51:00
+ * Last Update: 2026-05-15 11:55:00
  * Home Page URL: https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4
  * 
  * Конфиг-параметры TinyMCE4 для сайта
