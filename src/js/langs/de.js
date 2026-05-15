@@ -2,7 +2,8 @@
  * Локализация Германия
  */
 tinymce.addI18n('de', {
-	"emoji": "Emoji (Emoji)",
+	"Emoji Noto Color Emoji": "Emoji\nNoto Color Emoji",
+	"Emoji": "Emoji (Emoji)",
 	"smiles": "Smileys",
 	"emotics": "Emotionen",
 	"people": "Leute",
@@ -429,6 +430,7 @@ tinymce.addI18n('de', {
 	"Leafy greens": "Blattgemüse",
 	"Broccoli": "Brokkoli",
 	"Fly agaric": "Fliegenpilz",
+	"Brown mushroom": "Brauner Pilz",
 	"Peanut": "Erdnüsse",
 	"Chestnut": "Kastanienbaum",
 	"Bread": "Brot",

@@ -2,7 +2,8 @@
  * Локализация Украина
  */
 tinymce.addI18n('uk', {
-	"emoji": "Емодзі (Emoji)",
+	"Emoji Noto Color Emoji": "Емодзі\nNoto Color Emoji",
+	"Emoji": "Емодзі (Emoji)",
 	"smiles": "Смайлики",
 	"emotics": "Емоція",
 	"people": "Люди",
@@ -429,6 +430,7 @@ tinymce.addI18n('uk', {
 	"Leafy greens": "Листова зелень",
 	"Broccoli": "Броколі",
 	"Fly agaric": "Мухомор",
+	"Brown mushroom": "Бурий гриб",
 	"Peanut": "Арахіс",
 	"Chestnut": "Каштан",
 	"Bread": "Хліб",

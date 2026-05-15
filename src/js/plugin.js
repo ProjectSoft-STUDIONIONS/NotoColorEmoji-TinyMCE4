@@ -1,6 +1,6 @@
-let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
-	tools = tinymce.util.Tools.resolve("tinymce.util.Tools"),
-	domUtils = tinymce.util.Tools.resolve("tinymce.dom.DOMUtils"),
+let pluginManager = tinymce.PluginManager,
+	tools = tinymce.util.Tools,
+	domUtils = tinymce.dom.DOMUtils,
 	// Переменные параметров
 	notocoloremoji_length = 30,
 	exclude = [],
@@ -28,7 +28,8 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 	],
 	// Генератор html для таба
 	renderContentTabHtml = (arr, editor) => {
-		notocoloremoji_length = notocoloremoji_length ? notocoloremoji_length : 30;
+		notocoloremoji_length = parseInt(tinymce.activeEditor.getParam('notocoloremoji_length', 'string', 29));
+		notocoloremoji_length = notocoloremoji_length ? notocoloremoji_length : 29;
 		const chunks = (a, size) => Array.from( new Array(Math.ceil(a.length / size)), (_, i) => a.slice(i * size, i * size + size) );
 		let html = '';
 		html += `<div class="wrapper-emojis"><div role="presentation" cellspacing="0" class="mce-grid table-emoji table-emoji-columns">`;
@@ -41,7 +42,7 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 			tools.each(obj, (s) => {
 				let title = tinymce.translate(s.title),
 					value = s.value;
-				html += `<div class="notocoloremoji-emoji-td-charset" style="aspect-ratio: 1 / 1 !important;font-family: 'Noto Color Emoji' !important;font-size: 25px !important;" data-mce-emoji="${value}" tabindex="-1" title="${title}" role="option" aria-label="${title}">${value}</div>`;
+				html += `<div class="notocoloremoji-emoji-td-charset" data-mce-emoji="${value}" tabindex="-1" title="${title}" role="option" aria-label="${title}">${value}</div>`;
 			});
 			html += "</div>";
 		});
@@ -51,8 +52,6 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 	// Генерация кнопки, пункта меню, информации
 	addButtons = (editor, url) => {
 		// Получаем параметры
-		notocoloremoji_length = parseInt(tinymce.activeEditor.getParam('notocoloremoji_length', 'string', 30));
-		notocoloremoji_length = notocoloremoji_length ? notocoloremoji_length : 30;
 		exclude = tinymce.activeEditor.getParam('notocoloremoji_exclude', 'array', []);
 		exclude = typeof exclude == "object" ? Array.from(exclude) : [];
 		// Собрать элементы (вкладки) исключив запрещённые пользователем
@@ -76,7 +75,7 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 		let onclick = () => {
 			// Открываем диалог
 			editor.windowManager.open({
-				title: tinymce.translate('emoji'),
+				title: tinymce.translate('Emoji'),
 				resizable : true,
 				classes: "notocoloremoji-dialog",
 				size: 'normal',
@@ -93,7 +92,7 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 							// Закрываем диалог
 							editor.windowManager.close();
 						}
-					},
+					}
 				},
 				buttons: [
 					// Собтветственно информация о плагине
@@ -118,31 +117,52 @@ let pluginManager = tinymce.util.Tools.resolve("tinymce.PluginManager"),
 		 * Добавляем кнопку
 		 * Button notocoloremoji
 		 */
-		editor.addButton('notocoloremoji', {
-			icon: false,
-			text: "😀",
-			tooltip: tinymce.translate("Emoji"),
-			onclick: onclick,
-			shortcut: 'Ctrl+Alt+E',
-			classes: "notocoloremoji-button",
-		});
-		/**
-		 * Добавляем пункт меню к инструментам "Вставить"
-		 * Меню notocoloremoji
-		 */
-		editor.addMenuItem('notocoloremoji', {
-			icon: "emoticons",
-			text: tinymce.translate("Emoji"),
-			onclick: onclick,
-			context: "insert",
-			prependToContext: true,
-			shortcut: 'Ctrl+Alt+E',
-			classes: "notocoloremoji-menu-item",
-		});
-		/**
-		 * Shotcuts. Быстрые клавиши
-		 */
-		editor.shortcuts.add('Ctrl+Alt+E', 'Insert Emoji', onclick);
+		if (tinymce.majorVersion < 5) {
+			editor.addButton('notocoloremoji', {
+				icon: false,
+				text: "😀",
+				tooltip: tinymce.translate("Emoji Noto Color Emoji"),
+				onclick: onclick,
+				shortcut: 'Ctrl+Alt+E',
+				classes: "notocoloremoji-button",
+			});
+			/**
+			 * Добавляем пункт меню к инструментам "Вставить"
+			 * Меню notocoloremoji
+			 */
+			editor.addMenuItem('notocoloremoji', {
+				icon: "emoticons",
+				text: tinymce.translate("Emoji"),
+				onclick: onclick,
+				context: "insert",
+				prependToContext: true,
+				shortcut: 'Ctrl+Alt+E',
+				classes: "notocoloremoji-menu-item",
+			});
+			/**
+			 * Shotcuts. Быстрые клавиши
+			 */
+			editor.shortcuts.add('Ctrl+Alt+E', 'Insert Emoji', onclick);
+		} else {
+			editor.ui.registry.addButton('notocoloremoji', {
+				icon: false,
+				text: "😀",
+				tooltip: tinymce.translate("Emoji Noto Color Emoji"),
+				onclick: onclick,
+				shortcut: 'Ctrl+Alt+E',
+				classes: "notocoloremoji-button",
+			});
+			editor.ui.registry.addMenuItem('notocoloremoji', {
+				icon: "emoticons",
+				text: tinymce.translate("Emoji"),
+				onclick: onclick,
+				context: "insert",
+				prependToContext: true,
+				shortcut: 'Ctrl+Alt+E',
+				classes: "notocoloremoji-menu-item",
+			});
+			editor.addShortcut('Ctrl+Alt+E', 'Insert Emoji', onclick);
+		}
 	};
 /**
  * Добавляем плагин

@@ -9,10 +9,10 @@
  * Button:
  * [+] notocoloremoji
  * 
- * Version: 1.2.4
+ * Version: 1.2.5
  * License: GPL-3.0
  * Author: ProjectSoft <projectsoft2009@yandex.ru>
- * Last Update: 2026-02-05 04:20:00
+ * Last Update: 2026-05-15 11:51:00
  * Home Page URL: https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4
  * 
  * Конфиг-параметры TinyMCE4 для сайта
@@ -99,8 +99,8 @@ $this->set('notocoloremoji_exclude', '[
 		"objects",
 		"symbols"*/
 ]', 'json');
-// Количество Emoji вряд. По умолчанию 30
-$this->set('notocoloremoji_length', '31', 'string');
+// Количество Emoji вряд. По умолчанию 29
+// $this->set('notocoloremoji_length', '29', 'string');
 
 // Классы для таблицы
 $this->set('table_class_list', '[

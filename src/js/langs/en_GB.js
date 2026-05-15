@@ -2,7 +2,8 @@
  * English
  */
 tinymce.addI18n('en_GB', {
-	"emoji": "Emoji",
+	"Emoji Noto Color Emoji": "Emoji\nNoto Color Emoji",
+	"Emoji": "Emoji",
 	"smiles": "Smiles",
 	"emotics": "Emotics",
 	"people": "People",

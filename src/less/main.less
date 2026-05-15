@@ -48,51 +48,14 @@ textarea {
 					font-family: "Noto Color Emoji" !important;
 					width: auto !important;
 					height: auto !important;
-					&.emoji {
-						&-smiles::before {
-							content: "😀";
-						}
-						&-emotics::before {
-							content: "💯";
-						}
-						&-people::before {
-							content: "🧒";
-						}
-						&-animals::before {
-							content: "🐵";
-						}
-						&-nature::before {
-							content: "💐";
-						}
-						&-food::before {
-							content: "🍅";
-						}
-						&-travel::before {
-							content: "🌍";
-						}
-						&-activy::before {
-							content: "🎄";
-						}
-						&-objects::before {
-							content: "🎹";
-						}
-						&-symbols::before {
-							content: "🔆";
-						}
-						&-flags::before {
-							content: "🇷🇺";
-						}
-					}
 				}
 			}
 		}
 	}
 	&-tab {
+		//text-transform: lowercase;
 		&::first-letter {
 			text-transform: uppercase;
-		}
-		&:last-child {
-			//border-right-color: transparent;
 		}
 	}
 	&-tooltip {
@@ -139,6 +102,46 @@ textarea {
 	}
 }
 
+.mce-notocoloremoji-dialog {
+	&.mce-container {
+		.mce-tab {
+			&:last-child {
+				//border-right-color: transparent;
+			}
+			&:first-child {
+				//border-left-width: 1px;
+			}
+		}
+		&,
+		.mce-reset {
+			max-width: 100%;
+			> .mce-window-body {
+				max-width: 100%;
+				overflow: hidden;
+				> .mce-form {
+					max-width: 100%;
+					overflow: hidden;
+					> .mce-container-body {
+						overflow-x: auto;
+						overflow-y: hidden;
+						max-width: 100%;
+					}
+				}
+			}
+		}
+		.mce-foot {
+			&,
+			> .mce-container-body {
+				max-width: 100%;
+				.mce-notocoloremoji-tinymce4-link {
+					left: auto !important;
+					right: 10px;
+				}
+			}
+		}
+	}
+}
+
 .wrapper-emojis {
 	padding-top: 10px;
 	padding-bottom: 5px;
@@ -150,29 +153,16 @@ textarea {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 8px 1.5%;
 	user-select: none;
-	&-columns,
-	&-rows {
-		display: flex;
-		gap: 9px;
-		flex-wrap: nowrap;
-	}
-	&-columns {
-		flex-direction: column;
-	}
-	&-rows {
-		flex-direction: row;
-	}
 	[data-mce-emoji] {
+		font-family: "Noto Color Emoji" !important;
+		font-size: @fontsize !important;
 		background-color: #ffffff;
-		align-content: center;
-		align-items: center;
 		cursor: pointer;
 		aspect-ratio: 1 / 1 !important;
 		display: flex;
-		font-family: "Noto Color Emoji" !important;
-		font-size: @fontsize !important;
+		align-content: center;
+		align-items: center;
 		justify-content: center;
 		justify-items: center;
 		line-height: 1 !important;
@@ -186,6 +176,11 @@ textarea {
 		transform-origin: 50% 50%;
 		position: relative;
 		z-index: 0;
+		width: 33px !important;
+		height: 33px !important;
+		overflow: hidden;
+		margin-right: 10px;
+		//margin-bottom: 10px;
 		&:hover {
 			background-color: #eeeeee;
 			outline-width: 1px !important;
@@ -195,6 +190,30 @@ textarea {
 			transform: scale(1.5);
 			z-index: 10;
 		}
+		&:last-child {
+			margin-right: 0px;
+		}
+	}
+	&-columns,
+	&-rows {
+		display: flex;
+		//gap: 9px;
+		flex-wrap: nowrap;
+	}
+	&-columns {
+		flex-direction: column;
+		&:last-child {
+			[data-mce-emoji] {
+				margin-bottom: 0px;
+			}
+		}
+	}
+	&-rows {
+		flex-direction: row;
+		margin-bottom: 10px;
+		&:last-child {
+			margin-bottom: 0px;
+		}
 	}
 }
 
@@ -202,6 +221,7 @@ textarea {
 .CodeMirror pre {
 	font-family: monospace, Consolas, "Courier New", Courier, "Noto Color Emoji" !important;
 }
+
 .darkness {
 	.table-emoji {
 		[data-mce-emoji] {

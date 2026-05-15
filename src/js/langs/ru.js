@@ -2,8 +2,9 @@
  * Локализация
  */
 tinymce.addI18n('ru', {
+	"Emoji": "Эмодзи (Emoji)",
+	"Emoji Noto Color Emoji": "Эмодзи\nNoto Color Emoji",
 	// Табы
-	"emoji": "Эмодзи (Emoji)",
 	"smiles": "Смайлики",
 	"emotics": "Эмоции",
 	"people": "Люди",
@@ -437,6 +438,7 @@ tinymce.addI18n('ru', {
 	"Leafy greens": "Листовая зелень",
 	"Broccoli": "Брокколи",
 	"Fly agaric": "Мухомор",
+	"Brown mushroom": "Бурый гриб",
 	"Peanut": "Арахис",
 	"Chestnut": "Каштан",
 	"Bread": "Хлеб",

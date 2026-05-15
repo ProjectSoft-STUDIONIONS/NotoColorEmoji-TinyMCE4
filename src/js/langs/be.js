@@ -2,7 +2,8 @@
  * Локализация Белоруссия
  */
 tinymce.addI18n('be', {
-	"emoji": "Emoji (Emoji)",
+	"Emoji Noto Color Emoji": "Emoji\nNoto Color Emoji",
+	"Emoji": "Emoji (Emoji)",
 	"smiles": "Смайлікі",
 	"emotics": "Эмоцыя",
 	"people": "Людзі",
@@ -429,6 +430,7 @@ tinymce.addI18n('be', {
 	"Leafy greens": "Ліставая зеляніна",
 	"Broccoli": "Брокалі",
 	"Fly agaric": "Мухамор",
+	"Brown mushroom": "Буры грыб",
 	"Peanut": "Арахіс",
 	"Chestnut": "Каштан",
 	"Bread": "Хлеб",

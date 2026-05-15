@@ -108,6 +108,10 @@ this.food = [
 		"value": "&#127812;"
 	},
 	{
+		"title": "Brown mushroom",
+		"value": "&#127812;&#8205;&#129003;"
+	},
+	{
 		"title": "Peanut",
 		"value": "&#129372;"
 	},
