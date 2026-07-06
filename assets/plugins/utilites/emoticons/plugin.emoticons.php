@@ -5,7 +5,7 @@
  * Подключение Noto Color Emoji в админке
  *
  * @category     plugin
- * @version      1.2.6
+ * @version      1.3.0
  * @package      evo
  * @internal     @events OnManagerTopPrerender,OnManagerMainFrameHeaderHTMLBlock
  * @internal     @properties 
@@ -16,7 +16,7 @@
  * @license      https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4/blob/main/LICENSE GNU General Public License v3.0 (GPL-3.0)
  * @reportissues https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4/issues
  * @author       Чернышёв Андрей aka ProjectSoft <projectsoft2009@yandex.ru>
- * @lastupdate   2026-05-15 11:55:00
+ * @lastupdate   2026-07-06 17:04:00
  */
 
 if (!defined('MODX_BASE_PATH')):
@@ -35,9 +35,9 @@ switch ($e->name) {
 	case 'OnManagerTopPrerender':
 		// Подключение стилей к административной панели
 		// Для правильного отображения Emoji в контролах и контенте административной панели
-		$css_path = 'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.min.css';
+		$css_path = 'assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.min.css';
 		// Фиксированно. Зависит только от даты обновления при сборке плагина
-		$mtime = "20260515T115557";
+		$mtime = "20260706T170457";
 		$output = <<<EOD
 <link rel="stylesheet" type="text/css" href="{$modx->config['site_url']}{$css_path}?v={$mtime}">
 EOD;

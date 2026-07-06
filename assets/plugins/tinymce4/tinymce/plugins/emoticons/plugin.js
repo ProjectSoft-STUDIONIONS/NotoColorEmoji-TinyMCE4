@@ -1,7 +1,7 @@
 (function () {
-let update = "20260515T115557";
-let version = "v1.2.6";
-tinymce.PluginManager.requireLangPack('notocoloremoji');
+let update = "20260706T170457";
+let version = "v1.3.0";
+tinymce.PluginManager.requireLangPack('emoticons');
 
 this.smiles = [
     {
@@ -5982,6 +5982,7 @@ let pluginManager = tinymce.PluginManager,
 	// Переменные параметров
 	notocoloremoji_length = 30,
 	exclude = [],
+	link_enabled = false,
 	// Метадата плагина
 	plugin_metadata = {
 		name: "Noto Color Emoji plugin for TinyMCE4",
@@ -6006,8 +6007,8 @@ let pluginManager = tinymce.PluginManager,
 	],
 	// Генератор html для таба
 	renderContentTabHtml = (arr, editor) => {
-		notocoloremoji_length = parseInt(tinymce.activeEditor.getParam('notocoloremoji_length', 'string', 29));
-		notocoloremoji_length = notocoloremoji_length ? notocoloremoji_length : 29;
+		notocoloremoji_length = parseInt(tinymce.activeEditor.getParam('notocoloremoji_length'));
+		notocoloremoji_length = isNaN(notocoloremoji_length) ? 29 : notocoloremoji_length;
 		const chunks = (a, size) => Array.from( new Array(Math.ceil(a.length / size)), (_, i) => a.slice(i * size, i * size + size) );
 		let html = '';
 		html += `<div class="wrapper-emojis"><div role="presentation" cellspacing="0" class="mce-grid table-emoji table-emoji-columns">`;
@@ -6029,8 +6030,6 @@ let pluginManager = tinymce.PluginManager,
 	},
 	// Генерация кнопки, пункта меню, информации
 	addButtons = (editor, url) => {
-		// Получаем параметры
-		exclude = tinymce.activeEditor.getParam('notocoloremoji_exclude', 'array', []);
 		exclude = typeof exclude == "object" ? Array.from(exclude) : [];
 		// Собрать элементы (вкладки) исключив запрещённые пользователем
 		let emojis_list = [], items = [];
@@ -6095,60 +6094,44 @@ let pluginManager = tinymce.PluginManager,
 		 * Добавляем кнопку
 		 * Button notocoloremoji
 		 */
-		if (tinymce.majorVersion < 5) {
-			editor.addButton('notocoloremoji', {
-				icon: false,
-				text: "😀",
-				tooltip: tinymce.translate("Emoji Noto Color Emoji"),
-				onclick: onclick,
-				shortcut: 'Ctrl+Alt+E',
-				classes: "notocoloremoji-button",
-			});
-			/**
-			 * Добавляем пункт меню к инструментам "Вставить"
-			 * Меню notocoloremoji
-			 */
-			editor.addMenuItem('notocoloremoji', {
-				icon: "emoticons",
-				text: tinymce.translate("Emoji"),
-				onclick: onclick,
-				context: "insert",
-				prependToContext: true,
-				shortcut: 'Ctrl+Alt+E',
-				classes: "notocoloremoji-menu-item",
-			});
-			/**
-			 * Shotcuts. Быстрые клавиши
-			 */
-			editor.shortcuts.add('Ctrl+Alt+E', 'Insert Emoji', onclick);
-		} else {
-			editor.ui.registry.addButton('notocoloremoji', {
-				icon: false,
-				text: "😀",
-				tooltip: tinymce.translate("Emoji Noto Color Emoji"),
-				onclick: onclick,
-				shortcut: 'Ctrl+Alt+E',
-				classes: "notocoloremoji-button",
-			});
-			editor.ui.registry.addMenuItem('notocoloremoji', {
-				icon: "emoticons",
-				text: tinymce.translate("Emoji"),
-				onclick: onclick,
-				context: "insert",
-				prependToContext: true,
-				shortcut: 'Ctrl+Alt+E',
-				classes: "notocoloremoji-menu-item",
-			});
-			editor.addShortcut('Ctrl+Alt+E', 'Insert Emoji', onclick);
-		}
+		editor.addButton('emoticons', {
+			icon: false,
+			text: "😀",
+			tooltip: tinymce.translate("Emoji Noto Color Emoji"),
+			onclick: onclick,
+			shortcut: 'Ctrl+Alt+E',
+			classes: "notocoloremoji-button",
+		});
+		/**
+		 * Добавляем пункт меню к инструментам "Вставить"
+		 * Меню notocoloremoji
+		 */
+		editor.addMenuItem('emoticons', {
+			icon: "emoticons",
+			text: tinymce.translate("Emoji"),
+			onclick: onclick,
+			context: "insert",
+			prependToContext: true,
+			shortcut: 'Ctrl+Alt+E',
+			classes: "notocoloremoji-menu-item",
+		});
+		/**
+		 * Shotcuts. Быстрые клавиши
+		 */
+		editor.shortcuts.add('Ctrl+Alt+E', 'Insert Emoji', onclick);
 	};
 /**
  * Добавляем плагин
  */
-pluginManager.add("notocoloremoji", function(editor, url) {
+pluginManager.add("emoticons", function(editor, url) {
 	/**
 	 * При инициализации добавляем стили в страницу с редактором
 	 */
+	// Получаем параметры
+	link_enabled = tinymce.activeEditor.getParam('notocoloremoji_link_enabled', 'boolean', false);
+	notocoloremoji_length = parseInt(tinymce.activeEditor.getParam('notocoloremoji_length', 'number', 29));
+	exclude = tinymce.activeEditor.getParam('notocoloremoji_exclude', 'array', []);
+
 	editor.on("init", () => {
 		let doc = editor.editorManager.DOM.doc,
 			/**
@@ -6168,31 +6151,6 @@ pluginManager.add("notocoloremoji", function(editor, url) {
 		link.href = url + '/plugin.min.css?v=' + update;
 		// Добавляем тег на страницу с редактором TinyMCE
 		head.append(link);
-
-		/**
-		 * Если доступна нижняя панель
-		 * Добавляем ссылку на плагин
-		 */
-		if(editor.theme.panel){
-			let status;
-			// Ищем статусбар
-			status = editor.theme.panel.find("#statusbar")[0];
-			// Если есть, то вставляем ссылку на GitHub страницу плагина
-			if(status){
-				setTimeout(function() {
-					status.insert(
-						{
-							type: "label",
-							name: "notocoloremoji-tinymce4",
-							html: `<a href="${plugin_metadata.url}" target="_blank"><em>NotoColorEmoji-TinyMCE4 ${version}</em></a>`,
-							classes: "notocoloremoji-tinymce4 path",
-							disabled: false,
-						},
-						0
-					)
-				}, 0);
-			}
-		}
 	});
 	/**
 	 * Добавляем всё

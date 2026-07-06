@@ -1,3 +1,3 @@
-let update = "20260515T115557";
-let version = "v1.2.6";
-tinymce.PluginManager.requireLangPack('notocoloremoji');
+let update = "20260706T170457";
+let version = "v1.3.0";
+tinymce.PluginManager.requireLangPack('emoticons');

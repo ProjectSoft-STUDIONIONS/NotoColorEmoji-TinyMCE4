@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 	grunt.log.writeln();
 	fs.writeFileSync('src/js/01$update.js', `let update = "${update}";
 let version = "v${PACK.version}";
-tinymce.PluginManager.requireLangPack('notocoloremoji');
+tinymce.PluginManager.requireLangPack('emoticons');
 `);
 	grunt.log.writeln('File ' + chalk.cyan(`src/js/01$update.js`) + ' created or replace.' + chalk.yellow('...OK'));
 	grunt.log.writeln();
@@ -40,7 +40,7 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
 			tpl: {
 				files: {
 					'install/assets/plugins/': 'install/assets/plugins/**',
-					'assets/plugins/utilites/notocoloremoji/': 'assets/plugins/utilites/notocoloremoji/**',
+					'assets/plugins/utilites/emoticons/': 'assets/plugins/utilites/emoticons/**',
 				},
 				options: {
 					replacements: [
@@ -77,10 +77,10 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
  * Plugins Noto Color Emoji for TinyMCE
  * 
  * Plugin:
- * [+] notocoloremoji
+ * [+] emoticons
  * 
  * Button:
- * [+] notocoloremoji
+ * [+] emoticons
  * 
  * Version: ${PACK.version}
  * License: GPL-3.0
@@ -124,10 +124,10 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
  * Plugins Noto Color Emoji for TinyMCE
  * 
  * Plugin:
- * [+] notocoloremoji
+ * [+] emoticons
  * 
  * Button:
- * [+] notocoloremoji
+ * [+] emoticons
  * 
  * Version: ${PACK.version}
  * License: GPL-3.0
@@ -135,7 +135,7 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
  * Last Update: ${grunt.template.today("yyyy-mm-dd HH:MM:00")}
  * Home Page URL: https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4
  * 
- * TinyMCE plugin notocoloremoji
+ * TinyMCE plugin emoticons
  * Разработка велась под EvolutionCMS
  * С дефолтных настроек всё работает
  * Для отображения шрифта на основном сайте и в редакторе админки
@@ -145,10 +145,10 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
  */`,
 				},
 				files : {
-					'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.css' : [
+					'assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.css' : [
 						'src/less/main.less'
 					],
-					'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/content.css' : [
+					'assets/plugins/tinymce4/tinymce/plugins/emoticons/content.css' : [
 						'src/less/content.less'
 					],
 				}
@@ -163,11 +163,11 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
 			},
 			main: {
 				files: {
-					'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.css' : [
-						'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.css'
+					'assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.css' : [
+						'assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.css'
 					],
-					'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/content.css' : [
-						'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/content.css'
+					'assets/plugins/tinymce4/tinymce/plugins/emoticons/content.css' : [
+						'assets/plugins/tinymce4/tinymce/plugins/emoticons/content.css'
 					],
 				}
 			}
@@ -182,10 +182,10 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
  * Plugins Noto Color Emoji for TinyMCE
  * 
  * Plugin:
- * [+] notocoloremoji
+ * [+] emoticons
  * 
  * Button:
- * [+] notocoloremoji
+ * [+] emoticons
  * 
  * Version: ${PACK.version}
  * License: GPL-3.0
@@ -193,7 +193,7 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
  * Last Update: ${grunt.template.today("yyyy-mm-dd HH:MM:00")}
  * Home Page URL: https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4
  * 
- * TinyMCE plugin notocoloremoji
+ * TinyMCE plugin emoticons
  * Разработка велась под EvolutionCMS
  * С дефолтных настроек всё работает
  * Для отображения шрифта на основном сайте и в редакторе админки
@@ -203,11 +203,11 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
  */`
 				},
 				files: {
-					"assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.min.css": [
-						"assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.css"
+					"assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.min.css": [
+						"assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.css"
 					],
-					'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/content.min.css' : [
-						'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/content.css'
+					'assets/plugins/tinymce4/tinymce/plugins/emoticons/content.min.css' : [
+						'assets/plugins/tinymce4/tinymce/plugins/emoticons/content.css'
 					],
 				}
 			}
@@ -216,7 +216,7 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
 			main: {
 				options: {
 					baseUrl: "src/js/",
-					out: "assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.js",
+					out: "assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.js",
 					paths: {},
 					wrap: true,
 					skipModuleInsertion: true,
@@ -259,10 +259,10 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
  * Plugins Noto Color Emoji for TinyMCE4
  * 
  * Plugin:
- * [+] notocoloremoji
+ * [+] emoticons
  * 
  * Buttons:
- * [+] notocoloremoji
+ * [+] emoticons
  * 
  * Version: ${PACK.version}
  * License: GPL-3.0
@@ -283,9 +283,9 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
 						expand: true,
 						flatten : true,
 						src: [
-							"assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.js"
+							"assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.js"
 						],
-						dest: "assets/plugins/tinymce4/tinymce/plugins/notocoloremoji",
+						dest: "assets/plugins/tinymce4/tinymce/plugins/emoticons",
 						filter: "isFile",
 						rename: function (dst, src) {
 							return dst + "/" + src.replace(".js", ".min.js");
@@ -297,7 +297,7 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
 						src: [
 							"src/js/langs/*.js"
 						],
-						dest: "assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/langs",
+						dest: "assets/plugins/tinymce4/tinymce/plugins/emoticons/langs",
 						filter: "isFile",
 						/*rename: function (dst, src) {
 							return dst + "/" + src;
@@ -313,7 +313,7 @@ tinymce.PluginManager.requireLangPack('notocoloremoji');
 						expand: true,
 						cwd: 'node_modules/noto-color-emoji/src/fonts',
 						src: ['*.*'],
-						dest: 'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/fonts/',
+						dest: 'assets/plugins/tinymce4/tinymce/plugins/emoticons/fonts/',
 					},
 					{
 						expand: true,

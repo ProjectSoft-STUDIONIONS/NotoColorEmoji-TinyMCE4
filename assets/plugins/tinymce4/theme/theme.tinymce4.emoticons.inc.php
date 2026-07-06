@@ -4,15 +4,15 @@
  * Plugins Noto Color Emoji for TinyMCE
  * 
  * Plugin:
- * [+] notocoloremoji
+ * [+] emoticons
  * 
  * Button:
- * [+] notocoloremoji
+ * [+] emoticons
  * 
- * Version: 1.2.6
+ * Version: 1.3.0
  * License: GPL-3.0
  * Author: ProjectSoft <projectsoft2009@yandex.ru>
- * Last Update: 2026-05-15 11:55:00
+ * Last Update: 2026-07-06 17:04:00
  * Home Page URL: https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4
  * 
  * Конфиг-параметры TinyMCE4 для сайта
@@ -36,13 +36,13 @@
 // Просто помните, что если вы обновите плагин NotoColorEmoji, то файл `theme.tinymce4.notocoloremoji.inc.php` перезапишется и будет иметь настройки которые установил разработчик.
 //-------------------------------------
 
-$modx_evo = evo();
+$evo = evo();
 
 // Используемые шрифты. Шрифты указывать так, как они именуются в CSS
 //$this->set('font_formats', 'Open Sans=Open Sans', 'string');
 
 // Используемые плагины
-$this->set('plugins', 'save autolink lists layer table modxlink image media contextmenu paste visualchars nonbreaking visualblocks charmap wordcount code autoresize spellchecker notocoloremoji', 'string');
+$this->set('plugins', 'save autolink lists layer table modxlink image media contextmenu paste visualchars nonbreaking visualblocks charmap wordcount code autoresize spellchecker emoticons', 'string');
 // Отключаем templates
 $this->set('templates', false, 'bool');
 // Первая строка тулбара
@@ -50,7 +50,7 @@ $this->set('toolbar1', 'save | undo redo | cut copy paste pastetext | visualchar
 // Вторая строка тулбара
 $this->set('toolbar2', 'formatselect | bold italic underline strikethrough subscript superscript removeformat | alignleft aligncenter alignright alignjustify | bullist numlist | blockquote', 'string');
 // Третья строка тулбара
-$this->set('toolbar3', 'table | image media | link unlink | charmap | nonbreaking | spellchecker | notocoloremoji | wordcount', 'string');
+$this->set('toolbar3', 'table | image media | link unlink | charmap | nonbreaking | spellchecker | emoticons | wordcount', 'string');
 // Четвёртая строка тулбара
 $this->set('toolbar4', false, 'bool');
 // Основное меню (включаем)
@@ -100,7 +100,7 @@ $this->set('notocoloremoji_exclude', '[
 		"symbols"*/
 ]', 'json');
 // Количество Emoji вряд. По умолчанию 29
-// $this->set('notocoloremoji_length', '29', 'string');
+$this->set('notocoloremoji_length', '29', 'string');
 
 // Классы для таблицы
 $this->set('table_class_list', '[
@@ -176,8 +176,8 @@ $this->set('contextmenu', 'link openlink image notocoloremoji | spellchecker | i
 
 // Установить локаль по конфигурации локали EvolutionCMS
 // Этого нет из коробки EvolutionCMS, а должно по сути.
-$langCode = $modx_evo->config["locale"];
-switch ($modx_evo->config["manager_language"]) {
+$langCode = $evo->config["locale"];
+switch ($evo->config["manager_language"]) {
 	case 'bg':
 		$langCode = 'bg_BG';
 		break;
