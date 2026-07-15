@@ -16,7 +16,7 @@
  * @license      https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4/blob/main/LICENSE GNU General Public License v3.0 (GPL-3.0)
  * @reportissues https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4/issues
  * @author       Чернышёв Андрей aka ProjectSoft <projectsoft2009@yandex.ru>
- * @lastupdate   2026-07-06 17:04:00
+ * @lastupdate   2026-07-14 22:48:00
  */
 
 /**
@@ -36,7 +36,7 @@
  * @license      https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4/blob/main/LICENSE GNU General Public License v3.0 (GPL-3.0)
  * @reportissues https://github.com/ProjectSoft-STUDIONIONS/NotoCoorEmoji-TinyMCE4/issues
  * @author       Чернышёв Андрей aka ProjectSoft <projectsoft2009@yandex.ru>
- * @lastupdate   2026-07-06 17:04:00
+ * @lastupdate   2026-07-14 22:48:00
  */
 
 require MODX_BASE_PATH.'assets/plugins/utilites/emoticons/plugin.emoticons.php';

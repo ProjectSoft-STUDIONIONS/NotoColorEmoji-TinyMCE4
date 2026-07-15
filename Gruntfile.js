@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 		day = String(date.getDate()).padStart(2, "0"),
 		update = grunt.template.today("yyyy-mm-dd'T'HH-MM-ss").replace(/[- ]+/gi, ''),
 
-// При разработке/добавлении локализации всё добавляется здесь
+		// При разработке/добавлении локализации всё добавляется здесь
 		langs = [
 			"be",
 			"de",

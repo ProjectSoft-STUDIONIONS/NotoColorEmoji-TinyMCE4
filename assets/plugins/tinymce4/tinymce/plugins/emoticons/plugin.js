@@ -1,5 +1,5 @@
 (function () {
-let update = "20260706T170457";
+let update = "20260714T224837";
 let version = "v1.3.0";
 tinymce.PluginManager.requireLangPack('emoticons');
 
@@ -6011,7 +6011,8 @@ let pluginManager = tinymce.PluginManager,
 		notocoloremoji_length = isNaN(notocoloremoji_length) ? 29 : notocoloremoji_length;
 		const chunks = (a, size) => Array.from( new Array(Math.ceil(a.length / size)), (_, i) => a.slice(i * size, i * size + size) );
 		let html = '';
-		html += `<div class="wrapper-emojis"><div role="presentation" cellspacing="0" class="mce-grid table-emoji table-emoji-columns">`;
+		html += `<div class="wrapper-emojis">`
+		html += `<div role="presentation" cellspacing="0" class="mce-grid table-emoji table-emoji-columns">`;
 		/**
 		 * При сборке html применяем перевод для названий иконок
 		 */
@@ -6025,7 +6026,8 @@ let pluginManager = tinymce.PluginManager,
 			});
 			html += "</div>";
 		});
-		html += `</div></div>`;
+		html += `</div>`;
+		html += `</div>`;
 		return html;
 	},
 	// Генерация кнопки, пункта меню, информации
@@ -6092,7 +6094,7 @@ let pluginManager = tinymce.PluginManager,
 		};
 		/**
 		 * Добавляем кнопку
-		 * Button notocoloremoji
+		 * Button emoticons
 		 */
 		editor.addButton('emoticons', {
 			icon: false,
@@ -6104,7 +6106,7 @@ let pluginManager = tinymce.PluginManager,
 		});
 		/**
 		 * Добавляем пункт меню к инструментам "Вставить"
-		 * Меню notocoloremoji
+		 * Меню emoticons
 		 */
 		editor.addMenuItem('emoticons', {
 			icon: "emoticons",
