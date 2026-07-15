@@ -1,6 +1,6 @@
 (function () {
-let update = "20260714T224837";
-let version = "v1.3.0";
+let update = "20260715T143913";
+let version = "v1.3.1";
 tinymce.PluginManager.requireLangPack('emoticons');
 
 this.smiles = [
