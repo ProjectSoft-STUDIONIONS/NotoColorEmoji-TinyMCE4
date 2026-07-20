@@ -1,0 +1,39 @@
+@fontpath: "fonts";
+
+@import "node_modules/noto-color-emoji/src/less/noto-color-emoji.less";
+
+body{
+	--google-font-color-notocoloremoji: colrv1;
+}
+
+.mce {
+	&-notocoloremoji {
+		&-dialog {
+			.mce {
+				&-emoticons {
+					&-wrapp {
+						max-width: 100%;
+						&,
+						* {
+							font-family: "Helvetica Neue", Helvetica, Arial, 'Noto Color Emoji', sans-serif;
+						}
+						.notocoloremoji-emojis {
+							span {
+								box-shadow: 0 0 1px;
+								cursor: pointer;
+								&:hover {
+									box-shadow: 0 0 2px;
+								}
+							}
+						}
+					}
+				}
+				&-notocoloremoji {
+					&-github {
+						left: 10px !important;
+					}
+				}
+			}
+		}
+	}
+}

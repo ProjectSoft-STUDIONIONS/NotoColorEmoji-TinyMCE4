@@ -1,0 +1,12 @@
+*
+!/LICENSE
+!/README.md
+!/.*
+!/.*/**/*
+!/assets
+!/assets/**/*
+!/src
+!/src/**/*
+!/package.json
+!/*.sublime-project
+!/Gruntfile.js

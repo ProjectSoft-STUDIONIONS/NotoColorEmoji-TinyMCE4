@@ -1,0 +1,39 @@
+{
+	"folders":
+	[
+		{
+			"name": "emoticons for TinyMCE4",
+			"path": "."
+		}
+	],
+	"settings":  {
+		"font_size": 12,
+		"tab_size": 4
+	},
+	"build_systems": [
+		{
+			"name": "Установка проекта",
+			"working_dir": "${project_path}",
+			"cmd": [
+				"start",
+				"/wait",
+				"npm",
+				"run",
+				"inst"
+			],
+			"shell": true
+		},
+		{
+			"name": "Сборка проекта",
+			"working_dir": "${project_path}",
+			"cmd": [
+				"start",
+				"/wait",
+				"npm",
+				"run",
+				"build"
+			],
+			"shell": true
+		}
+	]
+}
