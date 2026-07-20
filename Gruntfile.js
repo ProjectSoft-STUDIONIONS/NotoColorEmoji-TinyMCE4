@@ -167,7 +167,7 @@ module.exports = function(grunt) {
 						dest: 'assets/plugins/tinymce4/tinymce/plugins/emoticons/langs',
 						filter: "isFile",
 						rename: function (dst, src) {
-							return dst + "/" + src.replace(".js", ".min.js");
+							return dst + "/" + src;
 						},
 					},
 					// Под систему
