@@ -7,9 +7,9 @@
 	"type": "commonjs",
 	"main": "Gruntfile.js",
 	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "grunt",
-		"inst": "npm i",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"inst": "npm i"
 	},
 	"devDependencies": {
 		"emojilib": "^4.0.3",
