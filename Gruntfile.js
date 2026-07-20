@@ -33,11 +33,11 @@ module.exports = function(grunt) {
 					'assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.css' : [
 						'src/less/plugin.less',
 					],
-					/*
 					// Под систему
 					'C:/OSPanel/home/example.local/assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.css': [
 						'src/less/plugin.less',
 					],
+					/*
 					*/
 				},
 			},
@@ -54,11 +54,11 @@ module.exports = function(grunt) {
 					'assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.css' : [
 						'assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.css',
 					],
-					/*
 					// Под систему
 					'C:/OSPanel/home/example.local/assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.css': [
 						'C:/OSPanel/home/example.local/assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.css',
 					],
+					/*
 					*/
 				},
 			},
@@ -73,16 +73,17 @@ module.exports = function(grunt) {
 					"assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.min.css": [
 						"assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.css"
 					],
-					/*
 					// Под систему
 					'C:/OSPanel/home/example.local/assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.min.css': [
 						'C:/OSPanel/home/example.local/assets/plugins/tinymce4/tinymce/plugins/emoticons/plugin.css',
 					],
+					/*
 					*/
 				},
 			},
 		},
 		requirejs: {
+			// Собираем плагин
 			main: {
 				options: {
 					baseUrl: "src/js/",
@@ -108,7 +109,6 @@ module.exports = function(grunt) {
 					}
 				}
 			},
-			/*
 			// Под систему
 			site: {
 				options: {
@@ -135,6 +135,7 @@ module.exports = function(grunt) {
 					}
 				}
 			},
+			/*
 			*/
 		},
 		uglify: {
@@ -169,7 +170,6 @@ module.exports = function(grunt) {
 							return dst + "/" + src.replace(".js", ".min.js");
 						},
 					},
-					/*
 					// Под систему
 					{
 						expand: true,
@@ -191,6 +191,7 @@ module.exports = function(grunt) {
 							return dst + "/" + src.replace(".js", ".min.js");
 						},
 					},
+					/*
 					*/
 				],
 			}
@@ -204,7 +205,12 @@ module.exports = function(grunt) {
 						src: ['*.*'],
 						dest: 'assets/plugins/tinymce4/tinymce/plugins/emoticons/fonts/',
 					},
-					/*
+					{
+						expand: true,
+						cwd: 'src/js/',
+						src: ['index.js'],
+						dest: 'assets/plugins/tinymce4/tinymce/plugins/emoticons/',
+					},
 					// Под систему
 					{
 						expand: true,
@@ -212,6 +218,7 @@ module.exports = function(grunt) {
 						src: ['*.*'],
 						dest: 'C:/OSPanel/home/example.local/assets/plugins/tinymce4/tinymce/plugins/emoticons/fonts/',
 					},
+					/*
 					*/
 				],
 			},

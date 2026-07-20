@@ -1,3 +1,5 @@
+// Сам файл не попадает в директорию плагина.
+// Он подключается с помощью requirejs при сборке
 const emojis = {
 		grinning: {
 			keywords: [ "face", "smile", "happy", "joy", ":D", "grin" ],

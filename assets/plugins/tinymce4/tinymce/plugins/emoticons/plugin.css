@@ -135,3 +135,6 @@ body {
 .mce-notocoloremoji-dialog .mce-notocoloremoji-github {
   left: 10px !important;
 }
+.mce-notocoloremoji-dialog .mce-container-body.mce-abs-layout {
+  overflow: auto;
+}

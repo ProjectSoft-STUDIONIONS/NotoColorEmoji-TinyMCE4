@@ -13,7 +13,7 @@ var categoryNameMap = {
 	flags: 'Flags',
 };
 var keys = Object.keys;
-var each = function (obj, calbak) {
+var each = (obj, calbak) => {
 	var props = keys(obj);
 	for (var k = 0, len = props.length; k < len; k++) {
 		var i = props[k];
@@ -36,12 +36,21 @@ const pluginManager = tinymce.PluginManager,
 		author: "ProjectSoft <projectsoft2009@yandex.ru>"
 	},
 	// Локали категорий
-	localizedCategories = function() {
-		each(categoryNameMap, function(a, b) {
+	localizedCategories = () => {
+		each(categoryNameMap, (a, b) => {
 			categoryNameMap[b] = tinymce.translate(a);
 		});
 	},
-	renderContentTabHtml = function(item, editor) {
+	getHtml = (groupEmojis) => {
+		let html = ``;
+		let props = keys(groupEmojis);
+		for (var k = 0, len = props.length; k < len; k++) {
+			let obj = groupEmojis[props[k]];
+			html += `<span class="notocoloremoji-emoji-td-charset" data-mce-emoji="${obj["char"]}" tabindex="-1" title="${obj["tooltip"]}" role="option" aria-label="${obj["tooltip"]}" style="padding: 5px;">${obj["char"]}</span> `;
+		}
+		return html;
+	},
+	renderContentTabHtml = (item, editor) => {
 		// Выбрать из emojis символы определённой категории
 		const animalEmojis = Object.fromEntries(
 			Object.entries(emojis)
@@ -55,120 +64,132 @@ const pluginManager = tinymce.PluginManager,
 					)
 				])
 		);
-		var props = keys(animalEmojis),
-			html = `<div class="notocoloremoji-emojis" style="white-space: wrap;display: flex;flex-direction: row;flex-wrap: wrap;user-select: none;align-items: flex-start;justify-content: flex-start;max-height: 100%;gap: 10px;padding: 10px 2px 5px;overflow: auto;">`;
-		for (var k = 0, len = props.length; k < len; k++) {
-			let obj = animalEmojis[props[k]];
-			html += `<span class="notocoloremoji-emoji-td-charset" data-mce-emoji="${obj["char"]}" tabindex="-1" title="${obj["tooltip"]}" role="option" aria-label="${obj["tooltip"]}" style="padding: 5px;">${obj["char"]}</span> `;
-		}
-		return html + "</div>";//"<pre style=\"white-space: pre-wrap;width: 400px;\">" + JSON.stringify(animalEmojis, null, "\t") + "</pre>";
+		return `<div class="notocoloremoji-emojis" style="white-space: wrap;display: flex;flex-direction: row;flex-wrap: wrap;user-select: none;align-items: flex-start;justify-content: flex-start;max-height: 100%;gap: 6px;padding: 10px 2px 5px;overflow: auto;">${getHtml(animalEmojis)}</div>`;;
 	},
-	editorInit = function(editor, url) {
+	editorInit = (editor, url) => {
 		// Инициализация плагина
 		editor.on("init", () => {
+				// Документ с редактором
 			let doc = editor.editorManager.DOM.doc,
+				// Находим head в документе с редактором
 				head = doc.querySelector('head'),
+				// Определяем суффикс имени файла.
+				suffix = editor.settings.cache_suffix || "",
+				// Выбираем все теги link с id="emoticons-css"
+				links = [...doc.querySelectorAll('link#emoticons-css')],
+				// Формируем ссылку по всем правилам API.
+				_url = tools._addCacheSuffix(url + `/plugin${editor.suffix}.css`),
+				// Будущий link
 				link;
-			link = doc.createElement('link');
-			link.rel = "stylesheet";
-			link.type = "text/css";
-			link.id = domUtils.DOM.uniqueId();
-			link.href = url + '/plugin.min.css';
-			// Добавляем тег на страницу с редактором TinyMCE
-			head.append(link);
+			// Линков нет. Вставляем.
+			if(links.length == 0) {
+				link = doc.createElement('link');
+				link.id = `emoticons-css`;
+				link.rel = "stylesheet";
+				link.type = "text/css";
+				link.href = _url;
+				head.append(link);
+			}
+		});
+	},
+	Plugin = () => {
+		pluginManager.add("emoticons", function(editor, url) {
+			localizedCategories();
+			editorInit(editor, url);
+			// Построение
+			var items = [];
+			// Проходим по категориям. Формируем label вкладки.
+			// Это происходит только один раз при инициализации плагина.
+			for(var item in categoryNameMap){
+				let push = {
+					type: "label",
+					classes: `emoticon-${item} emoticons-wrapp`,
+					title: categoryNameMap[item],
+					// Рендерим html для вкладки по типу категории
+					html: renderContentTabHtml(item, editor),
+				};
+				items.push(push);
+			}
+			// Добавляем кнопку
+			const onclick = () => {
+				// Открываем диалог
+				editor.windowManager.open(
+					{
+						title: tinymce.translate('Emoji'),
+						resizable : true,
+						classes: "notocoloremoji-dialog",
+						size: 'normal',
+						body: {
+							// Панель с табами
+							type: 'tabpanel',
+							// Табы с ренднром html
+							items: items,
+							// Клик
+							onclick: (e) => {
+								// Определяем объект на котором кликнули
+								let target = e.target;
+								// Если объект есть и есть у объекта аттрибут
+								if(target && target.hasAttribute("data-mce-emoji")) {
+									// Получаем символ
+									let emoji_charset = target.getAttribute("data-mce-emoji");
+									// Вставляем символ
+									editor.insertContent(emoji_charset);
+									// Закрываем диалог
+									editor.windowManager.close();
+								}
+							}
+						},
+						buttons: [
+							// Кнопка на GitHub плагина
+							{
+								name: 'custom',
+								text: metadata.name,
+								disabled: false,
+								primary: false,
+								classes: "notocoloremoji-github",
+								onclick: (e) => {
+									e.preventDefault();
+									// Переходим на GitHub страницу плагина
+									window.open(metadata.url, 'NotoColorEmoji-TinyMCE4');
+									return !1;
+								},
+							},
+							// Кнопка закрытия окна
+							{
+								text: 'Close',
+								primary: true,
+								classes: 'primary',
+								onclick: () => {
+									// Закрываем диалог
+									editor.windowManager.close();
+								}
+							}
+						]
+					}
+				);
+			};
+			editor.addButton('emoticons', {
+				icon: "emoticons",
+				tooltip: "Emoji",
+				onclick: onclick,
+				shortcut: 'Ctrl+E',
+				classes: "notocoloremoji-button",
+			});
+			// Добавляем пункт меню к инструментам
+			editor.addMenuItem('emoticons', {
+				icon: "emoticons",
+				text: "Emoji",
+				onclick: onclick,
+				context: "insert",
+				appendToContext: true,
+				shortcut: 'Ctrl+E',
+				classes: "notocoloremoji-menu-item",
+			});
+			editor.shortcuts.add('Ctrl+E', tinymce.translate('Emoji'), onclick);
+			return {
+				getMetadata: () => metadata
+			};
 		});
 	};
-const Plugin = function() {
-	pluginManager.add("emoticons", function(editor, url) {
-		localizedCategories();
-		editorInit(editor, url);
-		// Построение
-		var items = [];
-		for(var item in categoryNameMap){
-			let push = {
-				type: "label",
-				classes: `emoticon-${item} emoticons-wrapp`,
-				title: categoryNameMap[item],
-				//tooltip: categoryNameMap[item],
-				html: renderContentTabHtml(item, editor),
-			};
-			items.push(push);
-		}
-		// Добавляем кнопку
-		const onclick = function() {
-			// Открываем диалог
-			editor.windowManager.open(
-				{
-					title: tinymce.translate('Emoji'),
-					resizable : true,
-					classes: "notocoloremoji-dialog",
-					size: 'normal',
-					maxHeight: 710,
-					body: {
-						type: 'tabpanel',
-						items: items,
-						onclick: (e) => {
-							let target = e.target;
-							if(target && target.hasAttribute("data-mce-emoji")) {
-								// Получаем Emoji
-								let emoji_charset = target.getAttribute("data-mce-emoji");
-								// Вставляем Emoji
-								editor.insertContent(emoji_charset);
-								// Закрываем диалог
-								editor.windowManager.close();
-							}
-						}
-					},
-					buttons: [
-						{
-							name: 'custom',
-							text: metadata.name,
-							disabled: false,
-							primary: false,
-							classes: "notocoloremoji-github",
-							//align: 'end',
-							onclick: function(e) {
-								e.preventDefault();
-								// Переходим на GitHub страницу плагина
-								window.open(metadata.url, 'NotoColorEmoji-TinyMCE4');
-								return !1;
-							},
-						},
-						{
-							text: 'Close',
-							primary: true,
-							classes: 'primary',
-							onclick: function () {
-								editor.windowManager.close();
-							}
-						}
-					]
-				}
-			);
-		};
-		editor.addButton('emoticons', {
-			icon: "emoticons",
-			tooltip: "Emoji",
-			onclick: onclick,
-			shortcut: 'Ctrl+Alt+E',
-			classes: "notocoloremoji-button",
-		});
-		// Добавляем пункт меню к инструментам
-		editor.addMenuItem('emoticons', {
-			icon: "emoticons",
-			text: "Emoji",
-			onclick: onclick,
-			context: "insert",
-			prependToContext: true,
-			shortcut: 'Ctrl+Alt+E',
-			classes: "notocoloremoji-menu-item",
-		});
-		return {
-			getMetadata: function() {
-				return  metadata;
-			}
-		};
-	});
-};
 Plugin();
 
