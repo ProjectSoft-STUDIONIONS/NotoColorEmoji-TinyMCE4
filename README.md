@@ -1,9 +1,0 @@
-# NotoColorEmoji
-
-[![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4/NotoColorEmoji.zip?style=for-the-badge)](https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4/releases/latest/download/NotoColorEmoji.zip)
-
-Плагин подключения Emoji в редактор TinyMCE4 административной пенели EvolutionCMS
-
-![Скрин Плагина emoticons в TinyMCE4](src/screen.png)
-
-[NotoColorEmoji-TinyMCE4](https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji-TinyMCE4)

@@ -1,9 +1,0 @@
-node_modules
-bower_components
-test
-tests
-temp
-tmp
-*.zip
-*.sublime-workspace
-index.js
