@@ -2,3 +2,4 @@
 /LICENSE
 /*.sublime-*
 /README.md
+!/package.json
